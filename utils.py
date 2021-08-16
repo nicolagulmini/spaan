@@ -89,5 +89,24 @@ def charge_composition(sequence):
         to_return.append(moment_computation(sequence, X_m, r))
     return np.array(to_return)
 
+def get_hydrophobic_score(aminoacid):
+    if aminoacid in ['K', 'E', 'D', 'R']:
+        return 0, -8
+    if aminoacid in ['S', 'T', 'N', 'Q']:
+        return 1, -4
+    if aminoacid in ['P', 'H']:
+        return 2, -2
+    if aminoacid in ['A', 'G', 'Y', 'C', 'W']:
+        return 3, 1
+    return 4, 2   
+
 def hydrophobic_composition(sequence):
-    
+    total_score = 0
+    groups_scores = [0 for _ in range(5)]
+    for el in sequence:
+        group_index, score = get_hydrophobic_score(el)
+        total_score += score
+        groups_scores[group_index] += score
+    frequencies = [group/total_score for group in groups_scores]
+    # compute the moments
+    return 0
