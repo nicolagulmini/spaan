@@ -11,3 +11,5 @@ for aa in adhesin_dataset[0]:
     if aa not in lista_aminoacidi:
         lista_aminoacidi.append(aa)
 print(len(lista_aminoacidi))
+
+print(adhesin_dataset[0].seq)
