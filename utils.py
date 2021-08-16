@@ -63,7 +63,7 @@ def dipeptide_frequencies(sequence):
     return np.array([el/(len(sequence)-1) for el in frequencies])
 
 def moment_computation(sequence, X_m, r):
-    c = ['R', 'K', 'E', 'D'] # charge aminoacids
+    c = ['R', 'K', 'E', 'D'] # charged aminoacids
     moment = 0
     count = 0
     for i in range(len(sequence)):
@@ -75,7 +75,7 @@ def moment_computation(sequence, X_m, r):
 
 def charge_composition(sequence):
     # with odds moments the M_r could be 0
-    c = ['R', 'K', 'E', 'D'] # charge aminoacids
+    c = ['R', 'K', 'E', 'D'] # charged aminoacids
     f_c = 0
     X_m = 0
     for i in range(len(sequence)):
@@ -88,3 +88,6 @@ def charge_composition(sequence):
     for r in range(2, 26):
         to_return.append(moment_computation(sequence, X_m, r))
     return np.array(to_return)
+
+def hydrophobic_composition(sequence):
+    
