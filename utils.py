@@ -49,7 +49,7 @@ def aminoacids_frequencies(sequence):
         frequencies[tmp_index] += 1
     return np.array([el/len(sequence) for el in frequencies])
     
-def multiplet_frequencies(sequence):
+def multiplet_frequencies(sequence): # count the single aminoacids
     return 0
 
 def dipeptide_frequencies(sequence):
