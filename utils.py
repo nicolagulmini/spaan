@@ -51,12 +51,40 @@ def aminoacids_frequencies(sequence):
             return
         frequencies[tmp_index] += 1
     return np.array([el/len(sequence) for el in frequencies])
+
+def get_aminoacid_mask(sequence, aa):
+    new_sequence = ''
+    for el in sequence:
+        if el == aa:
+            new_sequence += str(1)
+        else:
+            new_sequence += str(0)
+    return new_sequence
+
+def automata_for_multiplets(binary_seq, n):
+    if n <= 2:
+        print('error in the multiplets automata. Return')
+        return
+    state = 0
+    counts = 0
+    for el in binary_seq:
+        if el == 0:
+            state = 0
+        else:
+            state += 1
+        if state == n:
+            counts += n
+        if state > n:
+            counts += 1
+    return counts
     
 def multiplet_frequencies(sequence, n): # count the number of multiplets in total
     if n <= 2:
         print('error in multiplet frequencies computation. n has to be greater than 2. Return')
-        return
-    
+    to_ret = []
+    for a in global_aminoacids_list:
+        to_ret.append(automata_for_multiplets(get_aminoacid_mask(sequence, a), n))
+    return np.array(to_ret)
 
 def dipeptide_frequencies(sequence):
     frequencies = [0 for el in global_dipeptide_list]
