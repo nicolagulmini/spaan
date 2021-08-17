@@ -48,7 +48,7 @@ class Expanded_SPAAN_Model:
         concat_2 = Concatenate()([dense_1_2, dense_2_4, dense_3_2, dense_4_2, dense_5_2])
         final_dense = Dense(1, activation='sigmoid')(concat_2)
         
-        model = Model(inputs=[[aa_freq, multiplet_freq_1, multiplet_freq_2, multiplet_freq_3, dipept_freq, charge_comp, hydrophob_comp], y], outputs=final_dense)
+        model = Model(inputs=[aa_freq, multiplet_freq_1, multiplet_freq_2, multiplet_freq_3, dipept_freq, charge_comp, hydrophob_comp], outputs=final_dense)
         model.compile(optimizer=Adam(learning_rate=0.001), loss='binary_crossentropy', metrics='accuracy')
         
         self.model = model
