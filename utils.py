@@ -27,6 +27,9 @@ global_dipeptide_list = [
     'YA', 'YC', 'YD', 'YE', 'YF', 'YG', 'YH', 'YI', 'YK', 'YL', 'YM', 'YN', 'YP', 'YQ', 'YR', 'YS', 'YT', 'YV', 'YW', 'YY'
     ]
 
+groups_for_hydroph = [['K', 'E', 'D', 'R'], ['S', 'T', 'N', 'Q'], ['P', 'H'], ['A', 'G', 'Y', 'C', 'W'], ['L', 'V', 'I', 'F', 'M']]
+hydroph_scores = [-8, -4, -2, 1, 2]
+
 def get_index(aminoacid):
     for i in range(len(global_aminoacids_list)):
         if global_aminoacids_list[i] == aminoacid:
@@ -92,23 +95,11 @@ def charge_composition(sequence):
         to_return.append(moment_computation(sequence, X_m, r))
     return np.array(to_return)
 
-def get_hydrophobic_score(aminoacid):
-    if aminoacid in ['K', 'E', 'D', 'R']:
-        return 0, -8
-    if aminoacid in ['S', 'T', 'N', 'Q']:
-        return 1, -4
-    if aminoacid in ['P', 'H']:
-        return 2, -2
-    if aminoacid in ['A', 'G', 'Y', 'C', 'W']:
-        return 3, 1
-    return 4, 2   
-
 def moment_for_hydrophobic_aa(sequence, group, r):
     if (group not in range(5)) or (r not in range(2, 11)):
         print('error in moment computation for hydrophobic amino acids. Return.')
         return
-    groups = [['K', 'E', 'D', 'R'], ['S', 'T', 'N', 'Q'], ['P', 'H'], ['A', 'G', 'Y', 'C', 'W'], ['L', 'V', 'I', 'F', 'M']]
-    aa_group = groups[group]
+    aa_group = groups_for_hydroph[group]
     mean = 0
     count = 0
     for i in range(len(sequence)):
@@ -127,7 +118,10 @@ def hydrophobic_composition(sequence):
     total_score = 0
     groups_scores = [0 for _ in range(5)]
     for el in sequence:
-        group_index, score = get_hydrophobic_score(el)
+        for i in range(5):
+            if el in groups_for_hydroph[i]:
+                group_index = i
+                score = hydroph_scores[i]
         total_score += score
         groups_scores[group_index] += score
     hydroph_feature = [group/total_score for group in groups_scores]
