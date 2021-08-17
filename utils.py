@@ -73,7 +73,7 @@ def moment_computation(sequence, X_m, r):
         if sequence[i] in c:
             count += 1
             moment += (i-X_m)**r
-    print(r, moment/count)
+    #print(r, moment/count)
     return moment/count
 
 def charge_composition(sequence):
@@ -103,6 +103,26 @@ def get_hydrophobic_score(aminoacid):
         return 3, 1
     return 4, 2   
 
+def moment_for_hydrophobic_aa(sequence, group, r):
+    if (group not in range(5)) or (r not in range(2, 11)):
+        print('error in moment computation for hydrophobic amino acids. Return.')
+        return
+    groups = [['K', 'E', 'D', 'R'], ['S', 'T', 'N', 'Q'], ['P', 'H'], ['A', 'G', 'Y', 'C', 'W'], ['L', 'V', 'I', 'F', 'M']]
+    aa_group = groups[group]
+    mean = 0
+    count = 0
+    for i in range(len(sequence)):
+        if sequence[i] in aa_group:
+            count += 1
+            mean += i
+    mean /= count
+    # moment computation
+    to_ret = 0
+    for i in range(len(sequence)):
+        if sequence[i] in aa_group:
+            to_ret += (i-mean)**r
+    return to_ret/count
+
 def hydrophobic_composition(sequence):
     total_score = 0
     groups_scores = [0 for _ in range(5)]
@@ -110,6 +130,9 @@ def hydrophobic_composition(sequence):
         group_index, score = get_hydrophobic_score(el)
         total_score += score
         groups_scores[group_index] += score
-    frequencies = [group/total_score for group in groups_scores]
+    hydroph_feature = [group/total_score for group in groups_scores]
     # compute the moments
-    return 0
+    for group in range(5):
+        for j in range(2, 11):
+            hydroph_feature.append(moment_for_hydrophobic_aa(sequence, group, j))
+    return np.array(hydroph_feature)
