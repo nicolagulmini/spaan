@@ -176,5 +176,4 @@ def hydrophobic_composition(sequence):
     for group in range(5):
         for j in range(2, 11):
             hydroph_feature.append(moment_for_hydrophobic_aa(sequence, group, j))
-    print(len(hydroph_feature))
     return np.array(hydroph_feature)

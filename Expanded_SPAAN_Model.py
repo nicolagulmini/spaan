@@ -40,7 +40,7 @@ class Expanded_SPAAN_Model:
         dense_4_2 = Dense(1, activation='sigmoid')(dense_4)
         
         # model 5
-        hydrophob_comp = Input(shape=(55))
+        hydrophob_comp = Input(shape=(50))
         dense_5 = Dense(40, activation='sigmoid')(hydrophob_comp)
         dense_5_2 = Dense(1, activation='sigmoid')(dense_5)
         
