@@ -53,12 +53,12 @@ def aminoacids_frequencies(sequence):
     return np.array([el/len(sequence) for el in frequencies])
 
 def get_aminoacid_mask(sequence, aa):
-    new_sequence = ''
+    new_sequence = []
     for el in sequence:
         if el == aa:
-            new_sequence += str(1)
+            new_sequence.append(1)
         else:
-            new_sequence += str(0)
+            new_sequence.append(0)
     return new_sequence
 
 def automata_for_multiplets(binary_seq, n):
@@ -84,6 +84,7 @@ def multiplet_frequencies(sequence, n): # count the number of multiplets in tota
     to_ret = []
     for a in global_aminoacids_list:
         to_ret.append(automata_for_multiplets(get_aminoacid_mask(sequence, a), n))
+    to_ret = [el/len(sequence) for el in to_ret]
     return np.array(to_ret)
 
 def dipeptide_frequencies(sequence):
