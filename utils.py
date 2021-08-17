@@ -43,6 +43,8 @@ def get_dipeptide_index(dipeptide):
     return -1
 
 def aminoacids_frequencies(sequence):
+    if len(sequence) == 0:
+        return 0
     frequencies = [0 for el in global_aminoacids_list]
     for aa in sequence:
         tmp_index = get_index(aa)
@@ -81,6 +83,8 @@ def automata_for_multiplets(binary_seq, n):
 def multiplet_frequencies(sequence, n): # count the number of multiplets in total
     if n <= 2:
         print('error in multiplet frequencies computation. n has to be greater than 2. Return')
+    if len(sequence) == 0:
+        return np.array([0 for el in global_aminoacids_list])
     to_ret = []
     for a in global_aminoacids_list:
         to_ret.append(automata_for_multiplets(get_aminoacid_mask(sequence, a), n))
@@ -88,6 +92,8 @@ def multiplet_frequencies(sequence, n): # count the number of multiplets in tota
     return np.array(to_ret)
 
 def dipeptide_frequencies(sequence):
+    if len(sequence) == 0:
+        np.array([0 for el in global_aminoacids_list])
     frequencies = [0 for el in global_dipeptide_list]
     for i in range(len(sequence)-1):
         tmp_index = get_dipeptide_index(str(sequence[i]) + str(sequence[i+1]))
@@ -105,7 +111,8 @@ def moment_computation(sequence, X_m, r):
         if sequence[i] in c:
             count += 1
             moment += (i-X_m)**r
-    #print(r, moment/count)
+    if count == 0:
+        return 0
     return moment/count
 
 def charge_composition(sequence):
@@ -117,7 +124,10 @@ def charge_composition(sequence):
         if sequence[i] in c:
             f_c += 1
             X_m += i
-    X_m /= f_c
+    if f_c == 0:
+        X_m = 0
+    else:
+        X_m /= f_c
     f_c /= len(sequence)
     to_return = [f_c, len(sequence)]
     for r in range(2, 26):
@@ -135,12 +145,17 @@ def moment_for_hydrophobic_aa(sequence, group, r):
         if sequence[i] in aa_group:
             count += 1
             mean += i
-    mean /= count
+    if count == 0:
+        mean = 0
+    else:
+        mean /= count
     # moment computation
     to_ret = 0
     for i in range(len(sequence)):
         if sequence[i] in aa_group:
             to_ret += (i-mean)**r
+    if count == 0:
+        return 0
     return to_ret/count
 
 def hydrophobic_composition(sequence):
@@ -153,7 +168,10 @@ def hydrophobic_composition(sequence):
                 score = hydroph_scores[i]
         total_score += score
         groups_scores[group_index] += score
-    hydroph_feature = [group/total_score for group in groups_scores]
+    if total_score == 0:
+        hydroph_feature = [0 for group in groups_scores]
+    else:
+        hydroph_feature = [group/total_score for group in groups_scores]
     # compute the moments
     for group in range(5):
         for j in range(2, 11):
