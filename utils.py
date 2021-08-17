@@ -172,6 +172,7 @@ def hydrophobic_composition(sequence):
         hydroph_feature = [0 for group in groups_scores]
     else:
         hydroph_feature = [group/total_score for group in groups_scores]
+    print(hydroph_feature)
     # compute the moments
     for group in range(5):
         for j in range(2, 11):
