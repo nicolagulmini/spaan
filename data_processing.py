@@ -197,7 +197,7 @@ def process(positive_ds, negative_ds):
         ]
         cond = 1
         for el in tmp:
-            if el == -1:
+            if isinstance(el, int):
                 cond = 0
         if cond == 1:
             for el in tmp:
@@ -222,7 +222,7 @@ def process(positive_ds, negative_ds):
         ]
         cond = 1
         for el in tmp:
-            if el == -1:
+            if isinstance(el, int):
                 cond = 0
         if cond == 1:
             for el in tmp:
