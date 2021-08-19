@@ -195,10 +195,11 @@ def process(positive_ds, negative_ds):
                     hydrophobic_composition(protein.seq)
         ]
         for el in tmp:
-            for ell in el:
-                if not (ell == float("inf") or ell == float("-inf")):
+            for entry in el:
+                if not (entry == float("inf") or entry == float("-inf")):
                     x.append(tmp)
                     y.append(1)
+                    break
         
     for protein in negative_ds:
         tmp = [
@@ -211,10 +212,11 @@ def process(positive_ds, negative_ds):
                     hydrophobic_composition(protein.seq)
         ]
         for el in tmp:
-            for ell in el:
-                if not (ell == float("inf") or ell == float("-inf")):
+            for entry in el:
+                if not (entry == float("inf") or entry == float("-inf")):
                     x.append(tmp)
                     y.append(0)
+                    break
     return x, y
     
 def split_ds(x, y, shuffler):
