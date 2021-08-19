@@ -185,7 +185,7 @@ def process(positive_ds, negative_ds):
     x, y = [], []
 
     for protein in positive_ds:
-        x.append([
+        tmp = [
                     aminoacids_frequencies(protein.seq),
                     multiplet_frequencies(protein.seq, 3),
                     multiplet_frequencies(protein.seq, 4),
@@ -193,11 +193,15 @@ def process(positive_ds, negative_ds):
                     dipeptide_frequencies(protein.seq),
                     charge_composition(protein.seq),
                     hydrophobic_composition(protein.seq)
-        ])
-        y.append(1)
+        ]
+        for el in tmp:
+            for ell in el:
+                if not (ell == float("inf") or ell == float("-inf")):
+                    x.append(tmp)
+                    y.append(1)
         
     for protein in negative_ds:
-        x.append([
+        tmp = [
                     aminoacids_frequencies(protein.seq),
                     multiplet_frequencies(protein.seq, 3),
                     multiplet_frequencies(protein.seq, 4),
@@ -205,8 +209,12 @@ def process(positive_ds, negative_ds):
                     dipeptide_frequencies(protein.seq),
                     charge_composition(protein.seq),
                     hydrophobic_composition(protein.seq)
-        ])
-        y.append(0)
+        ]
+        for el in tmp:
+            for ell in el:
+                if not (ell == float("inf") or ell == float("-inf")):
+                    x.append(tmp)
+                    y.append(0)
     return x, y
     
 def split_ds(x, y, shuffler):
