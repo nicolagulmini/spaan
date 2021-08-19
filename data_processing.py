@@ -211,7 +211,6 @@ def process(positive_ds, negative_ds):
             x.append(tmp)
             y.append(1)
         
-        
     for protein in negative_ds:
         tmp = [
                     aminoacids_frequencies(protein.seq),
@@ -240,7 +239,6 @@ def process(positive_ds, negative_ds):
 def process_one_dataset(ds):
     # data processing
     x = []
-
     for protein in ds:
         tmp = [
                     aminoacids_frequencies(protein.seq),
