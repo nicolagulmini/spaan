@@ -163,6 +163,8 @@ def hydrophobic_composition(sequence):
     total_score = 0
     groups_scores = [0 for _ in range(5)]
     for el in sequence:
+        group_index = 0 # temp
+        score = 0 # temp
         for i in range(5):
             if el in groups_for_hydroph[i]:
                 group_index = i
