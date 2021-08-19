@@ -49,7 +49,7 @@ def aminoacids_frequencies(sequence):
     for aa in sequence:
         tmp_index = get_index(aa)
         if tmp_index == -1:
-            print('error in aminoacids frequencies computation. The sequence may have an unknown symbol. Return')
+            print('error in aminoacids frequencies computation. The sequence may have an unknown symbol:', aa)
             return
         frequencies[tmp_index] += 1
     return np.asarray([el/len(sequence) for el in frequencies], dtype=np.float32)
@@ -98,7 +98,7 @@ def dipeptide_frequencies(sequence):
     for i in range(len(sequence)-1):
         tmp_index = get_dipeptide_index(str(sequence[i]) + str(sequence[i+1]))
         if tmp_index == -1:
-            print('error in dipeptide frequencies computation. The sequence may have an unknown symbol. Return')
+            print('error in dipeptide frequencies computation. The sequence may have an unknown symbol:', sequence[i], sequence[i+1])
             return
         frequencies[tmp_index] += 1
     return np.asarray([el/(len(sequence)-1) for el in frequencies], dtype=np.float32)
