@@ -1,0 +1,816 @@
+SN	Pad-value	Protein name (Annotation)
+1	0.863190	>sp|P31489|YADA1_YEREN Adhesin YadA OS=Yersinia enterocolitica OX=630 GN=yadA PE=1 SV=1
+2	0.880448	>sp|Q5A8T4|ALS1_CANAL Agglutinin-like protein 1 OS=Candida albicans (strain SC5314 / ATCC MYA-2876) OX=237561 GN=ALS1 PE=1 SV=1
+3	0.819781	>sp|Q59L12|ALS3_CANAL Agglutinin-like protein 3 OS=Candida albicans (strain SC5314 / ATCC MYA-2876) OX=237561 GN=ALS3 PE=1 SV=3
+4	0.876307	>sp|S0HPF7|PILY1_PSEAW Type IV pilus biogenesis factor PilY1 OS=Pseudomonas aeruginosa (strain PAK) OX=1009714 GN=pilY1 PE=1 SV=1
+5	0.865383	>sp|Q9MCI8|EIBD_ECOLX Immunoglobulin-binding protein EibD OS=Escherichia coli OX=562 GN=eibD PE=1 SV=1
+6	0.909163	>sp|Q5A8T7|ALS5_CANAL Agglutinin-like protein 5 OS=Candida albicans (strain SC5314 / ATCC MYA-2876) OX=237561 GN=ALS5 PE=1 SV=2
+7	0.808681	>sp|A1JUB7|YADA_YERE8 Adhesin YadA OS=Yersinia enterocolitica serotype O:8 / biotype 1B (strain NCTC 13174 / 8081) OX=393305 GN=yadA PE=1 SV=1
+8	0.918897	>sp|Q9XD84|TIBA_ECOH1 Adhesin/invasin TibA autotransporter OS=Escherichia coli O78:H11 (strain H10407 / ETEC) OX=316401 GN=tibA PE=1 SV=1
+9	0.798947	>sp|P0A4G2|MTSA_STRPN Manganese ABC transporter substrate-binding lipoprotein OS=Streptococcus pneumoniae serotype 4 (strain ATCC BAA-334 / TIGR4) OX=170187 GN=psaA PE=1 SV=1
+10	0.858547	>sp|P0C2W0|YADA2_YEREN Adhesin YadA OS=Yersinia enterocolitica OX=630 GN=yadA PE=1 SV=1
+11	0.928067	>sp|G1UBC2|PGA47_CANAL Cell wall adhesin EAP1 OS=Candida albicans (strain SC5314 / ATCC MYA-2876) OX=237561 GN=EAP1 PE=1 SV=2
+12	0.330981	>sp|Q8ZL65|SADB_SALTY Inner membrane lipoprotein SadB OS=Salmonella typhimurium (strain LT2 / SGSC1412 / ATCC 700720) OX=99287 GN=sadB PE=1 SV=1
+13	0.729724	>sp|A1KSQ9|MAFA1_NEIMF Adhesin MafA 1 OS=Neisseria meningitidis serogroup C / serotype 2a (strain ATCC 700532 / DSM 15464 / FAM18) OX=272831 GN=mafA1 PE=3 SV=1
+14	0.793346	>sp|Q99W46|SDRE_STAAN Serine-aspartate repeat-containing protein E OS=Staphylococcus aureus (strain N315) OX=158879 GN=sdrE PE=1 SV=1
+15	0.832008	>sp|P09169|OMPT_ECOLI Protease 7 OS=Escherichia coli (strain K12) OX=83333 GN=ompT PE=1 SV=1
+16	0.758457	>sp|P9WGU1|PSTS1_MYCTU Phosphate-binding protein PstS 1 OS=Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv) OX=83332 GN=pstS1 PE=1 SV=1
+17	0.834327	>sp|Q2FJ79|SDRC_STAA3 Serine-aspartate repeat-containing protein C OS=Staphylococcus aureus (strain USA300) OX=367830 GN=sdrC PE=3 SV=1
+18	0.153522	>sp|P0C1U6|SARA_STAAU Transcriptional regulator SarA OS=Staphylococcus aureus OX=1280 GN=sarA PE=1 SV=2
+19	0.152374	>sp|Q2G2G2|SAER_STAA8 Response regulator SaeR OS=Staphylococcus aureus (strain NCTC 8325 / PS 47) OX=93061 GN=saeR PE=1 SV=1
+20	0.834804	>sp|Q5HIB4|SDRC_STAAC Serine-aspartate repeat-containing protein C OS=Staphylococcus aureus (strain COL) OX=93062 GN=sdrC PE=3 SV=1
+21	0.965932	>sp|P13431|SFAH_ECOL5 S-fimbrial protein subunit SfaH OS=Escherichia coli O6:K15:H31 (strain 536 / UPEC) OX=362663 GN=sfaH PE=1 SV=2
+22	0.913115	>sp|Q47341|F17GG_ECOLX F17g-G fimbrial adhesin OS=Escherichia coli OX=562 GN=f17gG PE=1 SV=1
+23	0.711243	>sp|Q7A3J7|FNBA_STAAN Fibronectin-binding protein A OS=Staphylococcus aureus (strain N315) OX=158879 GN=fnbA PE=3 SV=1
+24	0.786779	>sp|Q2FE03|FNBA_STAA3 Fibronectin-binding protein A OS=Staphylococcus aureus (strain USA300) OX=367830 GN=fnbA PE=3 SV=1
+25	0.841054	>sp|Q2G0L5|SDRC_STAA8 Serine-aspartate repeat-containing protein C OS=Staphylococcus aureus (strain NCTC 8325 / PS 47) OX=93061 GN=sdrC PE=1 SV=1
+26	0.799843	>sp|Q8NXX5|SDRE_STAAW Serine-aspartate repeat-containing protein E OS=Staphylococcus aureus (strain MW2) OX=196620 GN=sdrE PE=3 SV=1
+27	0.831437	>sp|Q99W48|SDRC_STAAM Serine-aspartate repeat-containing protein C OS=Staphylococcus aureus (strain Mu50 / ATCC 700699) OX=158878 GN=sdrC PE=3 SV=1
+28	0.755655	>sp|B1JS09|PSAA_YERPY pH 6 antigen OS=Yersinia pseudotuberculosis serotype O:3 (strain YPIII) OX=502800 GN=psaA PE=3 SV=1
+29	0.296538	>sp|Q8VRH0|PTG3C_STAEP PTS system glucose-specific EIICBA component OS=Staphylococcus epidermidis OX=1282 GN=ptsG PE=3 SV=1
+30	0.787652	>sp|Q9L5X1|MTSA_STRAP Manganese ABC transporter substrate-binding lipoprotein OS=Streptococcus anginosus OX=1328 GN=psaA PE=3 SV=1
+31	0.898726	>sp|Q59L86|PGA25_CANAL Probable GPI-anchored adhesin-like protein PGA25 OS=Candida albicans (strain SC5314 / ATCC MYA-2876) OX=237561 GN=PGA25 PE=1 SV=1
+32	0.612205	>sp|Q874R4|PFL3_SCHPO Putative cell agglutination protein pfl3 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) OX=284812 GN=pfl3 PE=3 SV=1
+33	0.118122	>sp|Q9HWA7|PPRA_PSEAE Two-component sensor PprA OS=Pseudomonas aeruginosa (strain ATCC 15692 / DSM 22644 / CIP 104116 / JCM 14847 / LMG 12228 / 1C / PRS 101 / PAO1) OX=208964 GN=pprA PE=1 SV=1
+34	0.301984	>sp|Q9HWA4|PPRB_PSEAE Two-component response regulator PprB OS=Pseudomonas aeruginosa (strain ATCC 15692 / DSM 22644 / CIP 104116 / JCM 14847 / LMG 12228 / 1C / PRS 101 / PAO1) OX=208964 GN=pprB PE=1 SV=1
+35	0.290542	>sp|O50188|RSME_MYCH2 Ribosomal RNA small subunit methyltransferase E OS=Mycoplasma hyopneumoniae (strain 232) OX=295358 GN=rsmE PE=3 SV=1
+36	0.799843	>sp|Q6GBS4|SDRE_STAAS Serine-aspartate repeat-containing protein E OS=Staphylococcus aureus (strain MSSA476) OX=282459 GN=sdrE PE=1 SV=1
+37	0.532292	>sp|Q8IFM5|RH5_PLAF7 Reticulocyte-binding protein homolog 5 OS=Plasmodium falciparum (isolate 3D7) OX=36329 GN=RH5 PE=1 SV=1
+38	0.153522	>sp|Q2G2U9|SARA_STAA8 Transcriptional regulator SarA OS=Staphylococcus aureus (strain NCTC 8325 / PS 47) OX=93061 GN=sarA PE=1 SV=3
+39	0.740249	>sp|Q9URU4|PFL5_SCHPO Putative cell agglutination protein pfl5 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) OX=284812 GN=pfl5 PE=3 SV=1
+40	0.328865	>sp|Q8XAR5|PGAC_ECO57 Poly-beta-1,6-N-acetyl-D-glucosamine synthase OS=Escherichia coli O157:H7 OX=83334 GN=pgaC PE=3 SV=1
+41	0.625476	>sp|P75330|P30_MYCPN P30 adhesin OS=Mycoplasma pneumoniae (strain ATCC 29342 / M129) OX=272634 GN=p30 PE=4 SV=1
+42	0.406043	>sp|Q6EZC2|SUBA_ECOLX Subtilase cytotoxin subunit A OS=Escherichia coli OX=562 GN=subA PE=1 SV=1
+43	0.275243	>sp|Q5HEN9|VRAS_STAAC Sensor protein VraS OS=Staphylococcus aureus (strain COL) OX=93062 GN=vraS PE=3 SV=1
+44	0.248480	>sp|Q5A4E3|OCH1_CANAL Initiation-specific alpha-1,6-mannosyltransferase OS=Candida albicans (strain SC5314 / ATCC MYA-2876) OX=237561 GN=OCH1 PE=3 SV=1
+45	0.417808	>sp|Q9KI13|SDRG_STAEP Serine-aspartate repeat-containing protein G OS=Staphylococcus epidermidis OX=1282 GN=sdrG PE=1 SV=1
+46	0.887412	>sp|Q8ZRJ9|PAGN_SALTY Outer membrane protein PagN OS=Salmonella typhimurium (strain LT2 / SGSC1412 / ATCC 700720) OX=99287 GN=pagN PE=1 SV=1
+47	0.783123	>sp|Q92G43|Y1281_RICCN Putative adhesin RC1281 OS=Rickettsia conorii (strain ATCC VR-613 / Malish 7) OX=272944 GN=RC1281 PE=1 SV=1
+48	0.844923	>sp|P75593|Y099_MYCPN Putative adhesin P1-like protein MPN_099 OS=Mycoplasma pneumoniae (strain ATCC 29342 / M129) OX=272634 GN=MPN_099 PE=5 SV=1
+49	0.098684	>sp|Q97P83|SECA2_STRPN Protein translocase subunit SecA 2 OS=Streptococcus pneumoniae serotype 4 (strain ATCC BAA-334 / TIGR4) OX=170187 GN=secA2 PE=3 SV=1
+50	0.802383	>sp|O86489|SDRE_STAAE Serine-aspartate repeat-containing protein E OS=Staphylococcus aureus (strain Newman) OX=426430 GN=sdrE PE=1 SV=1
+51	0.755910	>sp|P13429|SFAG_ECOL5 S-fimbrial protein subunit SfaG OS=Escherichia coli O6:K15:H31 (strain 536 / UPEC) OX=362663 GN=sfaG PE=1 SV=1
+52	0.795813	>sp|Q2FJ77|SDRE_STAA3 Serine-aspartate repeat-containing protein E OS=Staphylococcus aureus (strain USA300) OX=367830 GN=sdrE PE=3 SV=1
+53	0.790666	>sp|Q932F7|SDRE_STAAM Serine-aspartate repeat-containing protein E OS=Staphylococcus aureus (strain Mu50 / ATCC 700699) OX=158878 GN=sdrE PE=1 SV=1
+54	0.835084	>sp|O86487|SDRC_STAAE Serine-aspartate repeat-containing protein C OS=Staphylococcus aureus (strain Newman) OX=426430 GN=sdrC PE=1 SV=2
+55	0.711632	>sp|P37726|PORF_PSEFL Outer membrane porin F OS=Pseudomonas fluorescens OX=294 GN=oprF PE=1 SV=1
+56	0.352654	>sp|Q8NUI7|ICAA_STAAW Poly-beta-1,6-N-acetyl-D-glucosamine synthase OS=Staphylococcus aureus (strain MW2) OX=196620 GN=icaA PE=3 SV=1
+57	0.082030	>sp|Q7A2K4|ICAD_STAAM Poly-beta-1,6-N-acetyl-D-glucosamine synthesis protein IcaD OS=Staphylococcus aureus (strain Mu50 / ATCC 700699) OX=158878 GN=icaD PE=3 SV=1
+58	0.715889	>sp|Q2FZE9|ISDA_STAA8 Iron-regulated surface determinant protein A OS=Staphylococcus aureus (strain NCTC 8325 / PS 47) OX=93061 GN=isdA PE=1 SV=1
+59	0.676314	>sp|A1KFU9|HBHA_MYCBP Heparin-binding hemagglutinin OS=Mycobacterium bovis (strain BCG / Pasteur 1173P2) OX=410289 GN=hbhA PE=1 SV=1
+60	0.532150	>sp|Q6G606|ICAB_STAAS Poly-beta-1,6-N-acetyl-D-glucosamine N-deacetylase OS=Staphylococcus aureus (strain MSSA476) OX=282459 GN=icaB PE=3 SV=1
+61	0.352547	>sp|Q9RQP9|ICAA_STAA8 Poly-beta-1,6-N-acetyl-D-glucosamine synthase OS=Staphylococcus aureus (strain NCTC 8325 / PS 47) OX=93061 GN=icaA PE=3 SV=2
+62	0.801983	>sp|O74346|MAP4_SCHPO P cell-type agglutination protein map4 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) OX=284812 GN=map4 PE=3 SV=1
+63	0.913203	>sp|Q5AEG7|PGA18_CANAL Probable GPI-anchored adhesin-like protein PGA18 OS=Candida albicans (strain SC5314 / ATCC MYA-2876) OX=237561 GN=PGA18 PE=1 SV=2
+64	0.814511	>sp|P13720|PAPG1_ECOLX Fimbrial adhesin PapGI OS=Escherichia coli OX=562 GN=papGI PE=1 SV=1
+65	0.129426	>sp|Q6FXU7|PDR1_CANGA Transcription factor PDR1 OS=Candida glabrata (strain ATCC 2001 / CBS 138 / JCM 3761 / NBRC 0622 / NRRL Y-65) OX=284593 GN=PDR1 PE=1 SV=1
+66	0.289837	>sp|P69434|PGAA_ECOLI Poly-beta-1,6-N-acetyl-D-glucosamine export protein OS=Escherichia coli (strain K12) OX=83333 GN=pgaA PE=1 SV=1
+67	0.938927	>sp|Q5AL03|HYR1_CANAL Hyphally regulated cell wall protein 1 OS=Candida albicans (strain SC5314 / ATCC MYA-2876) OX=237561 GN=HYR1 PE=1 SV=2
+68	0.819020	>sp|Q59XX2|MP65_CANAL Cell surface mannoprotein MP65 OS=Candida albicans (strain SC5314 / ATCC MYA-2876) OX=237561 GN=MP65 PE=1 SV=3
+69	0.336383	>sp|E9EPV1|MBZ11_METRA BZIP-type transcription factor MBZ1 OS=Metarhizium robertsii (strain ARSEF 23 / ATCC MYA-3075) OX=655844 GN=MBZ1 PE=2 SV=2
+70	0.871012	>sp|P42188|PAPG3_ECOLX Fimbrial adhesin PapGIII OS=Escherichia coli OX=562 GN=papGIII PE=3 SV=1
+71	0.586935	>sp|A0A160PAH3|OMP38_ACIS5 Outer membrane protein Omp38 OS=Acinetobacter sp. (strain Tol 5) OX=710648 GN=omp38 PE=1 SV=1
+72	0.793482	>sp|Q49417|P32_MYCGE P32 adhesin OS=Mycoplasma genitalium (strain ATCC 33530 / G-37 / NCTC 10195) OX=243273 GN=MG318 PE=3 SV=1
+73	0.860864	>sp|Q59V02|PGA22_CANAL Probable GPI-anchored adhesin-like protein PGA22 OS=Candida albicans (strain SC5314 / ATCC MYA-2876) OX=237561 GN=PGA22 PE=1 SV=1
+74	0.563853	>sp|Q49378|P32_MYCGA P32 adhesin OS=Mycoplasma gallisepticum (strain R(low / passage 15 / clone 2)) OX=710127 GN=mgc2 PE=3 SV=2
+75	0.710682	>sp|Q9P5N1|PFL7_SCHPO Putative cell-type specific agglutination protein pfl7 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) OX=284812 GN=pfl7 PE=3 SV=1
+76	0.745622	>sp|A1KVQ6|MAFA2_NEIMF Adhesin MafA 2 OS=Neisseria meningitidis serogroup C / serotype 2a (strain ATCC 700532 / DSM 15464 / FAM18) OX=272831 GN=mafA2 PE=3 SV=1
+77	0.971307	>sp|Q5A5K7|PGA28_CANAL Probable GPI-anchored adhesin-like protein PGA28 OS=Candida albicans (strain SC5314 / ATCC MYA-2876) OX=237561 GN=PGA28 PE=1 SV=1
+78	0.359317	>sp|Q04JB8|TPX_STRP2 Thiol peroxidase OS=Streptococcus pneumoniae serotype 2 (strain D39 / NCTC 7466) OX=373153 GN=tpx PE=3 SV=1
+79	0.834350	>sp|P75142|Y144_MYCPN Putative adhesin P1-like protein MPN_144 OS=Mycoplasma pneumoniae (strain ATCC 29342 / M129) OX=272634 GN=MPN_144 PE=5 SV=1
+80	0.870695	>sp|P75411|Y370_MYCPN Putative adhesin P1-like protein MPN_370 OS=Mycoplasma pneumoniae (strain ATCC 29342 / M129) OX=272634 GN=MPN_370 PE=5 SV=1
+81	0.785370	>sp|P75347|Y128_MYCPN Uncharacterized protein MPN_128 OS=Mycoplasma pneumoniae (strain ATCC 29342 / M129) OX=272634 GN=MPN_128 PE=3 SV=1
+82	0.712743	>sp|A8F047|Y5320_RICCK Putative adhesin A1E_05320 OS=Rickettsia canadensis (strain McKiel) OX=293613 GN=A1E_05320 PE=3 SV=1
+83	0.825661	>sp|P75571|Y205_MYCPN Uncharacterized protein MPN_205 OS=Mycoplasma pneumoniae (strain ATCC 29342 / M129) OX=272634 GN=MPN_205 PE=3 SV=1
+84	0.744754	>sp|Q4UJX4|Y1314_RICFE Putative adhesin RF_1314 OS=Rickettsia felis (strain ATCC VR-1525 / URRWXCal2) OX=315456 GN=RF_1314 PE=3 SV=2
+85	0.572046	>sp|A0A160PB22|TPGA_ACIS5 Trimeric autotransporter adhesin- and peptidogylcan-associated protein A OS=Acinetobacter sp. (strain Tol 5) OX=710648 GN=tpgA PE=1 SV=1
+86	0.743226	>sp|A8GTX6|Y7050_RICRS Putative adhesin A1G_07050 OS=Rickettsia rickettsii (strain Sheila Smith) OX=392021 GN=A1G_07050 PE=3 SV=1
+87	0.275243	>sp|Q6GFH2|VRAS_STAAR Sensor protein VraS OS=Staphylococcus aureus (strain MRSA252) OX=282458 GN=vraS PE=3 SV=1
+88	0.749378	>sp|A8F2W7|Y1308_RICM5 Putative adhesin RMA_1308 OS=Rickettsia massiliae (strain Mtu5) OX=416276 GN=RMA_1308 PE=3 SV=2
+89	0.750097	>sp|Q9EXD5|Y412_MYCPN Uncharacterized protein MPN_412 OS=Mycoplasma pneumoniae (strain ATCC 29342 / M129) OX=272634 GN=MPN_412 PE=3 SV=1
+90	0.907767	>sp|P75315|Y468_MYCPN Putative adhesin P1-like protein MPN_468 OS=Mycoplasma pneumoniae (strain ATCC 29342 / M129) OX=272634 GN=MPN_468 PE=5 SV=1
+91	0.812441	>sp|P10858|YADA_YERPS Adhesin YadA OS=Yersinia pseudotuberculosis serotype I (strain IP32953) OX=273123 GN=yadA PE=1 SV=2
+92	0.797349	>sp|Q50284|Y203_MYCPN Putative adhesin P1-like protein MPN_203 OS=Mycoplasma pneumoniae (strain ATCC 29342 / M129) OX=272634 GN=MPN_203 PE=5 SV=1
+93	0.776598	>sp|F2QXM5|ZONAD_KOMPC Putative adhesin OS=Komagataella phaffii (strain ATCC 76273 / CBS 7435 / CECT 11047 / NRRL Y-11430 / Wegner 21-1) OX=981350 GN=PP7435_Chr3-1213 PE=1 SV=1
+94	0.820527	>sp|P75285|Y502_MYCPN Uncharacterized protein MPN_502 OS=Mycoplasma pneumoniae (strain ATCC 29342 / M129) OX=272634 GN=MPN_502 PE=3 SV=1
+95	0.195914	>sp|Q48260|MOAC_HELPY Cyclic pyranopterin monophosphate synthase OS=Helicobacter pylori (strain ATCC 700392 / 26695) OX=85962 GN=moaC PE=3 SV=2
+96	0.843043	>sp|P58603|OMPT_ECO57 Protease 7 OS=Escherichia coli O157:H7 OX=83334 GN=ompT PE=3 SV=1
+97	0.891011	>sp|Q7DDJ2|NHHA_NEIMB Autotransporter adhesin NhhA OS=Neisseria meningitidis serogroup B (strain MC58) OX=122586 GN=nhhA PE=1 SV=1
+98	0.833336	>sp|Q9X6P2|MAFA_NEIGO Adhesin MafA OS=Neisseria gonorrhoeae OX=485 GN=mafA PE=3 SV=1
+99	0.877144	>sp|A9M492|MAFA2_NEIM0 Adhesin MafA 3 OS=Neisseria meningitidis serogroup C (strain 053442) OX=374833 GN=mafA3 PE=3 SV=1
+100	0.388882	>sp|P69432|PGAD_ECOLI Biofilm PGA synthesis protein PgaD OS=Escherichia coli (strain K12) OX=83333 GN=pgaD PE=1 SV=1
+101	0.694109	>sp|P31304|MTSA_STRSA Manganese ABC transporter substrate-binding lipoprotein OS=Streptococcus sanguinis OX=1305 GN=ssaB PE=1 SV=1
+102	0.781266	>sp|Q47450|PAPG2_ECOLX Fimbrial adhesin PapGII OS=Escherichia coli OX=562 GN=papGII PE=1 SV=1
+103	0.643470	>sp|Q6EZC3|SUBB_ECOLX Subtilase cytotoxin subunit B OS=Escherichia coli OX=562 GN=subB PE=1 SV=1
+104	0.719380	>sp|P0CU05|PFL6_SCHPO Putative cell agglutination protein pfl6 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) OX=284812 GN=pfl6 PE=3 SV=1
+105	0.690955	>sp|Q8IWL2|SFTA1_HUMAN Pulmonary surfactant-associated protein A1 OS=Homo sapiens OX=9606 GN=SFTPA1 PE=1 SV=2
+106	0.843049	>sp|P75266|Y132_MYCPN Putative adhesin P1-like protein MPN_132 OS=Mycoplasma pneumoniae (strain ATCC 29342 / M129) OX=272634 GN=MPN_132 PE=5 SV=1
+107	0.729331	>sp|Q5F6H4|MAFA2_NEIG1 Adhesin MafA 2/3 OS=Neisseria gonorrhoeae (strain ATCC 700825 / FA 1090) OX=242231 GN=mafA2 PE=3 SV=1
+108	0.779970	>sp|Q1RH12|Y1271_RICBR Putative adhesin RBE_1271 OS=Rickettsia bellii (strain RML369-C) OX=336407 GN=RBE_1271 PE=3 SV=1
+109	0.783018	>sp|Q9L5W9|MTSA_STROR Manganese ABC transporter substrate-binding lipoprotein OS=Streptococcus oralis OX=1303 GN=psaA PE=3 SV=1
+110	0.719380	>sp|P0CU04|YI48_SCHPO Putative cell agglutination protein SPAC1348.08c OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) OX=284812 GN=SPAC1348.08c PE=3 SV=1
+111	0.812907	>sp|Q9ZCC9|Y828_RICPR Putative adhesin RP828 OS=Rickettsia prowazekii (strain Madrid E) OX=272947 GN=RP828 PE=1 SV=1
+112	0.610775	>sp|Q9SW93|SCA_LILLO Stigma/stylar cysteine-rich adhesin OS=Lilium longiflorum OX=4690 GN=SCA PE=1 SV=1
+113	0.154002	>sp|Q97P79|SECY2_STRPN Accessory Sec system protein translocase subunit SecY2 OS=Streptococcus pneumoniae serotype 4 (strain ATCC BAA-334 / TIGR4) OX=170187 GN=secY2 PE=3 SV=1
+114	0.883391	>sp|Q5ADQ7|PGA32_CANAL Probable GPI-anchored adhesin-like protein PGA32 OS=Candida albicans (strain SC5314 / ATCC MYA-2876) OX=237561 GN=PGA32 PE=1 SV=1
+115	0.153522	>sp|A6QES8|SARA_STAAE Transcriptional regulator SarA OS=Staphylococcus aureus (strain Newman) OX=426430 GN=sarA PE=1 SV=1
+116	0.947937	>sp|P13430|SFAS_ECOL5 S-fimbrial adhesin protein SfaS OS=Escherichia coli O6:K15:H31 (strain 536 / UPEC) OX=362663 GN=sfaS PE=1 SV=1
+117	0.274568	>sp|P46071|PRTH_PORGI Protease PrtH OS=Porphyromonas gingivalis (strain ATCC BAA-308 / W83) OX=242619 GN=prtH PE=3 SV=1
+118	0.755655	>sp|P31522|PSAA_YERPE pH 6 antigen OS=Yersinia pestis OX=632 GN=psaA PE=1 SV=1
+119	0.835739	>sp|Q8NXX7|SDRC_STAAW Serine-aspartate repeat-containing protein C OS=Staphylococcus aureus (strain MW2) OX=196620 GN=sdrC PE=3 SV=1
+120	0.522042	>sp|Q840P7|SAES_STAAE Histidine protein kinase SaeS OS=Staphylococcus aureus (strain Newman) OX=426430 GN=saeS PE=1 SV=1
+121	0.831520	>sp|Q6GJA7|SDRC_STAAR Serine-aspartate repeat-containing protein C OS=Staphylococcus aureus (strain MRSA252) OX=282458 GN=sdrC PE=3 SV=1
+122	0.519038	>sp|Q5ANJ4|TEC1_CANAL Transcription activator TEC1 OS=Candida albicans (strain SC5314 / ATCC MYA-2876) OX=237561 GN=TEC1 PE=1 SV=1
+123	0.575850	>sp|Q8CYC9|PFBA_STRR6 Plasmin and fibronectin-binding protein A OS=Streptococcus pneumoniae (strain ATCC BAA-255 / R6) OX=171101 GN=pfbA PE=1 SV=1
+124	0.152374	>sp|Q840P8|SAER_STAAE Response regulator SaeR OS=Staphylococcus aureus (strain Newman) OX=426430 GN=saeR PE=1 SV=2
+125	0.802909	>sp|Q5HIB2|SDRE_STAAC Serine-aspartate repeat-containing protein E OS=Staphylococcus aureus (strain COL) OX=93062 GN=sdrE PE=3 SV=1
+126	0.835521	>sp|Q6GBS6|SDRC_STAAS Serine-aspartate repeat-containing protein C OS=Staphylococcus aureus (strain MSSA476) OX=282459 GN=sdrC PE=3 SV=1
+127	0.789336	>sp|Q7Z9I1|PFL4_SCHPO Putative cell agglutination protein pfl4 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) OX=284812 GN=pfl4 PE=3 SV=1
+128	0.850351	>sp|P12730|SFAA_ECOL5 S-fimbrial protein subunit SfaA OS=Escherichia coli O6:K15:H31 (strain 536 / UPEC) OX=362663 GN=sfaA PE=1 SV=2
+129	0.517356	>sp|Q2G2U1|SAES_STAA8 Histidine protein kinase SaeS OS=Staphylococcus aureus (strain NCTC 8325 / PS 47) OX=93061 GN=saeS PE=1 SV=1
+130	0.831437	>sp|Q7A781|SDRC_STAAN Serine-aspartate repeat-containing protein C OS=Staphylococcus aureus (strain N315) OX=158879 GN=sdrC PE=1 SV=1
+131	0.196238	>sp|A1C3L4|SECY2_STRPA Accessory Sec system protein translocase subunit SecY2 OS=Streptococcus parasanguinis OX=1318 GN=secY2 PE=3 SV=1
+132	0.812295	>sp|P08180|AFAE1_ECOLX Afimbrial adhesin AFA-I OS=Escherichia coli OX=562 GN=afaE1 PE=3 SV=2
+133	0.580147	>sp|P80069|APA_MYCBP Alanine and proline-rich secreted protein Apa OS=Mycobacterium bovis (strain BCG / Pasteur 1173P2) OX=410289 GN=apa PE=1 SV=2
+134	0.880003	>sp|P46590|ALS1_CANAX Agglutinin-like protein 1 OS=Candida albicans OX=5476 GN=ALS1 PE=3 SV=1
+135	0.910663	>sp|P32323|AGA1_YEAST A-agglutinin anchorage subunit OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=AGA1 PE=1 SV=1
+136	0.866099	>sp|A0A0H3HIJ5|BPAC_BURP2 Autotransporter adhesin BpaC OS=Burkholderia pseudomallei (strain 1026b) OX=884204 GN=bpaC PE=1 SV=1
+137	0.958219	>sp|P08191|FIMH_ECOLI Type 1 fimbrin D-mannose specific adhesin OS=Escherichia coli (strain K12) OX=83333 GN=fimH PE=1 SV=2
+138	0.080873	>sp|Q6GDD7|ICAD_STAAR Poly-beta-1,6-N-acetyl-D-glucosamine synthesis protein IcaD OS=Staphylococcus aureus (strain MRSA252) OX=282458 GN=icaD PE=3 SV=1
+139	0.857874	>sp|P13645|K1C10_HUMAN Keratin, type I cytoskeletal 10 OS=Homo sapiens OX=9606 GN=KRT10 PE=1 SV=6
+140	0.694210	>sp|Q8NUL0|CLFB_STAAW Clumping factor B OS=Staphylococcus aureus (strain MW2) OX=196620 GN=clfB PE=3 SV=1
+141	0.323148	>sp|P07105|FANB_ECOLX Regulatory protein FanB OS=Escherichia coli OX=562 GN=fanB PE=4 SV=1
+142	0.664482	>sp|P55969|HPAA_HELPY Neuraminyllactose-binding hemagglutinin OS=Helicobacter pylori (strain ATCC 700392 / 26695) OX=85962 GN=hpaA PE=3 SV=1
+143	0.111466	>sp|B5A7L9|GTF3_STRPA Glucosyltransferase 3 OS=Streptococcus parasanguinis OX=1318 GN=gtf3 PE=1 SV=1
+144	0.239627	>sp|Q57081|HMW3_MYCGE Cytadherence high molecular weight protein 3 OS=Mycoplasma genitalium (strain ATCC 33530 / G-37 / NCTC 10195) OX=243273 GN=hmw3 PE=3 SV=1
+145	0.885151	>sp|Q086E4|IBP1_SHEFN Ice-binding protein 1 OS=Shewanella frigidimarina (strain NCIMB 400) OX=318167 GN=Sfri_1018 PE=1 SV=1
+146	0.323283	>sp|Q6GDD5|ICAC_STAAR Probable poly-beta-1,6-N-acetyl-D-glucosamine export protein OS=Staphylococcus aureus (strain MRSA252) OX=282458 GN=icaC PE=3 SV=1
+147	0.082030	>sp|Q5HCN0|ICAD_STAAC Poly-beta-1,6-N-acetyl-D-glucosamine synthesis protein IcaD OS=Staphylococcus aureus (strain COL) OX=93062 GN=icaD PE=3 SV=1
+148	0.299305	>sp|Q6G605|ICAC_STAAS Probable poly-beta-1,6-N-acetyl-D-glucosamine export protein OS=Staphylococcus aureus (strain MSSA476) OX=282459 GN=icaC PE=3 SV=1
+149	0.299305	>sp|Q79ZV2|ICAC_STAAW Probable poly-beta-1,6-N-acetyl-D-glucosamine export protein OS=Staphylococcus aureus (strain MW2) OX=196620 GN=icaC PE=3 SV=1
+150	0.243499	>sp|P69518|ICAC_STAEP Probable poly-beta-1,6-N-acetyl-D-glucosamine export protein OS=Staphylococcus epidermidis OX=1282 GN=icaC PE=3 SV=1
+151	0.531249	>sp|Q5HCM9|ICAB_STAAC Poly-beta-1,6-N-acetyl-D-glucosamine N-deacetylase OS=Staphylococcus aureus (strain COL) OX=93062 GN=icaB PE=3 SV=1
+152	0.525444	>sp|Q99QX2|ICAB_STAAM Poly-beta-1,6-N-acetyl-D-glucosamine N-deacetylase OS=Staphylococcus aureus (strain Mu50 / ATCC 700699) OX=158878 GN=icaB PE=3 SV=1
+153	0.645276	>sp|Q2YWL4|EMP_STAAB Extracellular matrix protein-binding protein emp OS=Staphylococcus aureus (strain bovine RF122 / ET3-1) OX=273036 GN=emp PE=3 SV=1
+154	0.738958	>sp|Q6G6H3|FNBA_STAAS Fibronectin-binding protein A OS=Staphylococcus aureus (strain MSSA476) OX=282459 GN=fnbA PE=3 SV=1
+155	0.474102	>sp|A4NBN9|HPE_HAEI3 Surface-adhesin protein E OS=Haemophilus influenzae (strain NTHi 3655) OX=375177 GN=pe PE=1 SV=1
+156	0.695620	>sp|Q6G644|CLFB_STAAS Clumping factor B OS=Staphylococcus aureus (strain MSSA476) OX=282459 GN=clfB PE=3 SV=1
+157	0.917678	>sp|O13368|ALS5_CANAX Agglutinin-like protein 5 OS=Candida albicans OX=5476 GN=ALS5 PE=1 SV=1
+158	0.680958	>sp|Q2G015|CLFA_STAA8 Clumping factor A OS=Staphylococcus aureus (strain NCTC 8325 / PS 47) OX=93061 GN=clfA PE=1 SV=1
+159	0.588267	>sp|P9WIR7|APA_MYCTU Alanine and proline-rich secreted protein Apa OS=Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv) OX=83332 GN=apa PE=1 SV=1
+160	0.714943	>sp|Q6GDH2|CLFB_STAAR Clumping factor B OS=Staphylococcus aureus (strain MRSA252) OX=282458 GN=clfB PE=1 SV=1
+161	0.661158	>sp|P25731|CSOB_ECOLX CS1 fimbrial subunit B OS=Escherichia coli OX=562 GN=csoB PE=3 SV=1
+162	0.279782	>sp|P95493|CPG2_PORGI Gingipain R2 OS=Porphyromonas gingivalis (strain ATCC BAA-308 / W83) OX=242619 GN=rgpB PE=1 SV=2
+163	0.693759	>sp|Q99VJ4|CLFA_STAAN Clumping factor A OS=Staphylococcus aureus (strain N315) OX=158879 GN=clfA PE=1 SV=1
+164	0.685581	>sp|Q53653|CLFA_STAAE Clumping factor A OS=Staphylococcus aureus (strain Newman) OX=426430 GN=clfA PE=1 SV=1
+165	0.704389	>sp|P60496|BABL_LILLO Chemocyanin OS=Lilium longiflorum OX=4690 PE=1 SV=1
+166	0.680277	>sp|O86476|CLFB_STAAE Clumping factor B OS=Staphylococcus aureus (strain Newman) OX=426430 GN=clfB PE=1 SV=2
+167	0.680277	>sp|Q5HCR7|CLFB_STAAC Clumping factor B OS=Staphylococcus aureus (strain COL) OX=93062 GN=clfB PE=3 SV=1
+168	0.875636	>sp|B7UJD8|ECPD_ECO27 Fimbria adhesin EcpD OS=Escherichia coli O127:H6 (strain E2348/69 / EPEC) OX=574521 GN=ecpD PE=1 SV=1
+169	0.878549	>sp|D5CVJ7|ECPD_ECOKI Fimbria adhesin EcpD OS=Escherichia coli O18:K1:H7 (strain IHE3034 / ExPEC) OX=714962 GN=ecpD PE=3 SV=1
+170	0.556298	>sp|Q5HHM6|EMP_STAAC Extracellular matrix protein-binding protein emp OS=Staphylococcus aureus (strain COL) OX=93062 GN=emp PE=3 SV=1
+171	0.792254	>sp|Q00879|FHAE_BORPE Protein FhaE OS=Bordetella pertussis (strain Tohama I / ATCC BAA-589 / NCTC 13251) OX=257313 GN=fhaE PE=3 SV=1
+172	0.185360	>sp|P07104|FANA_ECOLX Regulatory protein FanA OS=Escherichia coli OX=562 GN=fanA PE=4 SV=1
+173	0.863171	>sp|A0A0H2WHF1|BPAC_BURMA Autotransporter adhesin BpaC OS=Burkholderia mallei (strain ATCC 23344) OX=243160 GN=bpaC PE=1 SV=1
+174	0.863379	>sp|P25734|CFAE_ECOLX CFA/I fimbrial subunit E OS=Escherichia coli OX=562 GN=cfaE PE=1 SV=1
+175	0.859303	>sp|Q53654|CNA_STAAU Collagen adhesin OS=Staphylococcus aureus OX=1280 GN=cna PE=1 SV=1
+176	0.708080	>sp|Q99R07|CLFB_STAAM Clumping factor B OS=Staphylococcus aureus (strain Mu50 / ATCC 700699) OX=158878 GN=clfB PE=3 SV=1
+177	0.857243	>sp|D4B1B1|ALS1_ARTBC Agglutinin-like protein ARB_02240 OS=Arthroderma benhamiae (strain ATCC MYA-4681 / CBS 112371) OX=663331 GN=ARB_02240 PE=1 SV=1
+178	0.873427	>sp|Q59U10|BCR1_CANAL Biofilm and cell wall regulator 1 OS=Candida albicans (strain SC5314 / ATCC MYA-2876) OX=237561 GN=BCR1 PE=1 SV=2
+179	0.536202	>sp|P25732|CFAA_ECOLX CFA/I fimbrial subunit A OS=Escherichia coli OX=562 GN=cfaA PE=3 SV=1
+180	0.556298	>sp|Q2G012|EMP_STAA8 Extracellular matrix protein-binding protein emp OS=Staphylococcus aureus (strain NCTC 8325 / PS 47) OX=93061 GN=emp PE=3 SV=1
+181	0.902691	>sp|Q59X67|EFG1_CANAL Enhanced filamentous growth protein 1 OS=Candida albicans (strain SC5314 / ATCC MYA-2876) OX=237561 GN=EFG1 PE=1 SV=2
+182	0.876024	>sp|P77694|ECPD_ECOLI Fimbria adhesin EcpD OS=Escherichia coli (strain K12) OX=83333 GN=ecpD PE=3 SV=1
+183	0.899818	>sp|O74660|ALS4_CANAX Agglutinin-like protein 4 (Fragments) OS=Candida albicans OX=5476 GN=ALS4 PE=3 SV=2
+184	0.708080	>sp|Q7A382|CLFB_STAAN Clumping factor B OS=Staphylococcus aureus (strain N315) OX=158879 GN=clfB PE=1 SV=1
+185	0.794015	>sp|Q9LA53|EIBE_ECOLX Immunoglobulin-binding protein EibE OS=Escherichia coli OX=562 GN=eibE PE=1 SV=1
+186	0.711243	>sp|Q99RD2|FNBA_STAAM Fibronectin-binding protein A OS=Staphylococcus aureus (strain Mu50 / ATCC 700699) OX=158878 GN=fnbA PE=3 SV=1
+187	0.556298	>sp|A6QF98|EMP_STAAE Extracellular matrix protein-binding protein emp OS=Staphylococcus aureus (strain Newman) OX=426430 GN=ssp PE=1 SV=1
+188	0.786779	>sp|Q5HD51|FNBA_STAAC Fibronectin-binding protein A OS=Staphylococcus aureus (strain COL) OX=93062 GN=fnbA PE=3 SV=1
+189	0.800811	>sp|Q6GJA6|BBP_STAAR Bone sialoprotein-binding protein OS=Staphylococcus aureus (strain MRSA252) OX=282458 GN=bbp PE=3 SV=1
+190	0.532382	>sp|Q99VJ2|EMP_STAAM Extracellular matrix protein-binding protein emp OS=Staphylococcus aureus (strain Mu50 / ATCC 700699) OX=158878 GN=emp PE=3 SV=1
+191	0.765348	>sp|P37925|FIMH_SALTY Type 1 fimbrin D-mannose specific adhesin OS=Salmonella typhimurium (strain LT2 / SGSC1412 / ATCC 700720) OX=99287 GN=fimH PE=3 SV=2
+192	0.803613	>sp|Q14U76|BBP_STAAU Bone sialoprotein-binding protein OS=Staphylococcus aureus OX=1280 GN=bbp PE=1 SV=1
+193	0.683843	>sp|Q8NXJ1|CLFA_STAAW Clumping factor A OS=Staphylococcus aureus (strain MW2) OX=196620 GN=clfA PE=3 SV=1
+194	0.822553	>sp|O74623|ALS3_CANAX Agglutinin-like protein 3 OS=Candida albicans OX=5476 GN=ALS3 PE=1 SV=1
+195	0.552420	>sp|P53516|AFAB_ECOLX Chaperone protein AfaB OS=Escherichia coli OX=562 GN=afaB PE=3 SV=1
+196	0.603262	>sp|P53517|AFAC_ECOLX Outer membrane usher protein AfaC OS=Escherichia coli OX=562 GN=afaC PE=3 SV=1
+197	0.756411	>sp|P06731|CEAM5_HUMAN Carcinoembryonic antigen-related cell adhesion molecule 5 OS=Homo sapiens OX=9606 GN=CEACAM5 PE=1 SV=3
+198	0.951284	>sp|Q57254|AFAE3_ECOLX Afimbrial adhesin AFA-III OS=Escherichia coli OX=562 GN=afaE3 PE=1 SV=1
+199	0.073435	>sp|Q47037|AFAF_ECOLX Dr hemagglutinin AFA-III operon regulatory protein AfaF OS=Escherichia coli OX=562 GN=afaF PE=4 SV=1
+200	0.532382	>sp|Q7A6P4|EMP_STAAN Extracellular matrix protein-binding protein emp OS=Staphylococcus aureus (strain N315) OX=158879 GN=emp PE=1 SV=1
+201	0.847919	>sp|Q9LA60|EIBA_ECOLX Immunoglobulin-binding protein EibA OS=Escherichia coli OX=562 GN=eibA PE=1 SV=1
+202	0.691749	>sp|Q6GB45|CLFA_STAAS Clumping factor A OS=Staphylococcus aureus (strain MSSA476) OX=282459 GN=clfA PE=3 SV=1
+203	0.874333	>sp|Q8FKL3|ECPD_ECOL6 Fimbria adhesin EcpD OS=Escherichia coli O6:H1 (strain CFT073 / ATCC 700928 / UPEC) OX=199310 GN=ecpD PE=1 SV=1
+204	0.960774	>sp|P24093|DRAA_ECOLX Dr hemagglutinin structural subunit OS=Escherichia coli OX=562 GN=draA PE=1 SV=1
+205	0.559908	>sp|Q8NXI8|EMP_STAAW Extracellular matrix protein-binding protein emp OS=Staphylococcus aureus (strain MW2) OX=196620 GN=emp PE=3 SV=1
+206	0.372349	>sp|P25393|CFAD_ECOLX CFA/I fimbrial subunit D OS=Escherichia coli OX=562 GN=cfaD PE=1 SV=2
+207	0.918462	>sp|P39180|AG43_ECOLI Antigen 43 OS=Escherichia coli (strain K12) OX=83333 GN=flu PE=1 SV=3
+208	0.812070	>sp|A0A0H3G586|BTAE_BRUSU Autotransporter adhesin BtaE OS=Brucella suis biovar 1 (strain 1330) OX=204722 GN=btaE PE=1 SV=1
+209	0.559908	>sp|Q6GB43|EMP_STAAS Extracellular matrix protein-binding protein emp OS=Staphylococcus aureus (strain MSSA476) OX=282459 GN=emp PE=3 SV=1
+210	0.582983	>sp|P0C6P1|EMP_STAAU Extracellular matrix protein-binding protein emp OS=Staphylococcus aureus OX=1280 GN=emp PE=3 SV=1
+211	0.915572	>sp|Q9RH92|F17EG_ECOLX F17e-G fimbrial adhesin OS=Escherichia coli OX=562 GN=f17eG PE=1 SV=1
+212	0.706171	>sp|Q2FUY2|CLFB_STAA8 Clumping factor B OS=Staphylococcus aureus (strain NCTC 8325 / PS 47) OX=93061 GN=clfB PE=1 SV=1
+213	0.684798	>sp|Q5HHM8|CLFA_STAAC Clumping factor A OS=Staphylococcus aureus (strain COL) OX=93062 GN=clfA PE=3 SV=1
+214	0.681118	>sp|P03743|FIB36_BPT4 Long-tail fiber protein gp36 OS=Enterobacteria phage T4 OX=10665 GN=36 PE=1 SV=1
+215	0.453127	>sp|P52093|FTN_HELPY Bacterial non-heme ferritin OS=Helicobacter pylori (strain ATCC 700392 / 26695) OX=85962 GN=ftnA PE=1 SV=2
+216	0.879519	>sp|P46593|HWP1_CANAL Hyphal wall protein 1 OS=Candida albicans (strain SC5314 / ATCC MYA-2876) OX=237561 GN=HWP1 PE=1 SV=5
+217	0.874194	>sp|C4YHA6|HWP1_CANAW Hyphal wall protein 1 OS=Candida albicans (strain WO-1) OX=294748 GN=HWP1 PE=3 SV=1
+218	0.856997	>sp|Q9REM8|ADP2_MYCGA Adhesin P1 OS=Mycoplasma gallisepticum (strain R(low / passage 15 / clone 2)) OX=710127 GN=gapA PE=3 SV=2
+219	0.697337	>sp|P17811|COLY_YERPE Coagulase/fibrinolysin OS=Yersinia pestis OX=632 GN=pla PE=1 SV=1
+220	0.808804	>sp|Q5AJV5|FGR23_CANAL Filamentous growth regulator 23 OS=Candida albicans (strain SC5314 / ATCC MYA-2876) OX=237561 GN=FGR23 PE=1 SV=2
+221	0.241558	>sp|Q50360|HMW3_MYCPN Cytadherence high molecular weight protein 3 OS=Mycoplasma pneumoniae (strain ATCC 29342 / M129) OX=272634 GN=hmw3 PE=1 SV=1
+222	0.532150	>sp|Q8NUI6|ICAB_STAAW Poly-beta-1,6-N-acetyl-D-glucosamine N-deacetylase OS=Staphylococcus aureus (strain MW2) OX=196620 GN=icaB PE=3 SV=1
+223	0.280437	>sp|A1C3L9|GTFA_STRPA UDP-N-acetylglucosamine--peptide N-acetylglucosaminyltransferase GtfA subunit OS=Streptococcus parasanguinis OX=1318 GN=gtfA PE=1 SV=1
+224	0.702376	>sp|Q48264|HPAA1_HELPX Neuraminyllactose-binding hemagglutinin OS=Helicobacter pylori OX=210 GN=hpaA PE=3 SV=1
+225	0.769271	>sp|P9WK61|LPQH_MYCTU Lipoprotein LpqH OS=Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv) OX=83332 GN=lpqH PE=1 SV=1
+226	0.711243	>sp|A7X6I5|FNBA_STAA1 Fibronectin-binding protein A OS=Staphylococcus aureus (strain Mu3 / ATCC 700698) OX=418127 GN=fnbA PE=3 SV=1
+227	0.738958	>sp|Q8NUU7|FNBA_STAAW Fibronectin-binding protein A OS=Staphylococcus aureus (strain MW2) OX=196620 GN=fnbA PE=3 SV=1
+228	0.123421	>sp|Q9I4N3|FLER_PSEAE Response regulator protein FleR OS=Pseudomonas aeruginosa (strain ATCC 15692 / DSM 22644 / CIP 104116 / JCM 14847 / LMG 12228 / 1C / PRS 101 / PAO1) OX=208964 GN=fleR PE=3 SV=1
+229	0.279619	>sp|Q7NBT3|HMW3_MYCGA Cytadherence high molecular weight protein 3 OS=Mycoplasma gallisepticum (strain R(low / passage 15 / clone 2)) OX=710127 GN=hlp3 PE=1 SV=2
+230	0.320642	>sp|Q47132|DAAF_ECOLX F1845 fimbrial adhesin operon regulatory protein DaaF OS=Escherichia coli OX=562 GN=daaF PE=4 SV=1
+231	0.240669	>sp|Q47133|DAAA_ECOLX F1845 adhesin operon regulatory protein OS=Escherichia coli OX=562 GN=daaA PE=4 SV=1
+232	0.403817	>sp|Q9CB42|HBHA_MYCLE Heparin-binding hemagglutinin homolog OS=Mycobacterium leprae (strain TN) OX=272631 GN=hbhA PE=4 SV=1
+233	0.679744	>sp|Q48244|HPAA4_HELPX Neuraminyllactose-binding hemagglutinin (Fragment) OS=Helicobacter pylori OX=210 GN=hpaA PE=4 SV=1
+234	0.352547	>sp|Q99QX3|ICAA_STAAM Poly-beta-1,6-N-acetyl-D-glucosamine synthase OS=Staphylococcus aureus (strain Mu50 / ATCC 700699) OX=158878 GN=icaA PE=3 SV=1
+235	0.299305	>sp|Q7A348|ICAC_STAAN Probable poly-beta-1,6-N-acetyl-D-glucosamine export protein OS=Staphylococcus aureus (strain N315) OX=158879 GN=icaC PE=3 SV=1
+236	0.352547	>sp|Q6GDD8|ICAA_STAAR Poly-beta-1,6-N-acetyl-D-glucosamine synthase OS=Staphylococcus aureus (strain MRSA252) OX=282458 GN=icaA PE=3 SV=1
+237	0.525444	>sp|Q7A349|ICAB_STAAN Poly-beta-1,6-N-acetyl-D-glucosamine N-deacetylase OS=Staphylococcus aureus (strain N315) OX=158879 GN=icaB PE=3 SV=1
+238	0.204420	>sp|Q47036|INTL_ECOLX Probable site-specific recombinase in afa region OS=Escherichia coli OX=562 GN=int PE=3 SV=1
+239	0.593996	>sp|S5FV19|CPA_STRPY Pilus tip adhesin Cpa (Fragment) OS=Streptococcus pyogenes OX=1314 GN=cpa PE=1 SV=1
+240	0.826272	>sp|P11900|FMF4_ECOLX F41 fimbrial protein OS=Escherichia coli OX=562 GN=FimF41a PE=3 SV=1
+241	0.951363	>sp|P13719|DAAE_ECOLX F1845 fimbrial protein OS=Escherichia coli OX=562 GN=daaE PE=1 SV=1
+242	0.318270	>sp|P55994|DNAK_HELPY Chaperone protein DnaK OS=Helicobacter pylori (strain ATCC 700392 / 26695) OX=85962 GN=dnaK PE=3 SV=2
+243	0.921886	>sp|Q47199|F17DG_ECOLX F17d-G fimbrial adhesin OS=Escherichia coli OX=562 GN=f17dG PE=1 SV=1
+244	0.902269	>sp|Q99003|F17AG_ECOLX F17a-G fimbrial adhesin OS=Escherichia coli OX=562 GN=f17aG PE=1 SV=2
+245	0.619590	>sp|P17953|ASA1_ENTFA Aggregation substance OS=Enterococcus faecalis (strain ATCC 700802 / V583) OX=226185 GN=asa1 PE=1 SV=1
+246	0.806128	>sp|P04738|FAEC_ECOLX K88 fimbrial protein A OS=Escherichia coli OX=562 GN=faeC PE=4 SV=1
+247	0.252720	>sp|Q51467|FLIO_PSEAE Flagellar protein FliO OS=Pseudomonas aeruginosa (strain ATCC 15692 / DSM 22644 / CIP 104116 / JCM 14847 / LMG 12228 / 1C / PRS 101 / PAO1) OX=208964 GN=fliO PE=3 SV=2
+248	0.920011	>sp|Q9URQ0|ALS2_CANAX Agglutinin-like protein 2 (Fragments) OS=Candida albicans OX=5476 GN=ALS2 PE=3 SV=2
+249	0.171781	>sp|P53515|AFAA_ECOLX AFA-III adhesin operon regulatory protein OS=Escherichia coli OX=562 GN=afaA PE=4 SV=2
+250	0.556298	>sp|Q2FIK4|EMP_STAA3 Extracellular matrix protein-binding protein emp OS=Staphylococcus aureus (strain USA300) OX=367830 GN=emp PE=3 SV=1
+251	0.676314	>sp|A5TZK3|HBHA_MYCTA Heparin-binding hemagglutinin OS=Mycobacterium tuberculosis (strain ATCC 25177 / H37Ra) OX=419947 GN=hbhA PE=1 SV=1
+252	0.543146	>sp|Q47038|AFAD_ECOLX Protein AfaD OS=Escherichia coli OX=562 GN=afaD PE=1 SV=1
+253	0.670275	>sp|Q6GIK4|CLFA_STAAR Clumping factor A OS=Staphylococcus aureus (strain MRSA252) OX=282458 GN=clfA PE=3 SV=1
+254	0.638659	>sp|P18771|FIBP_BPT4 Long-tail fiber proximal subunit OS=Enterobacteria phage T4 OX=10665 GN=34 PE=1 SV=2
+255	0.929715	>sp|Q5A2Z7|ALS6_CANAL Agglutinin-like protein 6 OS=Candida albicans (strain SC5314 / ATCC MYA-2876) OX=237561 GN=ALS6 PE=1 SV=1
+256	0.735570	>sp|A0A0H3G4K1|BTAF_BRUSU Autotransporter adhesin BtaF OS=Brucella suis biovar 1 (strain 1330) OX=204722 GN=btaF PE=1 SV=1
+257	0.717277	>sp|Q932C5|CLFA_STAAM Clumping factor A OS=Staphylococcus aureus (strain Mu50 / ATCC 700699) OX=158878 GN=clfA PE=3 SV=1
+258	0.776944	>sp|A0A0H2XKG3|FNBB_STAA3 Fibronectin-binding protein B OS=Staphylococcus aureus (strain USA300) OX=367830 GN=fnbB PE=1 SV=1
+259	0.879446	>sp|Q5A432|GAT1_CANAL Transcriptional regulatory protein GAT1 OS=Candida albicans (strain SC5314 / ATCC MYA-2876) OX=237561 GN=GAT1 PE=2 SV=1
+260	0.824429	>sp|Q9LA56|EIBC_ECOLX Immunoglobulin-binding protein EibC OS=Escherichia coli OX=562 GN=eibC PE=1 SV=1
+261	0.917015	>sp|Q47033|F17CG_ECOLX F17c-G fimbrial adhesin OS=Escherichia coli OX=562 GN=f17cG PE=1 SV=1
+262	0.901529	>sp|Q5AP52|FGR41_CANAL Filamentous growth regulator 41 OS=Candida albicans (strain SC5314 / ATCC MYA-2876) OX=237561 GN=FGR41 PE=1 SV=1
+263	0.863225	>sp|Q49379|ADP1_MYCGL Adhesin P1 OS=Mycoplasma gallisepticum OX=2096 GN=gapA PE=3 SV=1
+264	0.457762	>sp|P43961|HPE_HAEIN Surface-adhesin protein E OS=Haemophilus influenzae (strain ATCC 51907 / DSM 11121 / KW20 / Rd) OX=71421 GN=pe PE=1 SV=1
+265	0.082030	>sp|Q79ZV3|ICAD_STAAW Poly-beta-1,6-N-acetyl-D-glucosamine synthesis protein IcaD OS=Staphylococcus aureus (strain MW2) OX=196620 GN=icaD PE=3 SV=1
+266	0.932529	>sp|Q59XL0|IFF6_CANAL Cell wall protein IFF6 OS=Candida albicans (strain SC5314 / ATCC MYA-2876) OX=237561 GN=IFF6 PE=1 SV=2
+267	0.825819	>sp|P12061|FM_SALEN Fimbrial protein OS=Salmonella enteritidis OX=149539 GN=sefA PE=1 SV=2
+268	0.795424	>sp|Q6GDU5|FNBA_STAAR Fibronectin-binding protein A OS=Staphylococcus aureus (strain MRSA252) OX=282458 GN=fnbA PE=3 SV=1
+269	0.890757	>sp|P03744|FIB37_BPT4 Long-tail fiber protein gp37 OS=Enterobacteria phage T4 OX=10665 GN=37 PE=1 SV=1
+270	0.910657	>sp|Q47200|F17BG_ECOLX F17b-G fimbrial adhesin OS=Escherichia coli OX=562 GN=f17bG PE=1 SV=2
+271	0.781943	>sp|C4R2D7|FLO11_KOMPG Flocculation protein FLO11 OS=Komagataella phaffii (strain GS115 / ATCC 20864) OX=644223 GN=FLO11 PE=1 SV=1
+272	0.955518	>sp|Q59XA7|HYR3_CANAL Hyphally regulated cell wall protein 3 OS=Candida albicans (strain SC5314 / ATCC MYA-2876) OX=237561 GN=HYR3 PE=1 SV=1
+273	0.833573	>sp|A1IPF8|MAFA1_NEIMA Adhesin MafA 1 OS=Neisseria meningitidis serogroup A / serotype 4A (strain DSM 15465 / Z2491) OX=122587 GN=mafA1 PE=3 SV=1
+274	0.868857	>sp|Q8X4N4|ECPD_ECO57 Fimbria adhesin EcpD OS=Escherichia coli O157:H7 OX=83334 GN=ecpD PE=2 SV=1
+275	0.692912	>sp|P42364|MTSA_STRGN Manganese ABC transporter substrate-binding lipoprotein OS=Streptococcus gordonii OX=1302 GN=scaA PE=2 SV=1
+276	0.884087	>sp|Q9HDY9|MAM3_SCHPO M cell-type agglutination protein mam3 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) OX=284812 GN=mam3 PE=3 SV=2
+277	0.699150	>sp|Q29983|MICA_HUMAN MHC class I polypeptide-related sequence A OS=Homo sapiens OX=9606 GN=MICA PE=1 SV=1
+278	0.676314	>sp|P9WIP9|HBHA_MYCTU Heparin-binding hemagglutinin OS=Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv) OX=83332 GN=hbhA PE=1 SV=1
+279	0.196034	>sp|P69519|ICAD_STAEP Poly-beta-1,6-N-acetyl-D-glucosamine synthesis protein IcaD OS=Staphylococcus epidermidis OX=1282 GN=icaD PE=3 SV=1
+280	0.844182	>sp|Q5F5F6|MAFA1_NEIG1 Adhesin MafA 1/4 OS=Neisseria gonorrhoeae (strain ATCC 700825 / FA 1090) OX=242231 GN=mafA1 PE=3 SV=1
+281	0.783662	>sp|Q5A849|HYR4_CANAL Hyphally regulated cell wall protein 4 OS=Candida albicans (strain SC5314 / ATCC MYA-2876) OX=237561 GN=HYR4 PE=1 SV=1
+282	0.876776	>sp|Q5A6U1|IFF9_CANAL Cell wall protein IFF9 OS=Candida albicans (strain SC5314 / ATCC MYA-2876) OX=237561 GN=IFF9 PE=1 SV=2
+283	0.203301	>sp|P42358|HUTI_STRGN Imidazolonepropionase (Fragment) OS=Streptococcus gordonii OX=1302 GN=hutI PE=3 SV=1
+284	0.952596	>sp|Q59XB0|IFF8_CANAL Cell wall protein IFF7 OS=Candida albicans (strain SC5314 / ATCC MYA-2876) OX=237561 GN=IFF8 PE=1 SV=2
+285	0.457280	>sp|Q6GDD6|ICAB_STAAR Poly-beta-1,6-N-acetyl-D-glucosamine N-deacetylase OS=Staphylococcus aureus (strain MRSA252) OX=282458 GN=icaB PE=3 SV=1
+286	0.567875	>sp|Q6TYB1|ICAB_STAEP Poly-beta-1,6-N-acetyl-D-glucosamine N-deacetylase OS=Staphylococcus epidermidis OX=1282 GN=icaB PE=1 SV=2
+287	0.243499	>sp|Q5HKP7|ICAC_STAEQ Probable poly-beta-1,6-N-acetyl-D-glucosamine export protein OS=Staphylococcus epidermidis (strain ATCC 35984 / RP62A) OX=176279 GN=icaC PE=1 SV=1
+288	0.641502	>sp|A9M2L5|MAFA1_NEIM0 Adhesin MafA 1/2 OS=Neisseria meningitidis serogroup C (strain 053442) OX=374833 GN=mafA1 PE=3 SV=1
+289	0.964033	>sp|P21413|FM98_ECOLX Fimbrial protein 987P OS=Escherichia coli OX=562 GN=fasA PE=3 SV=1
+290	0.518614	>sp|Q9XZH7|MIC4_TOXGO Micronemal protein 4 OS=Toxoplasma gondii OX=5811 GN=MIC4 PE=1 SV=1
+291	0.654242	>sp|Q48261|HPAA3_HELPX Neuraminyllactose-binding hemagglutinin OS=Helicobacter pylori OX=210 GN=hpaA PE=3 SV=1
+292	0.880997	>sp|Q5A1E0|IFF5_CANAL Cell wall protein IFF5 OS=Candida albicans (strain SC5314 / ATCC MYA-2876) OX=237561 GN=IFF5 PE=1 SV=1
+293	0.192749	>sp|A1C3M0|GTFB_STRPA UDP-N-acetylglucosamine--peptide N-acetylglucosaminyltransferase stabilizing protein GtfB OS=Streptococcus parasanguinis OX=1318 GN=gtfB PE=1 SV=1
+294	0.830090	>sp|P21648|MRKD_KLEPN Fimbria adhesin protein OS=Klebsiella pneumoniae OX=573 GN=mrkD PE=1 SV=1
+295	0.676314	>sp|P0C2T3|HBHA_MYCBO Heparin-binding hemagglutinin OS=Mycobacterium bovis (strain ATCC BAA-935 / AF2122/97) OX=233413 GN=hbhA PE=3 SV=1
+296	0.392657	>sp|P02724|GLPA_HUMAN Glycophorin-A OS=Homo sapiens OX=9606 GN=GYPA PE=1 SV=2
+297	0.299226	>sp|Q931E4|ICAC_STAAM Probable poly-beta-1,6-N-acetyl-D-glucosamine export protein OS=Staphylococcus aureus (strain Mu50 / ATCC 700699) OX=158878 GN=icaC PE=3 SV=1
+298	0.792303	>sp|Q71VU0|INLJ_LISMF Internalin J OS=Listeria monocytogenes serotype 4b (strain F2365) OX=265669 GN=inlJ PE=3 SV=1
+299	0.501681	>sp|O00834|MIC1_TOXGO Micronemal protein 1 OS=Toxoplasma gondii OX=5811 GN=MIC1 PE=1 SV=1
+300	0.724011	>sp|Q9ZL47|HPAA_HELPJ Neuraminyllactose-binding hemagglutinin OS=Helicobacter pylori (strain J99 / ATCC 700824) OX=85963 GN=hpaA PE=3 SV=1
+301	0.882593	>sp|Q5A7R7|IFF11_CANAL Cell wall protein IFF11 OS=Candida albicans (strain SC5314 / ATCC MYA-2876) OX=237561 GN=IFF11 PE=1 SV=1
+302	0.718198	>sp|Q9KIJ3|MTSA_STRMU Metal ABC transporter substrate-binding lipoprotein OS=Streptococcus mutans serotype c (strain ATCC 700610 / UA159) OX=210007 GN=sloC PE=3 SV=2
+303	0.284596	>sp|P42361|MTSB_STRGN Manganese import system permease protein ScaB OS=Streptococcus gordonii OX=1302 GN=scaB PE=3 SV=1
+304	0.756070	>sp|P31305|MTSA_STRPA Manganese ABC transporter substrate-binding lipoprotein OS=Streptococcus parasanguinis OX=1318 GN=fimA PE=1 SV=1
+305	0.864965	>sp|O33641|ICSP_SHIFL Outer membrane protease IcsP OS=Shigella flexneri OX=623 GN=icsP PE=2 SV=2
+306	0.352547	>sp|Q7A351|ICAA_STAAN Poly-beta-1,6-N-acetyl-D-glucosamine synthase OS=Staphylococcus aureus (strain N315) OX=158879 GN=icaA PE=3 SV=1
+307	0.352654	>sp|Q6G608|ICAA_STAAS Poly-beta-1,6-N-acetyl-D-glucosamine synthase OS=Staphylococcus aureus (strain MSSA476) OX=282459 GN=icaA PE=3 SV=1
+308	0.378330	>sp|Q8GLC5|ICAA_STAEP Poly-beta-1,6-N-acetyl-D-glucosamine synthase OS=Staphylococcus epidermidis OX=1282 GN=icaA PE=3 SV=1
+309	0.378382	>sp|Q5HKQ0|ICAA_STAEQ Poly-beta-1,6-N-acetyl-D-glucosamine synthase OS=Staphylococcus epidermidis (strain ATCC 35984 / RP62A) OX=176279 GN=icaA PE=1 SV=1
+310	0.735451	>sp|Q8Y3L4|INLJ_LISMO Internalin J OS=Listeria monocytogenes serovar 1/2a (strain ATCC BAA-679 / EGD-e) OX=169963 GN=inlJ PE=1 SV=1
+311	0.696635	>sp|P42363|MTSA_STREE Manganese ABC transporter substrate-binding lipoprotein OS=Streptococcus pneumoniae OX=1313 GN=psaA PE=3 SV=1
+312	0.431178	>sp|P46738|NFAE_ECOLX Chaperone protein NfaE OS=Escherichia coli OX=562 GN=nfaE PE=3 SV=1
+313	0.742023	>sp|Q02GC2|PILY1_PSEAB Type IV pilus biogenesis factor PilY1 OS=Pseudomonas aeruginosa (strain UCBPP-PA14) OX=208963 GN=pilY1 PE=1 SV=1
+314	0.849578	>sp|Q9HVM8|PILY1_PSEAE Type IV pilus biogenesis factor PilY1 OS=Pseudomonas aeruginosa (strain ATCC 15692 / DSM 22644 / CIP 104116 / JCM 14847 / LMG 12228 / 1C / PRS 101 / PAO1) OX=208964 GN=pilY1 PE=3 SV=1
+315	0.774941	>sp|Q2YW62|FNBA_STAAB Fibronectin-binding protein A OS=Staphylococcus aureus (strain bovine RF122 / ET3-1) OX=273036 GN=fnbA PE=3 SV=1
+316	0.676314	>sp|P9WIP8|HBHA_MYCTO Heparin-binding hemagglutinin OS=Mycobacterium tuberculosis (strain CDC 1551 / Oshkosh) OX=83331 GN=hbhA PE=3 SV=1
+317	0.663474	>sp|Q47947|HPAA_HELAC Neuraminyllactose-binding hemagglutinin (Fragment) OS=Helicobacter acinonychis OX=212 GN=hpaA PE=4 SV=1
+318	0.834977	>sp|A0A0H2VAQ6|PAPG2_ECOL6 Fimbrial adhesin PapGII OS=Escherichia coli O6:H1 (strain CFT073 / ATCC 700928 / UPEC) OX=199310 GN=papGII PE=3 SV=1
+319	0.082030	>sp|Q6G607|ICAD_STAAS Poly-beta-1,6-N-acetyl-D-glucosamine synthesis protein IcaD OS=Staphylococcus aureus (strain MSSA476) OX=282459 GN=icaD PE=3 SV=1
+320	0.299305	>sp|Q9RQP6|ICAC_STAA8 Probable poly-beta-1,6-N-acetyl-D-glucosamine export protein OS=Staphylococcus aureus (strain NCTC 8325 / PS 47) OX=93061 GN=icaC PE=3 SV=1
+321	0.851893	>sp|A1KWH9|MAFA3_NEIMF Adhesin MafA 3 OS=Neisseria meningitidis serogroup C / serotype 2a (strain ATCC 700532 / DSM 15464 / FAM18) OX=272831 GN=mafA3 PE=3 SV=1
+322	0.827901	>sp|Q9KW51|PAS_STRIT Probable cell-surface antigen I/II OS=Streptococcus intermedius OX=1338 GN=pas PE=1 SV=2
+323	0.679743	>sp|Q92344|PFL8_SCHPO Putative cell agglutination protein pfl8 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) OX=284812 GN=pfl8 PE=1 SV=1
+324	0.196034	>sp|Q5HKP9|ICAD_STAEQ Poly-beta-1,6-N-acetyl-D-glucosamine synthesis protein IcaD OS=Staphylococcus epidermidis (strain ATCC 35984 / RP62A) OX=176279 GN=icaD PE=1 SV=1
+325	0.754678	>sp|A1ITU2|MAFA2_NEIMA Adhesin MafA 2 OS=Neisseria meningitidis serogroup A / serotype 4A (strain DSM 15465 / Z2491) OX=122587 GN=mafA2 PE=3 SV=1
+326	0.798947	>sp|P0A4G3|MTSA_STRR6 Manganese ABC transporter substrate-binding lipoprotein OS=Streptococcus pneumoniae (strain ATCC BAA-255 / R6) OX=171101 GN=psaA PE=3 SV=1
+327	0.289837	>sp|P69435|PGAA_ECO57 Poly-beta-1,6-N-acetyl-D-glucosamine export protein OS=Escherichia coli O157:H7 OX=83334 GN=pgaA PE=3 SV=1
+328	0.793864	>sp|Q9P7Q2|PFL9_SCHPO Putative cell agglutination protein pfl9 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) OX=284812 GN=pfl9 PE=2 SV=1
+329	0.162446	>sp|Q8XAR3|PGAB_ECO57 Poly-beta-1,6-N-acetyl-D-glucosamine N-deacetylase OS=Escherichia coli O157:H7 OX=83334 GN=pgaB PE=3 SV=1
+330	0.374217	>sp|A6QKF4|ICAR_STAAE Biofilm operon icaADBC HTH-type negative transcriptional regulator IcaR OS=Staphylococcus aureus (strain Newman) OX=426430 GN=icaR PE=1 SV=1
+331	0.082030	>sp|Q9RQP8|ICAD_STAA8 Poly-beta-1,6-N-acetyl-D-glucosamine synthesis protein IcaD OS=Staphylococcus aureus (strain NCTC 8325 / PS 47) OX=93061 GN=icaD PE=3 SV=1
+332	0.532150	>sp|Q9RQP7|ICAB_STAA8 Poly-beta-1,6-N-acetyl-D-glucosamine N-deacetylase OS=Staphylococcus aureus (strain NCTC 8325 / PS 47) OX=93061 GN=icaB PE=3 SV=2
+333	0.713293	>sp|P06185|PGTE_SALTY Outer membrane protease E OS=Salmonella typhimurium (strain LT2 / SGSC1412 / ATCC 700720) OX=99287 GN=pgtE PE=3 SV=2
+334	0.755367	>sp|Q9JS44|MAFA_NEIMB Adhesin MafA OS=Neisseria meningitidis serogroup B (strain MC58) OX=122586 GN=mafA1 PE=1 SV=1
+335	0.755982	>sp|P46739|NFAA_ECOLX Non-fimbrial adhesin 1 OS=Escherichia coli OX=562 GN=nfaA PE=1 SV=1
+336	0.865450	>sp|P08408|PAPF_ECOLX Fimbrial adapter PapF OS=Escherichia coli OX=562 GN=papF PE=1 SV=1
+337	0.238773	>sp|P95765|PPAC_STRGC Probable manganese-dependent inorganic pyrophosphatase OS=Streptococcus gordonii (strain Challis / ATCC 35105 / BCRC 15272 / CH1 / DL1 / V288) OX=467705 GN=ppaC PE=1 SV=1
+338	0.710987	>sp|Q48254|HPAA2_HELPX Neuraminyllactose-binding hemagglutinin OS=Helicobacter pylori OX=210 GN=hpaA PE=3 SV=1
+339	0.823434	>sp|P02535|K1C10_MOUSE Keratin, type I cytoskeletal 10 OS=Mus musculus OX=10090 GN=Krt10 PE=1 SV=3
+340	0.567875	>sp|Q5HKP8|ICAB_STAEQ Poly-beta-1,6-N-acetyl-D-glucosamine N-deacetylase OS=Staphylococcus epidermidis (strain ATCC 35984 / RP62A) OX=176279 GN=icaB PE=3 SV=1
+341	0.352547	>sp|Q5HCN1|ICAA_STAAC Poly-beta-1,6-N-acetyl-D-glucosamine synthase OS=Staphylococcus aureus (strain COL) OX=93062 GN=icaA PE=3 SV=1
+342	0.380412	>sp|P04744|PAPB_ECOLX Major pilu subunit operon regulatory protein PapB OS=Escherichia coli OX=562 GN=papB PE=1 SV=1
+343	0.873814	>sp|Q5A029|IFF3_CANAL Cell wall protein IFF3 OS=Candida albicans (strain SC5314 / ATCC MYA-2876) OX=237561 GN=IFF3 PE=1 SV=2
+344	0.082030	>sp|Q7A350|ICAD_STAAN Poly-beta-1,6-N-acetyl-D-glucosamine synthesis protein IcaD OS=Staphylococcus aureus (strain N315) OX=158879 GN=icaD PE=3 SV=1
+345	0.922362	>sp|Q9RH91|F17FG_ECOLX F17f-G fimbrial adhesin OS=Escherichia coli OX=562 GN=f17fG PE=1 SV=1
+346	0.789427	>sp|P14738|FNBA_STAA8 Fibronectin-binding protein A OS=Staphylococcus aureus (strain NCTC 8325 / PS 47) OX=93061 GN=fnbA PE=1 SV=1
+347	0.521539	>sp|O70022|FBE_STAEP Fibrinogen-binding protein OS=Staphylococcus epidermidis OX=1282 GN=fbe PE=1 SV=1
+348	0.484181	>sp|A4N8V8|HPF_HAEI3 Putative metal ABC transporter substrate-binding protein Hpf OS=Haemophilus influenzae (strain NTHi 3655) OX=375177 GN=hpf PE=1 SV=1
+349	0.265604	>sp|A6QJJ8|TCAR_STAAE HTH-type transcriptional regulator TcaR OS=Staphylococcus aureus (strain Newman) OX=426430 GN=tcaR PE=1 SV=1
+350	0.875931	>sp|P75491|Y286_MYCPN Putative adhesin P1-like protein MPN_286 OS=Mycoplasma pneumoniae (strain ATCC 29342 / M129) OX=272634 GN=MPN_286 PE=5 SV=1
+351	0.745770	>sp|P03742|FIB35_BPT4 Long-tail fiber protein gp35 OS=Enterobacteria phage T4 OX=10665 GN=35 PE=1 SV=4
+352	0.742621	>sp|Q68Y05|Y816_RICTY Putative adhesin RT0816 OS=Rickettsia typhi (strain ATCC VR-144 / Wilmington) OX=257363 GN=RT0816 PE=3 SV=1
+353	0.177889	>sp|Q9S4K6|TIBC_ECOH1 Glycosyltransferase TibC OS=Escherichia coli O78:H11 (strain H10407 / ETEC) OX=316401 GN=tibC PE=1 SV=1
+354	0.378586	>sp|P42366|TPX_STRGN Thiol peroxidase OS=Streptococcus gordonii OX=1302 GN=tpx PE=3 SV=2
+355	0.275243	>sp|Q99SZ7|VRAS_STAAN Sensor protein VraS OS=Staphylococcus aureus (strain N315) OX=158879 GN=vraS PE=1 SV=1
+356	0.754389	>sp|Q50286|Y202_MYCPN Putative adhesin P1-like protein MPN_202 OS=Mycoplasma pneumoniae (strain ATCC 29342 / M129) OX=272634 GN=MPN_202 PE=5 SV=1
+357	0.305904	>sp|P42359|YSC6_STRGC Putative zinc metalloproteinase in scaA 5'region (Fragment) OS=Streptococcus gordonii (strain Challis / ATCC 35105 / BCRC 15272 / CH1 / DL1 / V288) OX=467705 PE=3 SV=1
+358	0.936468	>sp|P75267|Y131_MYCPN Putative adhesin P1-like protein MPN_131 OS=Mycoplasma pneumoniae (strain ATCC 29342 / M129) OX=272634 GN=MPN_131 PE=5 SV=1
+359	0.761023	>sp|A8GQ33|Y6425_RICAH Putative adhesin A1C_06425 OS=Rickettsia akari (strain Hartford) OX=293614 GN=A1C_06425 PE=3 SV=1
+360	0.275243	>sp|Q6G849|VRAS_STAAS Sensor protein VraS OS=Staphylococcus aureus (strain MSSA476) OX=282459 GN=vraS PE=3 SV=1
+361	0.910081	>sp|P75375|Y409_MYCPN Putative adhesin P1-like protein MPN_409 OS=Mycoplasma pneumoniae (strain ATCC 29342 / M129) OX=272634 GN=MPN_409 PE=5 SV=1
+362	0.850897	>sp|Q9C0Y2|YKL1_SCHPO Putative cell agglutination protein SPAPB2C8.01 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) OX=284812 GN=SPAPB2C8.01 PE=3 SV=1
+363	0.391445	>sp|P42360|MTSC_STRGN Manganese import ATP-binding protein ScaC OS=Streptococcus gordonii OX=1302 GN=scaC PE=1 SV=1
+364	0.388882	>sp|P69433|PGAD_ECO57 Biofilm PGA synthesis protein PgaD OS=Escherichia coli O157:H7 OX=83334 GN=pgaD PE=3 SV=1
+365	0.702761	>sp|Q9L5X0|MTSA_STRMT Manganese ABC transporter substrate-binding lipoprotein OS=Streptococcus mitis OX=28037 GN=psaA PE=3 SV=1
+366	0.160783	>sp|P75906|PGAB_ECOLI Poly-beta-1,6-N-acetyl-D-glucosamine N-deacetylase OS=Escherichia coli (strain K12) OX=83333 GN=pgaB PE=1 SV=1
+367	0.839198	>sp|P34210|OMPP_ECOLI Outer membrane protease OmpP OS=Escherichia coli (strain K12) OX=83333 GN=ompP PE=1 SV=2
+368	0.341565	>sp|P75905|PGAC_ECOLI Poly-beta-1,6-N-acetyl-D-glucosamine synthase OS=Escherichia coli (strain K12) OX=83333 GN=pgaC PE=1 SV=1
+369	0.755655	>sp|P0C873|PSAA_YERPS pH 6 antigen OS=Yersinia pseudotuberculosis serotype I (strain IP32953) OX=273123 GN=psaA PE=3 SV=1
+370	0.276332	>sp|Q7A2Q0|VRAS_STAAM Sensor protein VraS OS=Staphylococcus aureus (strain Mu50 / ATCC 700699) OX=158878 GN=vraS PE=1 SV=1
+371	0.275243	>sp|Q7A0H9|VRAS_STAAW Sensor protein VraS OS=Staphylococcus aureus (strain MW2) OX=196620 GN=vraS PE=3 SV=1
+372	0.808340	>sp|P75568|Y101_MYCPN Uncharacterized protein MPN_101 OS=Mycoplasma pneumoniae (strain ATCC 29342 / M129) OX=272634 GN=MPN_101 PE=3 SV=1
+373	0.887139	>sp|P75287|Y500_MYCPN Putative adhesin P1-like protein MPN_500 OS=Mycoplasma pneumoniae (strain ATCC 29342 / M129) OX=272634 GN=MPN_500 PE=5 SV=1
+374	0.764083	>sp|P75321|Y462_MYCPN Uncharacterized protein MPN_462 OS=Mycoplasma pneumoniae (strain ATCC 29342 / M129) OX=272634 GN=MPN_462 PE=3 SV=1
+375	0.276332	>sp|Q9KWK8|VRAS_STAA1 Sensor protein VraS OS=Staphylococcus aureus (strain Mu3 / ATCC 700698) OX=418127 GN=vraS PE=3 SV=1
+376	0.239183	>sp|Q6FV98|TPO12_CANGA Multidrug transporter TPO1_2 OS=Candida glabrata (strain ATCC 2001 / CBS 138 / JCM 3761 / NBRC 0622 / NRRL Y-65) OX=284593 GN=TPO1_2 PE=2 SV=1
+377	0.776019	>sp|A8GUX2|Y1215_RICB8 Putative adhesin A1I_01215 OS=Rickettsia bellii (strain OSU 85-389) OX=391896 GN=A1I_01215 PE=3 SV=1
+378	0.164295	>sp|P39354|YJHD_ECOLI Putative uncharacterized protein YjhD OS=Escherichia coli (strain K12) OX=83333 GN=yjhD PE=5 SV=2
+379	0.640998	>sp|Q5A0W9|CZF1_CANAL Zinc cluster transcription factor CZF1 OS=Candida albicans (strain SC5314 / ATCC MYA-2876) OX=237561 GN=CZF1 PE=1 SV=1
+380	0.458839	>sp|O00444|PLK4_HUMAN Serine/threonine-protein kinase PLK4 OS=Homo sapiens OX=9606 GN=PLK4 PE=1 SV=3
+381	0.443358	>sp|Q8TC44|POC1B_HUMAN POC1 centriolar protein homolog B OS=Homo sapiens OX=9606 GN=POC1B PE=1 SV=1
+382	0.069136	>sp|O00329|PK3CD_HUMAN Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit delta isoform OS=Homo sapiens OX=9606 GN=PIK3CD PE=1 SV=2
+383	0.238786	>sp|A8MS68|PLPD1_ARATH Dihydrolipoyl dehydrogenase 1, chloroplastic OS=Arabidopsis thaliana OX=3702 GN=LPD1 PE=2 SV=1
+384	0.460624	>sp|Q9S7Z8|PIN3_ARATH Auxin efflux carrier component 3 OS=Arabidopsis thaliana OX=3702 GN=PIN3 PE=1 SV=1
+385	0.059966	>sp|Q56XG6|RH15_ARATH DEAD-box ATP-dependent RNA helicase 15 OS=Arabidopsis thaliana OX=3702 GN=RH15 PE=1 SV=3
+386	0.072105	>sp|O35904|PK3CD_MOUSE Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit delta isoform OS=Mus musculus OX=10090 GN=Pik3cd PE=1 SV=2
+387	0.327100	>sp|P14242|PMS1_YEAST DNA mismatch repair protein PMS1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=PMS1 PE=1 SV=3
+388	0.255160	>sp|P55159|PON1_RAT Serum paraoxonase/arylesterase 1 OS=Rattus norvegicus OX=10116 GN=Pon1 PE=1 SV=3
+389	0.712316	>sp|P10111|PPIA_RAT Peptidyl-prolyl cis-trans isomerase A OS=Rattus norvegicus OX=10116 GN=Ppia PE=1 SV=2
+390	0.130747	>sp|Q99575|POP1_HUMAN Ribonucleases P/MRP protein subunit POP1 OS=Homo sapiens OX=9606 GN=POP1 PE=1 SV=2
+391	0.086340	>sp|P07003|POXB_ECOLI Pyruvate dehydrogenase [ubiquinone] OS=Escherichia coli (strain K12) OX=83333 GN=poxB PE=1 SV=1
+392	0.055149	>sp|P32598|PP12_YEAST Serine/threonine-protein phosphatase PP1-2 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=GLC7 PE=1 SV=1
+393	0.334349	>sp|Q56062|PRPB_SALTY 2-methylisocitrate lyase OS=Salmonella typhimurium (strain LT2 / SGSC1412 / ATCC 700720) OX=99287 GN=prpB PE=1 SV=3
+394	0.176992	>sp|Q9MZU4|RSAD2_PIG Radical S-adenosyl methionine domain-containing protein 2 OS=Sus scrofa OX=9823 GN=RSAD2 PE=1 SV=1
+395	0.028944	>sp|O13516|RS9A_YEAST 40S ribosomal protein S9-A OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=RPS9A PE=1 SV=3
+396	0.149001	>sp|P02359|RS7_ECOLI 30S ribosomal protein S7 OS=Escherichia coli (strain K12) OX=83333 GN=rpsG PE=1 SV=3
+397	0.204587	>sp|Q14765|STAT4_HUMAN Signal transducer and activator of transcription 4 OS=Homo sapiens OX=9606 GN=STAT4 PE=1 SV=1
+398	0.103652	>sp|Q9Z158|STX17_RAT Syntaxin-17 OS=Rattus norvegicus OX=10116 GN=Stx17 PE=1 SV=1
+399	0.116403	>sp|P62753|RS6_HUMAN 40S ribosomal protein S6 OS=Homo sapiens OX=9606 GN=RPS6 PE=1 SV=1
+400	0.106157	>sp|E2RH47|RS3_CANLF 40S ribosomal protein S3 OS=Canis lupus familiaris OX=9615 GN=RPS3 PE=1 SV=1
+401	0.404166	>sp|P38983|RSSA_RAT 40S ribosomal protein SA OS=Rattus norvegicus OX=10116 GN=Rpsa PE=1 SV=3
+402	0.299754	>sp|P28705|RXRG_MOUSE Retinoic acid receptor RXR-gamma OS=Mus musculus OX=10090 GN=Rxrg PE=2 SV=2
+403	0.456335	>sp|Q08682|RSSA1_ARATH 40S ribosomal protein Sa-1 OS=Arabidopsis thaliana OX=3702 GN=RPSaA PE=1 SV=3
+404	0.201401	>sp|P55809|SCOT1_HUMAN Succinyl-CoA:3-ketoacid coenzyme A transferase 1, mitochondrial OS=Homo sapiens OX=9606 GN=OXCT1 PE=1 SV=1
+405	0.735586	>sp|Q8IWL1|SFPA2_HUMAN Pulmonary surfactant-associated protein A2 OS=Homo sapiens OX=9606 GN=SFTPA2 PE=1 SV=1
+406	0.163612	>sp|A8K8P3|SFI1_HUMAN Protein SFI1 homolog OS=Homo sapiens OX=9606 GN=SFI1 PE=1 SV=2
+407	0.257248	>sp|Q9SKG5|SERK4_ARATH Somatic embryogenesis receptor kinase 4 OS=Arabidopsis thaliana OX=3702 GN=SERK4 PE=1 SV=2
+408	0.427561	>sp|Q15459|SF3A1_HUMAN Splicing factor 3A subunit 1 OS=Homo sapiens OX=9606 GN=SF3A1 PE=1 SV=1
+409	0.188472	>sp|P0AGB0|SERB_ECOLI Phosphoserine phosphatase OS=Escherichia coli (strain K12) OX=83333 GN=serB PE=1 SV=1
+410	0.402132	>sp|Q91WV7|SLC31_MOUSE Neutral and basic amino acid transport protein rBAT OS=Mus musculus OX=10090 GN=Slc3a1 PE=1 SV=1
+411	0.103264	>sp|B4NBP4|SPAST_DROWI Spastin OS=Drosophila willistoni OX=7260 GN=spas PE=3 SV=1
+412	0.338914	>sp|I3V6A7|SOMT1_PAPSO Scoulerine-9-O-methyltransferase 1 OS=Papaver somniferum OX=3469 GN=SOMT1 PE=1 SV=1
+413	0.121236	>sp|A2VDN5|SPAST_BOVIN Spastin OS=Bos taurus OX=9913 GN=SPAST PE=2 SV=1
+414	0.168128	>sp|Q80VP2|SPAT7_MOUSE Spermatogenesis-associated protein 7 homolog OS=Mus musculus OX=10090 GN=Spata7 PE=1 SV=1
+415	0.165150	>sp|O94991|SLIK5_HUMAN SLIT and NTRK-like protein 5 OS=Homo sapiens OX=9606 GN=SLITRK5 PE=1 SV=2
+416	0.139934	>sp|Q9CWT3|SNX10_MOUSE Sorting nexin-10 OS=Mus musculus OX=10090 GN=Snx10 PE=1 SV=1
+417	0.332225	>sp|F4I3V6|SHW1_ARATH Protein SHORT HYPOCOTYL IN WHITE LIGHT 1 OS=Arabidopsis thaliana OX=3702 GN=SHW1 PE=1 SV=1
+418	0.293985	>sp|O94993|SOX30_HUMAN Transcription factor SOX-30 OS=Homo sapiens OX=9606 GN=SOX30 PE=1 SV=1
+419	0.073723	>sp|P93015|SPL3_ARATH Squamosa promoter-binding-like protein 3 OS=Arabidopsis thaliana OX=3702 GN=SPL3 PE=1 SV=2
+420	0.106791	>sp|Q9QX78|SOCS1_RAT Suppressor of cytokine signaling 1 OS=Rattus norvegicus OX=10116 GN=Socs1 PE=3 SV=1
+421	0.311908	>sp|Q7QIJ8|SP2_ANOGA Serine protease inhibitor 2 OS=Anopheles gambiae OX=7165 GN=SRPN2 PE=1 SV=4
+422	0.338975	>sp|Q8KDM7|SOXA_CHLTE L-cysteine S-thiosulfotransferase subunit SoxA OS=Chlorobaculum tepidum (strain ATCC 49652 / DSM 12025 / NBRC 103806 / TLS) OX=194439 GN=soxA PE=1 SV=1
+423	0.221348	>sp|Q9P0Z9|SOX_HUMAN Peroxisomal sarcosine oxidase OS=Homo sapiens OX=9606 GN=PIPOX PE=1 SV=2
+424	0.578728	>sp|Q8HXQ0|SODC_MACMU Superoxide dismutase [Cu-Zn] OS=Macaca mulatta OX=9544 GN=SOD1 PE=2 SV=3
+425	0.141653	>sp|P26433|SL9A3_RAT Sodium/hydrogen exchanger 3 OS=Rattus norvegicus OX=10116 GN=Slc9a3 PE=1 SV=1
+426	0.499664	>sp|P55000|SLUR1_HUMAN Secreted Ly-6/uPAR-related protein 1 OS=Homo sapiens OX=9606 GN=SLURP1 PE=1 SV=2
+427	0.136082	>sp|Q62245|SOS1_MOUSE Son of sevenless homolog 1 OS=Mus musculus OX=10090 GN=Sos1 PE=1 SV=2
+428	0.142506	>sp|Q8CI15|SPHK1_MOUSE Sphingosine kinase 1 OS=Mus musculus OX=10090 GN=Sphk1 PE=1 SV=1
+429	0.660086	>sp|Q62233|SIX3_MOUSE Homeobox protein SIX3 OS=Mus musculus OX=10090 GN=Six3 PE=1 SV=2
+430	0.356046	>sp|Q9BQB4|SOST_HUMAN Sclerostin OS=Homo sapiens OX=9606 GN=SOST PE=1 SV=1
+431	0.327596	>sp|Q15797|SMAD1_HUMAN Mothers against decapentaplegic homolog 1 OS=Homo sapiens OX=9606 GN=SMAD1 PE=1 SV=1
+432	0.164758	>sp|Q6PI26|SHQ1_HUMAN Protein SHQ1 homolog OS=Homo sapiens OX=9606 GN=SHQ1 PE=1 SV=2
+433	0.267885	>sp|A7TZE6|SKIT1_MOUSE Selection and upkeep of intraepithelial T-cells protein 1 OS=Mus musculus OX=10090 GN=Skint1 PE=1 SV=1
+434	0.472561	>sp|Q9NRF2|SH2B1_HUMAN SH2B adapter protein 1 OS=Homo sapiens OX=9606 GN=SH2B1 PE=1 SV=3
+435	0.327896	>sp|Q9H4F8|SMOC1_HUMAN SPARC-related modular calcium-binding protein 1 OS=Homo sapiens OX=9606 GN=SMOC1 PE=1 SV=1
+436	0.262478	>sp|Q9Z1M9|SMC1A_RAT Structural maintenance of chromosomes protein 1A OS=Rattus norvegicus OX=10116 GN=Smc1a PE=1 SV=1
+437	0.161957	>sp|Q9V719|SIN1_DROME Stress-activated map kinase-interacting protein 1 OS=Drosophila melanogaster OX=7227 GN=Sin1 PE=1 SV=1
+438	0.206094	>sp|P36136|SHB17_YEAST Sedoheptulose 1,7-bisphosphatase OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=SHB17 PE=1 SV=1
+439	0.063025	>sp|Q8W5R2|SHGR2_ARATH Phospholipase SGR2 OS=Arabidopsis thaliana OX=3702 GN=SGR2 PE=1 SV=1
+440	0.163495	>sp|Q13309|SKP2_HUMAN S-phase kinase-associated protein 2 OS=Homo sapiens OX=9606 GN=SKP2 PE=1 SV=2
+441	0.240404	>sp|Q8CG47|SMC4_MOUSE Structural maintenance of chromosomes protein 4 OS=Mus musculus OX=10090 GN=Smc4 PE=1 SV=1
+442	0.235137	>sp|Q8S3N1|SINA5_ARATH E3 ubiquitin-protein ligase SINAT5 OS=Arabidopsis thaliana OX=3702 GN=SINAT5 PE=1 SV=2
+443	0.420781	>sp|P12755|SKI_HUMAN Ski oncogene OS=Homo sapiens OX=9606 GN=SKI PE=1 SV=1
+444	0.175463	>sp|P28646|SSR1_RAT Somatostatin receptor type 1 OS=Rattus norvegicus OX=10116 GN=Sstr1 PE=2 SV=1
+445	0.225717	>sp|P63272|SPT4H_HUMAN Transcription elongation factor SPT4 OS=Homo sapiens OX=9606 GN=SUPT4H1 PE=1 SV=1
+446	0.236070	>sp|P61011|SRP54_HUMAN Signal recognition particle 54 kDa protein OS=Homo sapiens OX=9606 GN=SRP54 PE=1 SV=1
+447	0.057388	>sp|Q8WVM7|STAG1_HUMAN Cohesin subunit SA-1 OS=Homo sapiens OX=9606 GN=STAG1 PE=1 SV=3
+448	0.106950	>sp|Q96JX3|SRAC1_HUMAN Protein SERAC1 OS=Homo sapiens OX=9606 GN=SERAC1 PE=2 SV=1
+449	0.102435	>sp|Q5VSL9|STRP1_HUMAN Striatin-interacting protein 1 OS=Homo sapiens OX=9606 GN=STRIP1 PE=1 SV=1
+450	0.111084	>sp|Q59TB2|SUV3_CANAL ATP-dependent RNA helicase SUV3, mitochondrial OS=Candida albicans (strain SC5314 / ATCC MYA-2876) OX=237561 GN=SUV3 PE=3 SV=2
+451	0.304379	>sp|P23327|SRCH_HUMAN Sarcoplasmic reticulum histidine-rich calcium-binding protein OS=Homo sapiens OX=9606 GN=HRC PE=1 SV=1
+452	0.180561	>sp|Q9DDT5|SPT5H_DANRE Transcription elongation factor SPT5 OS=Danio rerio OX=7955 GN=supt5h PE=1 SV=1
+453	0.132480	>sp|Q8TE77|SSH3_HUMAN Protein phosphatase Slingshot homolog 3 OS=Homo sapiens OX=9606 GN=SSH3 PE=1 SV=2
+454	0.082538	>sp|Q9UHV2|SRTD1_HUMAN SERTA domain-containing protein 1 OS=Homo sapiens OX=9606 GN=SERTAD1 PE=1 SV=2
+455	0.158190	>sp|P92966|SRS41_ARATH Serine/arginine-rich splicing factor RS41 OS=Arabidopsis thaliana OX=3702 GN=RS41 PE=1 SV=2
+456	0.124165	>sp|P49588|SYAC_HUMAN Alanine--tRNA ligase, cytoplasmic OS=Homo sapiens OX=9606 GN=AARS1 PE=1 SV=2
+457	0.193125	>sp|P55853|SUMO_CAEEL Small ubiquitin-related modifier OS=Caenorhabditis elegans OX=6239 GN=smo-1 PE=1 SV=1
+458	0.073270	>sp|P84104|SRSF3_MOUSE Serine/arginine-rich splicing factor 3 OS=Mus musculus OX=10090 GN=Srsf3 PE=1 SV=1
+459	0.291287	>sp|P55821|STMN2_MOUSE Stathmin-2 OS=Mus musculus OX=10090 GN=Stmn2 PE=1 SV=1
+460	0.077622	>sp|Q52428|SYD_THEKO Aspartate--tRNA(Asp) ligase OS=Thermococcus kodakarensis (strain ATCC BAA-918 / JCM 12380 / KOD1) OX=69014 GN=aspS PE=1 SV=2
+461	0.189653	>sp|Q04048|SYF1_YEAST Pre-mRNA-splicing factor SYF1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=SYF1 PE=1 SV=1
+462	0.059626	>sp|Q9HCS7|SYF1_HUMAN Pre-mRNA-splicing factor SYF1 OS=Homo sapiens OX=9606 GN=XAB2 PE=1 SV=2
+463	0.275037	>sp|E3VNM4|TGA10_ARATH Transcription factor TGA10 OS=Arabidopsis thaliana OX=3702 GN=TGA10 PE=1 SV=1
+464	0.144536	>sp|P49430|THAS_RAT Thromboxane-A synthase OS=Rattus norvegicus OX=10116 GN=Tbxas1 PE=2 SV=1
+465	0.112875	>sp|Q01841|TGM2_CHICK Protein-glutamine gamma-glutamyltransferase 2 OS=Gallus gallus OX=9031 GN=TGM2 PE=1 SV=3
+466	0.329236	>sp|P14611|THIL_CUPNH Acetyl-CoA acetyltransferase OS=Cupriavidus necator (strain ATCC 17699 / DSM 428 / KCTC 22496 / NCIMB 10442 / H16 / Stanier 337) OX=381666 GN=phaA PE=1 SV=1
+467	0.123811	>sp|P21980|TGM2_HUMAN Protein-glutamine gamma-glutamyltransferase 2 OS=Homo sapiens OX=9606 GN=TGM2 PE=1 SV=2
+468	0.394814	>sp|P62915|TF2B_MOUSE Transcription initiation factor IIB OS=Mus musculus OX=10090 GN=Gtf2b PE=1 SV=1
+469	0.229231	>sp|Q8K1H1|TDRD7_MOUSE Tudor domain-containing protein 7 OS=Mus musculus OX=10090 GN=Tdrd7 PE=1 SV=1
+470	0.244519	>sp|Q9VQ91|TDRKH_DROME Tudor and KH domain-containing protein homolog OS=Drosophila melanogaster OX=7227 GN=papi PE=1 SV=1
+471	0.140812	>sp|Q01664|TFAP4_HUMAN Transcription factor AP-4 OS=Homo sapiens OX=9606 GN=TFAP4 PE=1 SV=2
+472	0.261048	>sp|Q3IWB0|TALY_RHOS4 Tyrosine ammonia-lyase OS=Rhodobacter sphaeroides (strain ATCC 17023 / DSM 158 / JCM 6121 / NBRC 12203 / NCIMB 8253 / ATH 2.4.1.) OX=272943 GN=hutH PE=1 SV=1
+473	0.565433	>sp|P48032|TIMP3_RAT Metalloproteinase inhibitor 3 OS=Rattus norvegicus OX=10116 GN=Timp3 PE=2 SV=1
+474	0.181374	>sp|Q9GZM7|TINAL_HUMAN Tubulointerstitial nephritis antigen-like OS=Homo sapiens OX=9606 GN=TINAGL1 PE=1 SV=1
+475	0.510733	>sp|Q80UF7|TCAM1_MOUSE TIR domain-containing adapter molecule 1 OS=Mus musculus OX=10090 GN=Ticam1 PE=1 SV=1
+476	0.221308	>sp|P23193|TCEA1_HUMAN Transcription elongation factor A protein 1 OS=Homo sapiens OX=9606 GN=TCEA1 PE=1 SV=2
+477	0.296605	>sp|Q96A09|TET5B_HUMAN Terminal nucleotidyltransferase 5B OS=Homo sapiens OX=9606 GN=TENT5B PE=1 SV=2
+478	0.118153	>sp|Q960X4|TIP60_DROME Histone acetyltransferase Tip60 OS=Drosophila melanogaster OX=7227 GN=Tip60 PE=1 SV=1
+479	0.186117	>sp|P40227|TCPZ_HUMAN T-complex protein 1 subunit zeta OS=Homo sapiens OX=9606 GN=CCT6A PE=1 SV=3
+480	0.314579	>sp|P57082|TBX4_HUMAN T-box transcription factor TBX4 OS=Homo sapiens OX=9606 GN=TBX4 PE=1 SV=2
+481	0.184930	>sp|P80317|TCPZ_MOUSE T-complex protein 1 subunit zeta OS=Mus musculus OX=10090 GN=Cct6a PE=1 SV=3
+482	0.289700	>sp|Q9UL17|TBX21_HUMAN T-box transcription factor TBX21 OS=Homo sapiens OX=9606 GN=TBX21 PE=1 SV=1
+483	0.262622	>sp|Q03533|TDA1_YEAST Serine/threonine-protein kinase TDA1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=TDA1 PE=1 SV=1
+484	0.241346	>sp|Q8WWU5|TCP11_HUMAN T-complex protein 11 homolog OS=Homo sapiens OX=9606 GN=TCP11 PE=1 SV=1
+485	0.301765	>sp|P02929|TONB_ECOLI Protein TonB OS=Escherichia coli (strain K12) OX=83333 GN=tonB PE=1 SV=2
+486	0.451074	>sp|P08582|TRFM_HUMAN Melanotransferrin OS=Homo sapiens OX=9606 GN=MELTF PE=1 SV=2
+487	0.401803	>sp|O94811|TPPP_HUMAN Tubulin polymerization-promoting protein OS=Homo sapiens OX=9606 GN=TPPP PE=1 SV=1
+488	0.573617	>sp|Q8W4J8|TIF7_ARATH Protein TIFY 7 OS=Arabidopsis thaliana OX=3702 GN=TIFY7 PE=1 SV=2
+489	0.403284	>sp|Q8N2E6|TOR2X_HUMAN Prosalusin OS=Homo sapiens OX=9606 GN=TOR2A PE=1 SV=1
+490	0.226970	>sp|Q9ER39|TOR1A_MOUSE Torsin-1A OS=Mus musculus OX=10090 GN=Tor1a PE=1 SV=1
+491	0.339471	>sp|Q9BZY9|TRI31_HUMAN E3 ubiquitin-protein ligase TRIM31 OS=Homo sapiens OX=9606 GN=TRIM31 PE=1 SV=2
+492	0.284215	>sp|Q28735|TMEDA_RABIT Transmembrane emp24 domain-containing protein 10 OS=Oryctolagus cuniculus OX=9986 GN=TMED10 PE=1 SV=1
+493	0.182472	>sp|Q12933|TRAF2_HUMAN TNF receptor-associated factor 2 OS=Homo sapiens OX=9606 GN=TRAF2 PE=1 SV=2
+494	0.215617	>sp|Q6NKR2|TPMT2_ARATH Phosphatidylglycerophosphate phosphatase PTPMT2 OS=Arabidopsis thaliana OX=3702 GN=PTPMT2 PE=1 SV=1
+495	0.144890	>sp|Q9VBP3|TNKS_DROME Poly [ADP-ribose] polymerase tankyrase OS=Drosophila melanogaster OX=7227 GN=Tnks PE=1 SV=1
+496	0.721573	>sp|Q61471|TOB1_MOUSE Protein Tob1 OS=Mus musculus OX=10090 GN=Tob1 PE=1 SV=2
+497	0.431432	>sp|Q9EQV6|TPP1_RAT Tripeptidyl-peptidase 1 OS=Rattus norvegicus OX=10116 GN=Tpp1 PE=1 SV=1
+498	0.273477	>sp|Q6AZZ1|TRI68_HUMAN E3 ubiquitin-protein ligase TRIM68 OS=Homo sapiens OX=9606 GN=TRIM68 PE=1 SV=1
+499	0.427201	>sp|Q9C040|TRIM2_HUMAN Tripartite motif-containing protein 2 OS=Homo sapiens OX=9606 GN=TRIM2 PE=1 SV=1
+500	0.167063	>sp|Q922B6|TRAF7_MOUSE E3 ubiquitin-protein ligase TRAF7 OS=Mus musculus OX=10090 GN=Traf7 PE=1 SV=1
+501	0.188613	>sp|Q9Y275|TN13B_HUMAN Tumor necrosis factor ligand superfamily member 13B OS=Homo sapiens OX=9606 GN=TNFSF13B PE=1 SV=1
+502	0.334100	>sp|Q5BJD5|TM41B_HUMAN Transmembrane protein 41B OS=Homo sapiens OX=9606 GN=TMEM41B PE=1 SV=1
+503	0.368215	>sp|Q9Z0L0|TPBG_MOUSE Trophoblast glycoprotein OS=Mus musculus OX=10090 GN=Tpbg PE=1 SV=3
+504	0.448822	>sp|Q7TS55|TNF18_MOUSE Tumor necrosis factor ligand superfamily member 18 OS=Mus musculus OX=10090 GN=Tnfsf18 PE=1 SV=1
+505	0.141643	>sp|Q5I2M3|TLR9_PIG Toll-like receptor 9 OS=Sus scrofa OX=9823 GN=TLR9 PE=2 SV=1
+506	0.312171	>sp|Q8N661|TM86B_HUMAN Lysoplasmalogenase OS=Homo sapiens OX=9606 GN=TMEM86B PE=1 SV=2
+507	0.303904	>sp|O57460|TLL1_DANRE Dorsal-ventral patterning tolloid-like protein 1 OS=Danio rerio OX=7955 GN=tll1 PE=2 SV=1
+508	0.180228	>sp|P34314|TLK1_CAEEL Serine/threonine-protein kinase tousled-like 1 OS=Caenorhabditis elegans OX=6239 GN=tlk-1 PE=1 SV=3
+509	0.394052	>sp|Q6ZPK0|PF21A_MOUSE PHD finger protein 21A OS=Mus musculus OX=10090 GN=Phf21a PE=1 SV=3
+510	0.563283	>sp|P80206|OTX2_MOUSE Homeobox protein OTX2 OS=Mus musculus OX=10090 GN=Otx2 PE=1 SV=1
+511	0.386376	>sp|Q94131|PIE1_CAEEL Pharynx and intestine in excess protein 1 OS=Caenorhabditis elegans OX=6239 GN=pie-1 PE=1 SV=1
+512	0.828216	>sp|Q9XZI6|PICAL_CAEEL Phosphatidylinositol-binding clathrin assembly protein unc-11 OS=Caenorhabditis elegans OX=6239 GN=unc-11 PE=1 SV=1
+513	0.424522	>sp|O77237|PELI_DROME Protein pellino OS=Drosophila melanogaster OX=7227 GN=Pli PE=1 SV=1
+514	0.121004	>sp|Q9VFS5|PP4R3_DROME Serine/threonine-protein phosphatase 4 regulatory subunit 3 OS=Drosophila melanogaster OX=7227 GN=flfl PE=1 SV=4
+515	0.334132	>sp|Q86T03|PP4P1_HUMAN Type 1 phosphatidylinositol 4,5-bisphosphate 4-phosphatase OS=Homo sapiens OX=9606 GN=PIP4P1 PE=1 SV=1
+516	0.187710	>sp|P09330|PRPS2_RAT Ribose-phosphate pyrophosphokinase 2 OS=Rattus norvegicus OX=10116 GN=Prps2 PE=1 SV=3
+517	0.282726	>sp|Q9Z126|PLF4_MOUSE Platelet factor 4 OS=Mus musculus OX=10090 GN=Pf4 PE=1 SV=1
+518	0.214645	>sp|P13727|PRG2_HUMAN Bone marrow proteoglycan OS=Homo sapiens OX=9606 GN=PRG2 PE=1 SV=2
+519	0.638650	>sp|P04963|PRXC_LEPFU Chloroperoxidase OS=Leptoxyphium fumago OX=5474 GN=CPO PE=1 SV=3
+520	0.214470	>sp|O22785|PR19B_ARATH Pre-mRNA-processing factor 19 homolog 2 OS=Arabidopsis thaliana OX=3702 GN=PRP19B PE=1 SV=3
+521	0.412450	>sp|P23942|PRPH2_HUMAN Peripherin-2 OS=Homo sapiens OX=9606 GN=PRPH2 PE=1 SV=1
+522	0.220406	>sp|Q9UBK2|PRGC1_HUMAN Peroxisome proliferator-activated receptor gamma coactivator 1-alpha OS=Homo sapiens OX=9606 GN=PPARGC1A PE=1 SV=1
+523	0.457527	>sp|P25043|PSB2_YEAST Proteasome subunit beta type-2 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=PUP1 PE=1 SV=1
+524	0.096335	>sp|Q96QH2|PRAM_HUMAN PML-RARA-regulated adapter molecule 1 OS=Homo sapiens OX=9606 GN=PRAM1 PE=1 SV=3
+525	0.088234	>sp|Q9WVS6|PRKN_MOUSE E3 ubiquitin-protein ligase parkin OS=Mus musculus OX=10090 GN=Prkn PE=1 SV=1
+526	0.242844	>sp|P20650|PPM1A_RAT Protein phosphatase 1A OS=Rattus norvegicus OX=10116 GN=Ppm1a PE=1 SV=1
+527	0.119547	>sp|P48651|PTSS1_HUMAN Phosphatidylserine synthase 1 OS=Homo sapiens OX=9606 GN=PTDSS1 PE=1 SV=1
+528	0.144337	>sp|Q64434|PTK6_MOUSE Protein-tyrosine kinase 6 OS=Mus musculus OX=10090 GN=Ptk6 PE=1 SV=1
+529	0.208914	>sp|P81718|PTN6_RAT Tyrosine-protein phosphatase non-receptor type 6 OS=Rattus norvegicus OX=10116 GN=Ptpn6 PE=1 SV=1
+530	0.202185	>sp|P49810|PSN2_HUMAN Presenilin-2 OS=Homo sapiens OX=9606 GN=PSEN2 PE=1 SV=1
+531	0.440162	>sp|P79281|PTN_PIG Pleiotrophin OS=Sus scrofa OX=9823 GN=PTN PE=2 SV=1
+532	0.143100	>sp|Q9CWH6|PSMA8_MOUSE Proteasome subunit alpha type-8 OS=Mus musculus OX=10090 GN=Psma8 PE=1 SV=1
+533	0.354641	>sp|Q9VWU1|PSH_DROME Serine protease persephone OS=Drosophila melanogaster OX=7227 GN=psh PE=1 SV=1
+534	0.130727	>sp|P0A7D4|PURA_ECOLI Adenylosuccinate synthetase OS=Escherichia coli (strain K12) OX=83333 GN=purA PE=1 SV=2
+535	0.174788	>sp|P0A7E5|PYRG_ECOLI CTP synthase OS=Escherichia coli (strain K12) OX=83333 GN=pyrG PE=1 SV=2
+536	0.142628	>sp|P33221|PURT_ECOLI Formate-dependent phosphoribosylglycinamide formyltransferase OS=Escherichia coli (strain K12) OX=83333 GN=purT PE=1 SV=3
+537	0.715928	>sp|P15151|PVR_HUMAN Poliovirus receptor OS=Homo sapiens OX=9606 GN=PVR PE=1 SV=2
+538	0.298623	>sp|Q92878|RAD50_HUMAN DNA repair protein RAD50 OS=Homo sapiens OX=9606 GN=RAD50 PE=1 SV=1
+539	0.584912	>sp|Q9BWF3|RBM4_HUMAN RNA-binding protein 4 OS=Homo sapiens OX=9606 GN=RBM4 PE=1 SV=1
+540	0.551219	>sp|P61026|RAB10_HUMAN Ras-related protein Rab-10 OS=Homo sapiens OX=9606 GN=RAB10 PE=1 SV=1
+541	0.052455	>sp|Q3TIR3|RIC8A_MOUSE Synembryn-A OS=Mus musculus OX=10090 GN=Ric8a PE=1 SV=2
+542	0.504308	>sp|P63011|RAB3A_MOUSE Ras-related protein Rab-3A OS=Mus musculus OX=10090 GN=Rab3a PE=1 SV=1
+543	0.151525	>sp|P40938|RFC3_HUMAN Replication factor C subunit 3 OS=Homo sapiens OX=9606 GN=RFC3 PE=1 SV=2
+544	0.125308	>sp|Q9SKI4|RFA1A_ARATH Replication protein A 70 kDa DNA-binding subunit A OS=Arabidopsis thaliana OX=3702 GN=RPA1A PE=1 SV=1
+545	0.239598	>sp|Q9BRR9|RHG09_HUMAN Rho GTPase-activating protein 9 OS=Homo sapiens OX=9606 GN=ARHGAP9 PE=1 SV=2
+546	0.448188	>sp|C0LGF5|RGI5_ARATH LRR receptor-like serine/threonine-protein kinase RGI5 OS=Arabidopsis thaliana OX=3702 GN=RGI5 PE=1 SV=2
+547	0.180563	>sp|Q1LU99|RIPR2_DANRE Rho family-interacting cell polarization regulator 2 OS=Danio rerio OX=7955 GN=ripor2 PE=2 SV=1
+548	0.492334	>sp|P00797|RENI_HUMAN Renin OS=Homo sapiens OX=9606 GN=REN PE=1 SV=1
+549	0.547591	>sp|P48380|RFX3_HUMAN Transcription factor RFX3 OS=Homo sapiens OX=9606 GN=RFX3 PE=1 SV=2
+550	0.160730	>sp|P38766|RRM3_YEAST ATP-dependent DNA helicase RRM3 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=RRM3 PE=1 SV=1
+551	0.131880	>sp|Q8K4Q0|RPTOR_MOUSE Regulatory-associated protein of mTOR OS=Mus musculus OX=10090 GN=Rptor PE=1 SV=1
+552	0.116751	>sp|P38165|RTG3_YEAST Retrograde regulation protein 3 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=RTG3 PE=1 SV=2
+553	0.169754	>sp|P46654|RSSA2_YEAST 40S ribosomal protein S0-B OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=RPS0B PE=1 SV=2
+554	0.127565	>sp|Q975F9|S1PNA_SULTO Bifunctional sugar-1-phosphate nucleotidylyltransferase/acetyltransferase OS=Sulfurisphaera tokodaii (strain DSM 16993 / JCM 10545 / NBRC 100140 / 7) OX=273063 GN=STK_04520 PE=1 SV=1
+555	0.450767	>sp|P06703|S10A6_HUMAN Protein S100-A6 OS=Homo sapiens OX=9606 GN=S100A6 PE=1 SV=1
+556	0.068848	>sp|Q9UHW9|S12A6_HUMAN Solute carrier family 12 member 6 OS=Homo sapiens OX=9606 GN=SLC12A6 PE=1 SV=2
+557	0.083508	>sp|Q9WVL3|S12A7_MOUSE Solute carrier family 12 member 7 OS=Mus musculus OX=10090 GN=Slc12a7 PE=1 SV=1
+558	0.129555	>sp|P09661|RU2A_HUMAN U2 small nuclear ribonucleoprotein A' OS=Homo sapiens OX=9606 GN=SNRPA1 PE=1 SV=2
+559	0.186453	>sp|Q8N4F4|S22AO_HUMAN Steroid transmembrane transporter SLC22A24 OS=Homo sapiens OX=9606 GN=SLC22A24 PE=1 SV=2
+560	0.323491	>sp|Q3KQ35|S17AA_XENLA Transcription factor Sox-17-alpha-A OS=Xenopus laevis OX=8355 GN=sox17a-a PE=1 SV=1
+561	0.353801	>sp|P06992|RSMA_ECOLI Ribosomal RNA small subunit methyltransferase A OS=Escherichia coli (strain K12) OX=83333 GN=rsmA PE=1 SV=1
+562	0.159449	>sp|P31662|S6A17_RAT Sodium-dependent neutral amino acid transporter SLC6A17 OS=Rattus norvegicus OX=10116 GN=Slc6a17 PE=1 SV=1
+563	0.280866	>sp|Q9D687|S6A19_MOUSE Sodium-dependent neutral amino acid transporter B(0)AT1 OS=Mus musculus OX=10090 GN=Slc6a19 PE=1 SV=1
+564	0.165045	>sp|Q13433|S39A6_HUMAN Zinc transporter ZIP6 OS=Homo sapiens OX=9606 GN=SLC39A6 PE=1 SV=3
+565	0.089644	>sp|O81127|RSZ21_ARATH Serine/arginine-rich splicing factor RSZ21 OS=Arabidopsis thaliana OX=3702 GN=RSZ21 PE=1 SV=1
+566	0.246647	>sp|Q96LT4|SAMD8_HUMAN Sphingomyelin synthase-related protein 1 OS=Homo sapiens OX=9606 GN=SAMD8 PE=1 SV=2
+567	0.259725	>sp|Q9BY50|SC11C_HUMAN Signal peptidase complex catalytic subunit SEC11C OS=Homo sapiens OX=9606 GN=SEC11C PE=1 SV=3
+568	0.297730	>sp|Q42551|SCE1_ARATH SUMO-conjugating enzyme SCE1 OS=Arabidopsis thaliana OX=3702 GN=SCE1 PE=1 SV=1
+569	0.303636	>sp|Q61009|SCRB1_MOUSE Scavenger receptor class B member 1 OS=Mus musculus OX=10090 GN=Scarb1 PE=1 SV=1
+570	0.495977	>sp|Q9Z2Q1|SC31A_RAT Protein transport protein Sec31A OS=Rattus norvegicus OX=10116 GN=Sec31a PE=1 SV=2
+571	0.467915	>sp|Q9NQW1|SC31B_HUMAN Protein transport protein Sec31B OS=Homo sapiens OX=9606 GN=SEC31B PE=1 SV=1
+572	0.175225	>sp|Q60710|SAMH1_MOUSE Deoxynucleoside triphosphate triphosphohydrolase SAMHD1 OS=Mus musculus OX=10090 GN=Samhd1 PE=1 SV=3
+573	0.189821	>sp|P35179|SC61G_YEAST Protein transport protein SSS1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=SSS1 PE=1 SV=2
+574	0.159828	>sp|Q5FWI2|SCTR_MOUSE Secretin receptor OS=Mus musculus OX=10090 GN=Sctr PE=1 SV=1
+575	0.197779	>sp|Q15437|SC23B_HUMAN Protein transport protein Sec23B OS=Homo sapiens OX=9606 GN=SEC23B PE=1 SV=2
+576	0.101593	>sp|P0A1C1|SCTN_SHIFL Type 3 secretion system ATPase OS=Shigella flexneri OX=623 GN=sctN PE=1 SV=1
+577	0.170922	>sp|P50454|SERPH_HUMAN Serpin H1 OS=Homo sapiens OX=9606 GN=SERPINH1 PE=1 SV=2
+578	0.364384	>sp|Q08230|SDHF2_YEAST Succinate dehydrogenase assembly factor 2, mitochondrial OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=SDH5 PE=1 SV=1
+579	0.477858	>sp|O82777|SBT3_SOLLC Subtilisin-like protease SBT3 OS=Solanum lycopersicum OX=4081 GN=sbt3 PE=1 SV=1
+580	0.366221	>sp|O15127|SCAM2_HUMAN Secretory carrier-associated membrane protein 2 OS=Homo sapiens OX=9606 GN=SCAMP2 PE=1 SV=2
+581	0.130016	>sp|P70275|SEM3E_MOUSE Semaphorin-3E OS=Mus musculus OX=10090 GN=Sema3e PE=1 SV=3
+582	0.138165	>sp|O08665|SEM3A_MOUSE Semaphorin-3A OS=Mus musculus OX=10090 GN=Sema3a PE=1 SV=2
+583	0.223893	>sp|Q64151|SEM4C_MOUSE Semaphorin-4C OS=Mus musculus OX=10090 GN=Sema4c PE=1 SV=1
+584	0.123471	>sp|Q01105|SET_HUMAN Protein SET OS=Homo sapiens OX=9606 GN=SET PE=1 SV=3
+585	0.265223	>sp|P40224|SDF1_MOUSE Stromal cell-derived factor 1 OS=Mus musculus OX=10090 GN=Cxcl12 PE=2 SV=2
+586	0.184159	>sp|P0A821|SELA_ECOLI L-seryl-tRNA(Sec) selenium transferase OS=Escherichia coli (strain K12) OX=83333 GN=selA PE=1 SV=1
+587	0.370928	>sp|Q61753|SERA_MOUSE D-3-phosphoglycerate dehydrogenase OS=Mus musculus OX=10090 GN=Phgdh PE=1 SV=3
+588	0.051306	>sp|Q9JJM9|SEPT5_RAT Septin-5 OS=Rattus norvegicus OX=10116 GN=Septin5 PE=1 SV=2
+589	0.167227	>sp|Q99287|SEY1_YEAST Protein SEY1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=SEY1 PE=1 SV=1
+590	0.344556	>sp|Q61180|SCNNA_MOUSE Amiloride-sensitive sodium channel subunit alpha OS=Mus musculus OX=10090 GN=Scnn1a PE=1 SV=2
+591	0.290809	>sp|O75880|SCO1_HUMAN Protein SCO1 homolog, mitochondrial OS=Homo sapiens OX=9606 GN=SCO1 PE=1 SV=1
+592	0.283451	>sp|Q3V0Q6|SPAG8_MOUSE Sperm-associated antigen 8 OS=Mus musculus OX=10090 GN=Spag8 PE=1 SV=1
+593	0.068079	>sp|Q9HD40|SPCS_HUMAN O-phosphoseryl-tRNA(Sec) selenium transferase OS=Homo sapiens OX=9606 GN=SEPSECS PE=1 SV=2
+594	0.103145	>sp|Q5SW45|MKS1_MOUSE Meckel syndrome type 1 protein homolog OS=Mus musculus OX=10090 GN=Mks1 PE=1 SV=1
+595	0.103626	>sp|Q00266|METK1_HUMAN S-adenosylmethionine synthase isoform type-1 OS=Homo sapiens OX=9606 GN=MAT1A PE=1 SV=2
+596	0.141697	>sp|P26696|MK01_XENLA Mitogen-activated protein kinase 1 OS=Xenopus laevis OX=8355 GN=mapk1 PE=1 SV=3
+597	0.074938	>sp|Q8NB16|MLKL_HUMAN Mixed lineage kinase domain-like protein OS=Homo sapiens OX=9606 GN=MLKL PE=1 SV=1
+598	0.132052	>sp|P18298|METK2_RAT S-adenosylmethionine synthase isoform type-2 OS=Rattus norvegicus OX=10116 GN=Mat2a PE=1 SV=1
+599	0.298372	>sp|A5PKJ4|MK07_BOVIN Mitogen-activated protein kinase 7 OS=Bos taurus OX=9913 GN=MAPK7 PE=2 SV=1
+600	0.192006	>sp|O94851|MICA2_HUMAN [F-actin]-monooxygenase MICAL2 OS=Homo sapiens OX=9606 GN=MICAL2 PE=1 SV=1
+601	0.313900	>sp|Q851R2|MEL1_ORYSJ Protein argonaute MEL1 OS=Oryza sativa subsp. japonica OX=39947 GN=MEL1 PE=2 SV=1
+602	0.258334	>sp|Q8TDZ2|MICA1_HUMAN [F-actin]-monooxygenase MICAL1 OS=Homo sapiens OX=9606 GN=MICAL1 PE=1 SV=2
+603	0.114478	>sp|Q9NPJ6|MED4_HUMAN Mediator of RNA polymerase II transcription subunit 4 OS=Homo sapiens OX=9606 GN=MED4 PE=1 SV=1
+604	0.217132	>sp|O15553|MEFV_HUMAN Pyrin OS=Homo sapiens OX=9606 GN=MEFV PE=1 SV=1
+605	0.169515	>sp|Q09510|MLRH_CAEEL Myosin regulatory light chain OS=Caenorhabditis elegans OX=6239 GN=mlc-4 PE=1 SV=1
+606	0.289739	>sp|Q8NCK7|MOT11_HUMAN Monocarboxylate transporter 11 OS=Homo sapiens OX=9606 GN=SLC16A11 PE=1 SV=1
+607	0.129995	>sp|Q9NYP9|MS18A_HUMAN Protein Mis18-alpha OS=Homo sapiens OX=9606 GN=MIS18A PE=1 SV=1
+608	0.117153	>sp|Q84LK0|MSH1_ARATH DNA mismatch repair protein MSH1, mitochondrial OS=Arabidopsis thaliana OX=3702 GN=MSH1 PE=1 SV=1
+609	0.466706	>sp|Q9ES58|MO2R1_RAT Cell surface glycoprotein CD200 receptor 1 OS=Rattus norvegicus OX=10116 GN=Cd200r1 PE=1 SV=1
+610	0.363514	>sp|Q86VF5|MOGT3_HUMAN 2-acylglycerol O-acyltransferase 3 OS=Homo sapiens OX=9606 GN=MOGAT3 PE=1 SV=1
+611	0.494957	>sp|Q9W534|MOODY_DROME G-protein coupled receptor moody OS=Drosophila melanogaster OX=7227 GN=moody PE=2 SV=2
+612	0.142517	>sp|Q8C5W4|MOR2B_MOUSE ATPase MORC2B OS=Mus musculus OX=10090 GN=Morc2b PE=1 SV=2
+613	0.197206	>sp|Q13724|MOGS_HUMAN Mannosyl-oligosaccharide glucosidase OS=Homo sapiens OX=9606 GN=MOGS PE=1 SV=5
+614	0.265754	>sp|P45452|MMP13_HUMAN Collagenase 3 OS=Homo sapiens OX=9606 GN=MMP13 PE=1 SV=1
+615	0.168437	>sp|P0A749|MURA_ECOLI UDP-N-acetylglucosamine 1-carboxyvinyltransferase OS=Escherichia coli (strain K12) OX=83333 GN=murA PE=1 SV=1
+616	0.111516	>sp|Q9BXB5|OSB10_HUMAN Oxysterol-binding protein-related protein 10 OS=Homo sapiens OX=9606 GN=OSBPL10 PE=1 SV=2
+617	0.214800	>sp|O70249|OGG1_RAT N-glycosylase/DNA lyase OS=Rattus norvegicus OX=10116 GN=Ogg1 PE=2 SV=1
+618	0.138922	>sp|Q9ULW8|PADI3_HUMAN Protein-arginine deiminase type-3 OS=Homo sapiens OX=9606 GN=PADI3 PE=1 SV=2
+619	0.149862	>sp|P18669|PGAM1_HUMAN Phosphoglycerate mutase 1 OS=Homo sapiens OX=9606 GN=PGAM1 PE=1 SV=2
+620	0.086522	>sp|Q8CG71|P3H2_MOUSE Prolyl 3-hydroxylase 2 OS=Mus musculus OX=10090 GN=P3h2 PE=1 SV=1
+621	0.355500	>sp|P31044|PEBP1_RAT Phosphatidylethanolamine-binding protein 1 OS=Rattus norvegicus OX=10116 GN=Pebp1 PE=1 SV=3
+622	0.223260	>sp|Q8R2H5|PHLD_RAT Phosphatidylinositol-glycan-specific phospholipase D OS=Rattus norvegicus OX=10116 GN=Gpld1 PE=2 SV=1
+623	0.739232	>sp|Q42578|PER53_ARATH Peroxidase 53 OS=Arabidopsis thaliana OX=3702 GN=PER53 PE=1 SV=1
+624	0.164049	>sp|P23837|PHOQ_ECOLI Sensor protein PhoQ OS=Escherichia coli (strain K12) OX=83333 GN=phoQ PE=1 SV=1
+625	0.227489	>sp|Q9NY27|PP4R2_HUMAN Serine/threonine-protein phosphatase 4 regulatory subunit 2 OS=Homo sapiens OX=9606 GN=PPP4R2 PE=1 SV=3
+626	0.347188	>sp|P59644|PI5PA_MOUSE Phosphatidylinositol 4,5-bisphosphate 5-phosphatase A OS=Mus musculus OX=10090 GN=Inpp5j PE=1 SV=2
+627	0.143330	>sp|Q5H9R7|PP6R3_HUMAN Serine/threonine-protein phosphatase 6 regulatory subunit 3 OS=Homo sapiens OX=9606 GN=PPP6R3 PE=1 SV=2
+628	0.455563	>sp|Q9JJ00|PLS1_MOUSE Phospholipid scramblase 1 OS=Mus musculus OX=10090 GN=Plscr1 PE=1 SV=1
+629	0.412671	>sp|Q924N9|PRS28_MOUSE Serine protease 28 OS=Mus musculus OX=10090 GN=Prss28 PE=1 SV=1
+630	0.215060	>sp|Q8NE79|POPD1_HUMAN Blood vessel epicardial substance OS=Homo sapiens OX=9606 GN=BVES PE=1 SV=1
+631	0.147121	>sp|Q9CQJ2|PIHD1_MOUSE PIH1 domain-containing protein 1 OS=Mus musculus OX=10090 GN=Pih1d1 PE=1 SV=1
+632	0.395995	>sp|Q6DJT9|PLAG1_HUMAN Zinc finger protein PLAG1 OS=Homo sapiens OX=9606 GN=PLAG1 PE=1 SV=1
+633	0.169869	>sp|P01239|PRL_BOVIN Prolactin OS=Bos taurus OX=9913 GN=PRL PE=1 SV=1
+634	0.328792	>sp|O55000|PP1RA_RAT Serine/threonine-protein phosphatase 1 regulatory subunit 10 OS=Rattus norvegicus OX=10116 GN=Ppp1r10 PE=1 SV=1
+635	0.251459	>sp|P10894|PLCB1_BOVIN 1-phosphatidylinositol 4,5-bisphosphate phosphodiesterase beta-1 OS=Bos taurus OX=9913 GN=PLCB1 PE=1 SV=1
+636	0.381208	>sp|Q8S9J1|PPOCM_ARATH Protoporphyrinogen oxidase 2, chloroplastic/mitochondrial OS=Arabidopsis thaliana OX=3702 GN=PPOX2 PE=1 SV=1
+637	0.231877	>sp|Q84XU2|PPP5_ARATH Serine/threonine-protein phosphatase 5 OS=Arabidopsis thaliana OX=3702 GN=PAPP5 PE=1 SV=1
+638	0.398074	>sp|P61012|PPLA_CANLF Cardiac phospholamban OS=Canis lupus familiaris OX=9615 GN=PLN PE=1 SV=1
+639	0.475958	>sp|P30656|PSB5_YEAST Proteasome subunit beta type-5 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=PRE2 PE=1 SV=3
+640	0.292176	>sp|Q61074|PPM1G_MOUSE Protein phosphatase 1G OS=Mus musculus OX=10090 GN=Ppm1g PE=1 SV=3
+641	0.107468	>sp|P23865|PRC_ECOLI Tail-specific protease OS=Escherichia coli (strain K12) OX=83333 GN=prc PE=1 SV=2
+642	0.385674	>sp|P20108|PRDX3_MOUSE Thioredoxin-dependent peroxide reductase, mitochondrial OS=Mus musculus OX=10090 GN=Prdx3 PE=1 SV=1
+643	0.313883	>sp|P47116|PTK2_YEAST Serine/threonine-protein kinase PTK2/STK2 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=PTK2 PE=1 SV=1
+644	0.585569	>sp|A0A0H2UNG0|PULA_STRPN Pullulanase A OS=Streptococcus pneumoniae serotype 4 (strain ATCC BAA-334 / TIGR4) OX=170187 GN=spuA PE=1 SV=1
+645	0.110916	>sp|Q9W0G1|PTP61_DROME Tyrosine-protein phosphatase non-receptor type 61F OS=Drosophila melanogaster OX=7227 GN=Ptp61F PE=1 SV=1
+646	0.279704	>sp|P52166|PSN_CAEEL Presenilin sel-12 OS=Caenorhabditis elegans OX=6239 GN=sel-12 PE=1 SV=2
+647	0.149327	>sp|P35234|PTN5_RAT Tyrosine-protein phosphatase non-receptor type 5 OS=Rattus norvegicus OX=10116 GN=Ptpn5 PE=2 SV=2
+648	0.217959	>sp|P69801|PTNC_ECOLI PTS system mannose-specific EIIC component OS=Escherichia coli (strain K12) OX=83333 GN=manY PE=1 SV=1
+649	0.254298	>sp|P12272|PTHR_HUMAN Parathyroid hormone-related protein OS=Homo sapiens OX=9606 GN=PTHLH PE=1 SV=1
+650	0.112930	>sp|Q90ZE4|PSN2_DANRE Presenilin-2 OS=Danio rerio OX=7955 GN=psen2 PE=2 SV=2
+651	0.161734	>sp|P0C089|PTPM1_RAT Phosphatidylglycerophosphatase and protein-tyrosine phosphatase 1 OS=Rattus norvegicus OX=10116 GN=Ptpmt1 PE=1 SV=1
+652	0.068794	>sp|O43242|PSMD3_HUMAN 26S proteasome non-ATPase regulatory subunit 3 OS=Homo sapiens OX=9606 GN=PSMD3 PE=1 SV=2
+653	0.168388	>sp|Q5ABC5|PSD1_CANAL Phosphatidylserine decarboxylase proenzyme 1, mitochondrial OS=Candida albicans (strain SC5314 / ATCC MYA-2876) OX=237561 GN=PSD1 PE=3 SV=1
+654	0.233483	>sp|Q51548|PVDA_PSEAE L-ornithine N(5)-monooxygenase OS=Pseudomonas aeruginosa (strain ATCC 15692 / DSM 22644 / CIP 104116 / JCM 14847 / LMG 12228 / 1C / PRS 101 / PAO1) OX=208964 GN=pvdA PE=1 SV=2
+655	0.172869	>sp|O35435|PYRD_MOUSE Dihydroorotate dehydrogenase (quinone), mitochondrial OS=Mus musculus OX=10090 GN=Dhodh PE=1 SV=2
+656	0.077975	>sp|P25635|PWP2_YEAST Periodic tryptophan protein 2 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=PWP2 PE=1 SV=2
+657	0.164044	>sp|A1Z8D0|PWP1_DROME Periodic tryptophan protein 1 homolog OS=Drosophila melanogaster OX=7227 GN=nclb PE=1 SV=1
+658	0.438173	>sp|Q23457|RBX1_CAEEL RING-box protein 1 OS=Caenorhabditis elegans OX=6239 GN=rbx-1 PE=1 SV=1
+659	0.419375	>sp|P20340|RAB6A_HUMAN Ras-related protein Rab-6A OS=Homo sapiens OX=9606 GN=RAB6A PE=1 SV=3
+660	0.359848	>sp|Q6VN20|RBP10_HUMAN Ran-binding protein 10 OS=Homo sapiens OX=9606 GN=RANBP10 PE=1 SV=1
+661	0.163752	>sp|Q9SNB6|RDUF1_ARATH E3 ubiquitin-protein ligase RDUF1 OS=Arabidopsis thaliana OX=3702 GN=RDUF1 PE=1 SV=1
+662	0.586426	>sp|Q9NP90|RAB9B_HUMAN Ras-related protein Rab-9B OS=Homo sapiens OX=9606 GN=RAB9B PE=1 SV=1
+663	0.343286	>sp|Q1HE58|RB27A_CANLF Ras-related protein Rab-27A OS=Canis lupus familiaris OX=9615 GN=RAB27A PE=2 SV=1
+664	0.138850	>sp|O81210|RBOHC_ARATH Respiratory burst oxidase homolog protein C OS=Arabidopsis thaliana OX=3702 GN=RBOHC PE=2 SV=2
+665	0.574552	>sp|O82481|RAC10_ARATH Rac-like GTP-binding protein ARAC10 OS=Arabidopsis thaliana OX=3702 GN=ARAC10 PE=1 SV=1
+666	0.225515	>sp|Q14964|RB39A_HUMAN Ras-related protein Rab-39A OS=Homo sapiens OX=9606 GN=RAB39A PE=1 SV=2
+667	0.646106	>sp|P01119|RAS1_YEAST Ras-like protein 1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=RAS1 PE=1 SV=2
+668	0.289030	>sp|P08645|RAP1_DROME Ras-related protein Rap1 OS=Drosophila melanogaster OX=7227 GN=Rap1 PE=2 SV=2
+669	0.101490	>sp|O43502|RA51C_HUMAN DNA repair protein RAD51 homolog 3 OS=Homo sapiens OX=9606 GN=RAD51C PE=1 SV=1
+670	0.294919	>sp|P18613|RAPA_DICDI Ras-related protein rapA OS=Dictyostelium discoideum OX=44689 GN=rapA PE=1 SV=1
+671	0.426832	>sp|O95716|RAB3D_HUMAN Ras-related protein Rab-3D OS=Homo sapiens OX=9606 GN=RAB3D PE=1 SV=1
+672	0.248784	>sp|P04049|RAF1_HUMAN RAF proto-oncogene serine/threonine-protein kinase OS=Homo sapiens OX=9606 GN=RAF1 PE=1 SV=1
+673	0.202448	>sp|Q99N57|RAF1_MOUSE RAF proto-oncogene serine/threonine-protein kinase OS=Mus musculus OX=10090 GN=Raf1 PE=1 SV=2
+674	0.227901	>sp|P61589|RHOA_RAT Transforming protein RhoA OS=Rattus norvegicus OX=10116 GN=Rhoa PE=1 SV=1
+675	0.096979	>sp|Q9LSD0|RIR2C_ARATH Ribonucleoside-diphosphate reductase small chain C OS=Arabidopsis thaliana OX=3702 GN=TSO2 PE=1 SV=1
+676	0.691131	>sp|Q12224|RLM1_YEAST Transcription factor RLM1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=RLM1 PE=1 SV=1
+677	0.253359	>sp|Q9FT72|RQL3_ARATH ATP-dependent DNA helicase Q-like 3 OS=Arabidopsis thaliana OX=3702 GN=RECQL3 PE=1 SV=1
+678	0.291860	>sp|P62277|RS13_HUMAN 40S ribosomal protein S13 OS=Homo sapiens OX=9606 GN=RPS13 PE=1 SV=2
+679	0.175117	>sp|P19793|RXRA_HUMAN Retinoic acid receptor RXR-alpha OS=Homo sapiens OX=9606 GN=RXRA PE=1 SV=1
+680	0.169051	>sp|P21453|S1PR1_HUMAN Sphingosine 1-phosphate receptor 1 OS=Homo sapiens OX=9606 GN=S1PR1 PE=1 SV=2
+681	0.627083	>sp|Q99M75|RTN4R_RAT Reticulon-4 receptor OS=Rattus norvegicus OX=10116 GN=Rtn4r PE=1 SV=2
+682	0.108770	>sp|P05943|S10AA_RAT Protein S100-A10 OS=Rattus norvegicus OX=10116 GN=S100a10 PE=1 SV=2
+683	0.123252	>sp|A0A0G2KTI4|S12A2_DANRE Solute carrier family 12 member 2 OS=Danio rerio OX=7955 GN=slc12a2 PE=1 SV=3
+684	0.215701	>sp|O70594|S22A5_RAT Solute carrier family 22 member 5 OS=Rattus norvegicus OX=10116 GN=Slc22a5 PE=1 SV=1
+685	0.382382	>sp|P50116|S10A9_RAT Protein S100-A9 OS=Rattus norvegicus OX=10116 GN=S100a9 PE=1 SV=3
+686	0.352416	>sp|Q14D33|RTP5_HUMAN Receptor-transporting protein 5 OS=Homo sapiens OX=9606 GN=RTP5 PE=1 SV=2
+687	0.178132	>sp|Q92503|S14L1_HUMAN SEC14-like protein 1 OS=Homo sapiens OX=9606 GN=SEC14L1 PE=1 SV=2
+688	0.271032	>sp|A2AJN7|S4A11_MOUSE Sodium bicarbonate transporter-like protein 11 OS=Mus musculus OX=10090 GN=Slc4a11 PE=2 SV=1
+689	0.172255	>sp|Q9NV23|SAST_HUMAN S-acyl fatty acid synthase thioesterase, medium chain OS=Homo sapiens OX=9606 GN=OLAH PE=1 SV=1
+690	0.191201	>sp|P18405|S5A1_HUMAN 3-oxo-5-alpha-steroid 4-dehydrogenase 1 OS=Homo sapiens OX=9606 GN=SRD5A1 PE=1 SV=1
+691	0.150431	>sp|Q9Y6R1|S4A4_HUMAN Electrogenic sodium bicarbonate cotransporter 1 OS=Homo sapiens OX=9606 GN=SLC4A4 PE=1 SV=1
+692	0.166808	>sp|P08635|SAST_RAT S-acyl fatty acid synthase thioesterase, medium chain OS=Rattus norvegicus OX=10116 GN=Olah PE=1 SV=1
+693	0.311071	>sp|P02743|SAMP_HUMAN Serum amyloid P-component OS=Homo sapiens OX=9606 GN=APCS PE=1 SV=2
+694	0.459793	>sp|Q09108|SCF_CHICK Kit ligand OS=Gallus gallus OX=9031 GN=KITLG PE=2 SV=1
+695	0.115459	>sp|Q6INN8|SAMH1_XENLA Deoxynucleoside triphosphate triphosphohydrolase SAMHD1 OS=Xenopus laevis OX=8355 GN=samhd1 PE=1 SV=2
+696	0.255687	>sp|Q9JLI6|SCLY_MOUSE Selenocysteine lyase OS=Mus musculus OX=10090 GN=Scly PE=1 SV=1
+697	0.168950	>sp|Q12136|SAS10_YEAST Something about silencing protein 10 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=SAS10 PE=1 SV=1
+698	0.129782	>sp|Q9JLI8|SART3_MOUSE Squamous cell carcinoma antigen recognized by T-cells 3 OS=Mus musculus OX=10090 GN=Sart3 PE=1 SV=1
+699	0.050366	>sp|Q2L6W9|SAX1_CAEEL Serine/threonine-protein kinase sax-1 OS=Caenorhabditis elegans OX=6239 GN=sax-1 PE=2 SV=1
+700	0.425968	>sp|Q9Y6X1|SERP1_HUMAN Stress-associated endoplasmic reticulum protein 1 OS=Homo sapiens OX=9606 GN=SERP1 PE=1 SV=1
+701	0.109623	>sp|P58043|SESN2_MOUSE Sestrin-2 OS=Mus musculus OX=10090 GN=Sesn2 PE=1 SV=1
+702	0.472838	>sp|P22214|SEC22_YEAST Protein transport protein SEC22 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=SEC22 PE=1 SV=1
+703	0.056073	>sp|P14906|SEC63_YEAST Protein translocation protein SEC63 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=SEC63 PE=1 SV=2
+704	0.374983	>sp|P34900|SDC2_RAT Syndecan-2 OS=Rattus norvegicus OX=10116 GN=Sdc2 PE=1 SV=2
+705	0.221332	>sp|A2RRU4|SCAP_RAT Sterol regulatory element-binding protein cleavage-activating protein OS=Rattus norvegicus OX=10116 GN=Scap PE=2 SV=1
+706	0.071066	>sp|P58467|SETD4_MOUSE SET domain-containing protein 4 OS=Mus musculus OX=10090 GN=Setd4 PE=1 SV=2
+707	0.152587	>sp|O15041|SEM3E_HUMAN Semaphorin-3E OS=Homo sapiens OX=9606 GN=SEMA3E PE=1 SV=1
+708	0.472406	>sp|Q9R168|SFRP1_RAT Secreted frizzled-related protein 1 (Fragment) OS=Rattus norvegicus OX=10116 GN=Sfrp1 PE=2 SV=1
+709	0.562087	>sp|Q15428|SF3A2_HUMAN Splicing factor 3A subunit 2 OS=Homo sapiens OX=9606 GN=SF3A2 PE=1 SV=2
+710	0.227636	>sp|Q92599|SEPT8_HUMAN Septin-8 OS=Homo sapiens OX=9606 GN=SEPTIN8 PE=1 SV=4
+711	0.099837	>sp|Q8IYM1|SEP12_HUMAN Septin-12 OS=Homo sapiens OX=9606 GN=SEPTIN12 PE=1 SV=1
+712	0.214944	>sp|Q9R1T4|SEPT6_MOUSE Septin-6 OS=Mus musculus OX=10090 GN=Septin6 PE=1 SV=4
+713	0.194119	>sp|Q9V3Z2|SER7_DROME Serine protease 7 OS=Drosophila melanogaster OX=7227 GN=Sp7 PE=1 SV=1
+714	0.378362	>sp|Q9NPE6|SPAG4_HUMAN Sperm-associated antigen 4 protein OS=Homo sapiens OX=9606 GN=SPAG4 PE=1 SV=1
+715	0.281951	>sp|Q61234|SNTA1_MOUSE Alpha-1-syntrophin OS=Mus musculus OX=10090 GN=Snta1 PE=1 SV=1
+716	0.281998	>sp|Q9W0S7|SND1_DROME Staphylococcal nuclease domain-containing protein 1 OS=Drosophila melanogaster OX=7227 GN=Tudor-SN PE=1 SV=1
+717	0.248019	>sp|Q9Y6H5|SNCAP_HUMAN Synphilin-1 OS=Homo sapiens OX=9606 GN=SNCAIP PE=1 SV=2
+718	0.340993	>sp|Q8VZ10|SOQ1_ARATH Protein SUPPRESSOR OF QUENCHING 1, chloroplastic OS=Arabidopsis thaliana OX=3702 GN=SOQ1 PE=1 SV=1
+719	0.114348	>sp|Q99N27|SNX1_RAT Sorting nexin-1 OS=Rattus norvegicus OX=10116 GN=Snx1 PE=1 SV=1
+720	0.285634	>sp|P07064|SOMA_ONCKE Somatotropin OS=Oncorhynchus keta OX=8018 GN=gh PE=1 SV=1
+721	0.088681	>sp|Q5SQN1|SNP47_HUMAN Synaptosomal-associated protein 47 OS=Homo sapiens OX=9606 GN=SNAP47 PE=1 SV=3
+722	0.070335	>sp|Q9Y5X3|SNX5_HUMAN Sorting nexin-5 OS=Homo sapiens OX=9606 GN=SNX5 PE=1 SV=1
+723	0.779513	>sp|P0AGD3|SODF_ECOLI Superoxide dismutase [Fe] OS=Escherichia coli (strain K12) OX=83333 GN=sodB PE=1 SV=2
+724	0.119043	>sp|O70536|SOAT1_RAT Sterol O-acyltransferase 1 OS=Rattus norvegicus OX=10116 GN=Soat1 PE=2 SV=1
+725	0.721470	>sp|P9WGE9|SODC_MYCTU Superoxide dismutase [Cu-Zn] OS=Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv) OX=83332 GN=sodC PE=1 SV=1
+726	0.138795	>sp|O15524|SOCS1_HUMAN Suppressor of cytokine signaling 1 OS=Homo sapiens OX=9606 GN=SOCS1 PE=1 SV=1
+727	0.173025	>sp|Q9EPR5|SORC2_MOUSE VPS10 domain-containing receptor SorCS2 OS=Mus musculus OX=10090 GN=Sorcs2 PE=1 SV=2
+728	0.255762	>sp|Q08IS0|SOXA_HYDTE L-cysteine S-thiosulfotransferase subunit SoxA OS=Hydrogenophilus thermoluteolus OX=297 GN=soxA PE=1 SV=1
+729	0.173310	>sp|P26432|SL9A3_RABIT Sodium/hydrogen exchanger 3 OS=Oryctolagus cuniculus OX=9986 GN=SLC9A3 PE=1 SV=1
+730	0.869711	>sp|O89090|SP1_MOUSE Transcription factor Sp1 OS=Mus musculus OX=10090 GN=Sp1 PE=1 SV=2
+731	0.274263	>sp|P97325|SIAT6_MOUSE CMP-N-acetylneuraminate-beta-1,4-galactoside alpha-2,3-sialyltransferase OS=Mus musculus OX=10090 GN=St3gal3 PE=1 SV=2
+732	0.193364	>sp|Q09143|SL7A1_MOUSE High affinity cationic amino acid transporter 1 OS=Mus musculus OX=10090 GN=Slc7a1 PE=1 SV=1
+733	0.135382	>sp|Q9UNP4|SIAT9_HUMAN Lactosylceramide alpha-2,3-sialyltransferase OS=Homo sapiens OX=9606 GN=ST3GAL5 PE=1 SV=4
+734	0.067032	>sp|P28370|SMCA1_HUMAN Probable global transcription activator SNF2L1 OS=Homo sapiens OX=9606 GN=SMARCA1 PE=1 SV=2
+735	0.075956	>sp|Q8R216|SIR4_MOUSE NAD-dependent protein lipoamidase sirtuin-4, mitochondrial OS=Mus musculus OX=10090 GN=Sirt4 PE=1 SV=3
+736	0.192276	>sp|O00141|SGK1_HUMAN Serine/threonine-protein kinase Sgk1 OS=Homo sapiens OX=9606 GN=SGK1 PE=1 SV=2
+737	0.286561	>sp|Q75NZ0|SIR_PEA Sulfite reductase [ferredoxin], chloroplastic OS=Pisum sativum OX=3888 GN=SIR PE=1 SV=2
+738	0.450958	>sp|Q62232|SIX2_MOUSE Homeobox protein SIX2 OS=Mus musculus OX=10090 GN=Six2 PE=1 SV=2
+739	0.387019	>sp|Q6S5L8|SHC4_HUMAN SHC-transforming protein 4 OS=Homo sapiens OX=9606 GN=SHC4 PE=1 SV=1
+740	0.168583	>sp|Q9Y6E7|SIR4_HUMAN NAD-dependent protein lipoamidase sirtuin-4, mitochondrial OS=Homo sapiens OX=9606 GN=SIRT4 PE=1 SV=1
+741	0.269471	>sp|O54941|SMCE1_MOUSE SWI/SNF-related matrix-associated actin-dependent regulator of chromatin subfamily E member 1 OS=Mus musculus OX=10090 GN=Smarce1 PE=1 SV=1
+742	0.819285	>sp|P35248|SFTPD_RAT Pulmonary surfactant-associated protein D OS=Rattus norvegicus OX=10116 GN=Sftpd PE=1 SV=1
+743	0.286182	>sp|Q9UPU9|SMAG1_HUMAN Protein Smaug homolog 1 OS=Homo sapiens OX=9606 GN=SAMD4A PE=1 SV=3
+744	0.265195	>sp|O97593|SMC1A_BOVIN Structural maintenance of chromosomes protein 1A OS=Bos taurus OX=9913 GN=SMC1A PE=1 SV=1
+745	0.178496	>sp|P30872|SSR1_HUMAN Somatostatin receptor type 1 OS=Homo sapiens OX=9606 GN=SSTR1 PE=1 SV=1
+746	0.160748	>sp|P32745|SSR3_HUMAN Somatostatin receptor type 3 OS=Homo sapiens OX=9606 GN=SSTR3 PE=1 SV=1
+747	0.129005	>sp|Q9C0K7|STRAB_HUMAN STE20-related kinase adapter protein beta OS=Homo sapiens OX=9606 GN=STRADB PE=1 SV=1
+748	0.424486	>sp|Q08749|TIM18_YEAST Mitochondrial import inner membrane translocase subunit TIM18 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=TIM18 PE=1 SV=2
+749	0.278132	>sp|O88393|TGBR3_MOUSE Transforming growth factor beta receptor type 3 OS=Mus musculus OX=10090 GN=Tgfbr3 PE=1 SV=1
+750	0.326191	>sp|Q15562|TEAD2_HUMAN Transcriptional enhancer factor TEF-4 OS=Homo sapiens OX=9606 GN=TEAD2 PE=1 SV=2
+751	0.394814	>sp|P62916|TF2B_RAT Transcription initiation factor IIB OS=Rattus norvegicus OX=10116 GN=Gtf2b PE=2 SV=1
+752	0.489529	>sp|P05543|THBG_HUMAN Thyroxine-binding globulin OS=Homo sapiens OX=9606 GN=SERPINA7 PE=1 SV=2
+753	0.310924	>sp|P41224|TEF_RAT Thyrotroph embryonic factor OS=Rattus norvegicus OX=10116 GN=Tef PE=1 SV=3
+754	0.493736	>sp|Q9Z1J1|TF7L1_MOUSE Transcription factor 7-like 1 OS=Mus musculus OX=10090 GN=Tcf7l1 PE=1 SV=2
+755	0.109228	>sp|Q9SPU7|TERT_ARATH Telomerase reverse transcriptase OS=Arabidopsis thaliana OX=3702 GN=TERT PE=1 SV=1
+756	0.465731	>sp|Q9UQP3|TENN_HUMAN Tenascin-N OS=Homo sapiens OX=9606 GN=TNN PE=1 SV=2
+757	0.278170	>sp|Q65164|TPRT_ASFB7 Trans-prenyltransferase OS=African swine fever virus (strain Badajoz 1971 Vero-adapted) OX=10498 GN=Ba71V-074 PE=1 SV=1
+758	0.146179	>sp|O95259|KCNH1_HUMAN Potassium voltage-gated channel subfamily H member 1 OS=Homo sapiens OX=9606 GN=KCNH1 PE=1 SV=1
+759	0.397583	>sp|P07277|KIME_YEAST Mevalonate kinase OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=ERG12 PE=1 SV=1
+760	0.155915	>sp|Q9UI95|MD2L2_HUMAN Mitotic spindle assembly checkpoint protein MAD2B OS=Homo sapiens OX=9606 GN=MAD2L2 PE=1 SV=2
+761	0.184903	>sp|Q9Z2A6|MK15_RAT Mitogen-activated protein kinase 15 OS=Rattus norvegicus OX=10116 GN=Mapk15 PE=1 SV=2
+762	0.109677	>sp|Q4G050|MKNK1_RAT MAP kinase-interacting serine/threonine-protein kinase 1 OS=Rattus norvegicus OX=10116 GN=Mknk1 PE=2 SV=1
+763	0.445390	>sp|Q9UPY8|MARE3_HUMAN Microtubule-associated protein RP/EB family member 3 OS=Homo sapiens OX=9606 GN=MAPRE3 PE=1 SV=1
+764	0.124827	>sp|Q7Z6M3|MILR1_HUMAN Allergin-1 OS=Homo sapiens OX=9606 GN=MILR1 PE=1 SV=2
+765	0.211577	>sp|Q9WV66|MARH7_MOUSE E3 ubiquitin-protein ligase MARCHF7 OS=Mus musculus OX=10090 GN=Marchf7 PE=2 SV=1
+766	0.679504	>sp|O14880|MGST3_HUMAN Microsomal glutathione S-transferase 3 OS=Homo sapiens OX=9606 GN=MGST3 PE=1 SV=1
+767	0.182750	>sp|Q9BQP7|MGME1_HUMAN Mitochondrial genome maintenance exonuclease 1 OS=Homo sapiens OX=9606 GN=MGME1 PE=1 SV=1
+768	0.278531	>sp|Q8NHS3|MFSD8_HUMAN Major facilitator superfamily domain-containing protein 8 OS=Homo sapiens OX=9606 GN=MFSD8 PE=1 SV=1
+769	0.243159	>sp|Q9UH92|MLX_HUMAN Max-like protein X OS=Homo sapiens OX=9606 GN=MLX PE=1 SV=2
+770	0.138511	>sp|O33855|MIG_MYCAV Medium-chain acyl-CoA ligase Mig OS=Mycobacterium avium OX=1764 GN=mig PE=1 SV=2
+771	0.516393	>sp|P80928|MIF_PIG Macrophage migration inhibitory factor OS=Sus scrofa OX=9823 GN=MIF PE=1 SV=3
+772	0.674332	>sp|P40791|MEF2_DROME Myocyte-specific enhancer factor 2 OS=Drosophila melanogaster OX=7227 GN=Mef2 PE=1 SV=3
+773	0.933801	>sp|P40356|MED3_YEAST Mediator of RNA polymerase II transcription subunit 3 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=PGD1 PE=1 SV=2
+774	0.129484	>sp|P63085|MK01_MOUSE Mitogen-activated protein kinase 1 OS=Mus musculus OX=10090 GN=Mapk1 PE=1 SV=3
+775	0.115733	>sp|Q8C3P7|MTA70_MOUSE N6-adenosine-methyltransferase subunit METTL3 OS=Mus musculus OX=10090 GN=Mettl3 PE=1 SV=2
+776	0.089472	>sp|Q8LLD0|NUP96_ARATH Nuclear pore complex protein NUP96 OS=Arabidopsis thaliana OX=3702 GN=NUP96 PE=1 SV=1
+777	0.232127	>sp|O81208|OHP1_ARATH Light-harvesting complex-like protein OHP1, chloroplastic OS=Arabidopsis thaliana OX=3702 GN=OHP1 PE=1 SV=1
+778	0.757727	>sp|P00593|PA21B_BOVIN Phospholipase A2 OS=Bos taurus OX=9913 GN=PLA2G1B PE=1 SV=2
+779	0.260166	>sp|P54887|P5CS1_ARATH Delta-1-pyrroline-5-carboxylate synthase A OS=Arabidopsis thaliana OX=3702 GN=P5CSA PE=1 SV=1
+780	0.188614	>sp|O13684|PCS1_SCHPO Monopolin complex subunit pcs1 OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) OX=284812 GN=pcs1 PE=1 SV=4
+781	0.241347	>sp|E9L7A5|PAT_PETHY Bifunctional aspartate aminotransferase and glutamate/aspartate-prephenate aminotransferase OS=Petunia hybrida OX=4102 GN=PPA-AT PE=1 SV=1
+782	0.105610	>sp|Q05028|PDGFB_RAT Platelet-derived growth factor subunit B (Fragment) OS=Rattus norvegicus OX=10116 GN=Pdgfb PE=2 SV=1
+783	0.247550	>sp|Q96RD7|PANX1_HUMAN Pannexin-1 OS=Homo sapiens OX=9606 GN=PANX1 PE=1 SV=4
+784	0.293954	>sp|P77165|PAOA_ECOLI Aldehyde oxidoreductase iron-sulfur-binding subunit PaoA OS=Escherichia coli (strain K12) OX=83333 GN=paoA PE=1 SV=1
+785	0.071631	>sp|P21642|PCKGM_CHICK Phosphoenolpyruvate carboxykinase [GTP], mitochondrial OS=Gallus gallus OX=9031 GN=PCK2 PE=1 SV=2
+786	0.197458	>sp|Q0WPF2|PCFS4_ARATH Polyadenylation and cleavage factor homolog 4 OS=Arabidopsis thaliana OX=3702 GN=PCFS4 PE=1 SV=1
+787	0.290472	>sp|Q9QY17|PACN2_RAT Protein kinase C and casein kinase substrate in neurons 2 protein OS=Rattus norvegicus OX=10116 GN=Pacsin2 PE=1 SV=2
+788	0.300776	>sp|O70571|PDK4_MOUSE [Pyruvate dehydrogenase (acetyl-transferring)] kinase isozyme 4, mitochondrial OS=Mus musculus OX=10090 GN=Pdk4 PE=1 SV=1
+789	0.747987	>sp|Q5AJY5|PGA4_CANAL 1,3-beta-glucanosyltransferase PGA4 OS=Candida albicans (strain SC5314 / ATCC MYA-2876) OX=237561 GN=PGA4 PE=1 SV=1
+790	0.495851	>sp|P39793|PBPA_BACSU Penicillin-binding protein 1A/1B OS=Bacillus subtilis (strain 168) OX=224308 GN=ponA PE=1 SV=1
+791	0.111358	>sp|Q3UA06|PCH2_MOUSE Pachytene checkpoint protein 2 homolog OS=Mus musculus OX=10090 GN=Trip13 PE=1 SV=1
+792	0.210971	>sp|Q32N92|PATL1_XENLA Protein PAT1 homolog 1 OS=Xenopus laevis OX=8355 GN=patl1 PE=1 SV=2
+793	0.363695	>sp|P27773|PDIA3_MOUSE Protein disulfide-isomerase A3 OS=Mus musculus OX=10090 GN=Pdia3 PE=1 SV=2
+794	0.589065	>sp|Q15072|OZF_HUMAN Zinc finger protein OZF OS=Homo sapiens OX=9606 GN=ZNF146 PE=1 SV=2
+795	0.682404	>sp|P86453|PA2HB_BOTAL Basic phospholipase A2 homolog BaTX OS=Bothrops alternatus OX=64174 PE=1 SV=1
+796	0.132457	>sp|Q8VEB4|PAG15_MOUSE Phospholipase A2 group XV OS=Mus musculus OX=10090 GN=Pla2g15 PE=1 SV=1
+797	0.709754	>sp|Q64294|PDPN_RAT Podoplanin OS=Rattus norvegicus OX=10116 GN=Pdpn PE=1 SV=1
+798	0.341835	>sp|P50947|PHO23_YEAST Transcriptional regulatory protein PHO23 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=PHO23 PE=1 SV=1
+799	0.516353	>sp|O08699|PGDH_RAT 15-hydroxyprostaglandin dehydrogenase [NAD(+)] OS=Rattus norvegicus OX=10116 GN=Hpgd PE=2 SV=2
+800	0.230300	>sp|O15460|P4HA2_HUMAN Prolyl 4-hydroxylase subunit alpha-2 OS=Homo sapiens OX=9606 GN=P4HA2 PE=1 SV=1
+801	0.257732	>sp|P05327|PHR_SYNP6 Deoxyribodipyrimidine photo-lyase OS=Synechococcus sp. (strain ATCC 27144 / PCC 6301 / SAUG 1402/1) OX=269084 GN=phr PE=1 SV=4
+802	0.461900	>sp|O15547|P2RX6_HUMAN P2X purinoceptor 6 OS=Homo sapiens OX=9606 GN=P2RX6 PE=1 SV=2
+803	0.162155	>sp|P21807|PERI_RAT Peripherin OS=Rattus norvegicus OX=10116 GN=Prph PE=1 SV=1
+804	0.260719	>sp|P10361|P53_RAT Cellular tumor antigen p53 OS=Rattus norvegicus OX=10116 GN=Tp53 PE=1 SV=1
+805	0.351055	>sp|B9KDD4|PGLB_CAMLR Undecaprenyl-diphosphooligosaccharide--protein glycotransferase OS=Campylobacter lari (strain RM2100 / D67 / ATCC BAA-1060) OX=306263 GN=pglB PE=1 SV=1
+806	0.368250	>sp|Q9FZ59|PEPR2_ARATH Leucine-rich repeat receptor-like protein kinase PEPR2 OS=Arabidopsis thaliana OX=3702 GN=PEPR2 PE=1 SV=1
+807	0.164464	>sp|P47858|PFKAM_RAT ATP-dependent 6-phosphofructokinase, muscle type OS=Rattus norvegicus OX=10116 GN=Pfkm PE=1 SV=3
+808	0.152022	>sp|O64682|PID_ARATH Protein kinase PINOID OS=Arabidopsis thaliana OX=3702 GN=PID PE=1 SV=1
+809	0.131239	>sp|Q8ZWV0|PGMI_PYRAE Bifunctional phosphoglucose/phosphomannose isomerase OS=Pyrobaculum aerophilum (strain ATCC 51768 / IM2 / DSM 7523 / JCM 9630 / NBRC 100827) OX=178306 GN=PAE1610 PE=1 SV=1
+810	0.284908	>sp|Q3SZE3|PLPP3_BOVIN Phospholipid phosphatase 3 OS=Bos taurus OX=9913 GN=PLPP3 PE=2 SV=1
+811	0.209202	>sp|Q9R0I8|PI42A_RAT Phosphatidylinositol 5-phosphate 4-kinase type-2 alpha OS=Rattus norvegicus OX=10116 GN=Pip4k2a PE=1 SV=1
+812	0.304082	>sp|Q63934|PO4F2_MOUSE POU domain, class 4, transcription factor 2 OS=Mus musculus OX=10090 GN=Pou4f2 PE=1 SV=1
+813	0.305342	>sp|Q8NBT0|POC1A_HUMAN POC1 centriolar protein homolog A OS=Homo sapiens OX=9606 GN=POC1A PE=1 SV=2
+814	0.161884	>sp|Q8LDM2|PKSB_ARATH Type III polyketide synthase B OS=Arabidopsis thaliana OX=3702 GN=PKSB PE=1 SV=1
+815	0.261290	>sp|Q8BVZ1|PLIN5_MOUSE Perilipin-5 OS=Mus musculus OX=10090 GN=Plin5 PE=1 SV=1
