@@ -3,6 +3,9 @@
 SPAAN (*Software Program for prediction of Adhesins and Adhesin-like proteins using Neural network*) is originally described in 
 [this paper](https://pubmed.ncbi.nlm.nih.gov/15374866/). This directory contains its Python implementation with expanded features (higher dimensional data are considered, but the features are the same as the original work).
 
+If you want to train you own model, you can follow the tutorial on the notebook `ESPAAN Training.ipynb`. 
+If you want to test a model, you can load an `.h5` file with keras and use it.
+
 ## Dataset description
 
 - `data/adh.fasta` contains 443 proteins sequences, taken from [uniprot](https://www.uniprot.org/) searching for `adhesin AND reviewed:yes`
