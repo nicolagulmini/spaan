@@ -44,13 +44,13 @@ def get_dipeptide_index(dipeptide):
 
 def aminoacids_frequencies(sequence):
     if len(sequence) == 0:
-        return 0
+        return -1
     frequencies = [0 for el in global_aminoacids_list]
     for aa in sequence:
         tmp_index = get_index(aa)
         if tmp_index == -1:
             print('error in aminoacids frequencies computation. The sequence may have an unknown symbol:', aa)
-            return
+            return -1
         frequencies[tmp_index] += 1
     return np.asarray([el/len(sequence) for el in frequencies], dtype=np.float32)
 
@@ -66,7 +66,7 @@ def get_aminoacid_mask(sequence, aa):
 def automata_for_multiplets(binary_seq, n):
     if n <= 2:
         print('error in the multiplets automata. Return')
-        return
+        return -1
     state = 0
     counts = 0
     for el in binary_seq:
@@ -83,6 +83,7 @@ def automata_for_multiplets(binary_seq, n):
 def multiplet_frequencies(sequence, n): # count the number of multiplets in total
     if n <= 2:
         print('error in multiplet frequencies computation. n has to be greater than 2. Return')
+        return -1
     if len(sequence) == 0:
         return np.asarray([0 for el in global_aminoacids_list], dtype=np.float32)
     to_ret = []
@@ -93,13 +94,13 @@ def multiplet_frequencies(sequence, n): # count the number of multiplets in tota
 
 def dipeptide_frequencies(sequence):
     if len(sequence) == 0:
-        np.asarray([0 for el in global_aminoacids_list], dtype=np.float32)
+        -1
     frequencies = [0 for el in global_dipeptide_list]
     for i in range(len(sequence)-1):
         tmp_index = get_dipeptide_index(str(sequence[i]) + str(sequence[i+1]))
         if tmp_index == -1:
             print('error in dipeptide frequencies computation. The sequence may have an unknown symbol:', sequence[i], sequence[i+1])
-            return
+            return -1
         frequencies[tmp_index] += 1
     return np.asarray([el/(len(sequence)-1) for el in frequencies], dtype=np.float32)
 
@@ -112,7 +113,7 @@ def moment_computation(sequence, X_m, r):
             count += 1
             moment += (i-X_m)**r
     if count == 0:
-        return 0
+        return float("inf")
     return moment/count
 
 def charge_composition(sequence):
@@ -137,7 +138,7 @@ def charge_composition(sequence):
 def moment_for_hydrophobic_aa(sequence, group, r):
     if (group not in range(5)) or (r not in range(2, 11)):
         print('error in moment computation for hydrophobic amino acids. Return.')
-        return
+        return -1
     aa_group = groups_for_hydroph[group]
     mean = 0
     count = 0
@@ -155,7 +156,7 @@ def moment_for_hydrophobic_aa(sequence, group, r):
         if sequence[i] in aa_group:
             to_ret += (i-mean)**r
     if count == 0:
-        return 0
+        return float("inf")
     return to_ret/count
 
 def hydrophobic_composition(sequence):
@@ -197,7 +198,7 @@ def process(positive_ds, negative_ds):
         cond = 1
         for el in tmp:
             for entry in el:
-                if (entry == float("inf") or entry == float("-inf")):
+                if (entry == float("inf") or entry == float("-inf") or entry == -1):
                     cond = 0
                     break
         if cond == 1:
@@ -218,7 +219,7 @@ def process(positive_ds, negative_ds):
         cond = 1
         for el in tmp:
             for entry in el:
-                if (entry == float("inf") or entry == float("-inf")):
+                if (entry == float("inf") or entry == float("-inf") or entry == -1):
                     cond = 0
                     break
         if cond == 1:
