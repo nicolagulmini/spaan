@@ -130,7 +130,7 @@ def charge_composition(sequence):
         X_m /= f_c
     f_c /= len(sequence)
     to_return = [f_c, len(sequence)]
-    for r in range(2, 16):
+    for r in range(2, 15):
         to_return.append(moment_computation(sequence, X_m, r))
     return np.asarray(to_return, dtype=np.float32)
 
