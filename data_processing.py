@@ -177,3 +177,50 @@ def hydrophobic_composition(sequence):
         for j in range(2, 11):
             hydroph_feature.append(moment_for_hydrophobic_aa(sequence, group, j))
     return np.asarray(hydroph_feature, dtype=np.float32)
+
+# datasets handling
+
+def process(positive_ds, negative_ds):
+    # data processing
+    x, y = [], []
+
+    for protein in positive_ds:
+        x.append([
+                    aminoacids_frequencies(protein.seq),
+                    multiplet_frequencies(protein.seq, 3),
+                    multiplet_frequencies(protein.seq, 4),
+                    multiplet_frequencies(protein.seq, 5),
+                    dipeptide_frequencies(protein.seq),
+                    charge_composition(protein.seq),
+                    hydrophobic_composition(protein.seq)
+        ])
+        y.append(1)
+        
+    for protein in negative_ds:
+        x.append([
+                    aminoacids_frequencies(protein.seq),
+                    multiplet_frequencies(protein.seq, 3),
+                    multiplet_frequencies(protein.seq, 4),
+                    multiplet_frequencies(protein.seq, 5),
+                    dipeptide_frequencies(protein.seq),
+                    charge_composition(protein.seq),
+                    hydrophobic_composition(protein.seq)
+        ])
+        y.append(0)
+    return x, y
+    
+def split_ds(x, y, shuffler):
+    x = x[shuffler]
+    y = y[shuffler] 
+    # train, val, test division
+    train_len = int(len(x)/2)
+    x_train = x[:train_len].tolist()
+    y_train = y[:train_len]
+    x = x[train_len:]
+    y = y[train_len:]
+    val_len = int(len(x)/2)
+    x_val = x[:val_len].tolist()
+    y_val = y[:val_len]
+    x_test = x[val_len:].tolist()
+    y_test = y[val_len:]
+    return x_train, y_train, x_val, y_val, x_test, y_test
