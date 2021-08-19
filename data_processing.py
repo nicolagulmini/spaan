@@ -194,12 +194,16 @@ def process(positive_ds, negative_ds):
                     charge_composition(protein.seq),
                     hydrophobic_composition(protein.seq)
         ]
+        cond = 1
         for el in tmp:
             for entry in el:
-                if not (entry == float("inf") or entry == float("-inf")):
-                    x.append(tmp)
-                    y.append(1)
+                if (entry == float("inf") or entry == float("-inf")):
+                    cond = 0
                     break
+        if cond == 1:
+            x.append(tmp)
+            y.append(1)
+        
         
     for protein in negative_ds:
         tmp = [
@@ -211,12 +215,15 @@ def process(positive_ds, negative_ds):
                     charge_composition(protein.seq),
                     hydrophobic_composition(protein.seq)
         ]
+        cond = 1
         for el in tmp:
             for entry in el:
-                if not (entry == float("inf") or entry == float("-inf")):
-                    x.append(tmp)
-                    y.append(0)
+                if (entry == float("inf") or entry == float("-inf")):
+                    cond = 0
                     break
+        if cond == 1:
+            x.append(tmp)
+            y.append(0)
     return x, y
     
 def split_ds(x, y, shuffler):
