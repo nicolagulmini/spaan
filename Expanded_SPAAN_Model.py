@@ -35,8 +35,8 @@ class Expanded_SPAAN_Model:
         dense_3_2 = Dense(1, activation='sigmoid')(dense_3)
         
         # model 4
-        charge_comp = Input(shape=(16))
-        dense_4 = Dense(40, activation='sigmoid')(charge_comp)
+        charge_comp = Input(shape=(15))
+        dense_4 = Dense(30, activation='sigmoid')(charge_comp)
         dense_4_2 = Dense(1, activation='sigmoid')(dense_4)
         
         # model 5
