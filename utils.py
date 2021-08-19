@@ -52,7 +52,7 @@ def aminoacids_frequencies(sequence):
             print('error in aminoacids frequencies computation. The sequence may have an unknown symbol. Return')
             return
         frequencies[tmp_index] += 1
-    return np.array([el/len(sequence) for el in frequencies])
+    return np.asarray([el/len(sequence) for el in frequencies], dtype=float32)
 
 def get_aminoacid_mask(sequence, aa):
     new_sequence = []
@@ -84,16 +84,16 @@ def multiplet_frequencies(sequence, n): # count the number of multiplets in tota
     if n <= 2:
         print('error in multiplet frequencies computation. n has to be greater than 2. Return')
     if len(sequence) == 0:
-        return np.array([0 for el in global_aminoacids_list])
+        return np.asarray([0 for el in global_aminoacids_list], dtype=float32)
     to_ret = []
     for a in global_aminoacids_list:
         to_ret.append(automata_for_multiplets(get_aminoacid_mask(sequence, a), n))
     to_ret = [el/len(sequence) for el in to_ret]
-    return np.array(to_ret)
+    return np.asarray(to_ret, dtype=float32)
 
 def dipeptide_frequencies(sequence):
     if len(sequence) == 0:
-        np.array([0 for el in global_aminoacids_list])
+        np.asarray([0 for el in global_aminoacids_list], dtype=float32)
     frequencies = [0 for el in global_dipeptide_list]
     for i in range(len(sequence)-1):
         tmp_index = get_dipeptide_index(str(sequence[i]) + str(sequence[i+1]))
@@ -101,7 +101,7 @@ def dipeptide_frequencies(sequence):
             print('error in dipeptide frequencies computation. The sequence may have an unknown symbol. Return')
             return
         frequencies[tmp_index] += 1
-    return np.array([el/(len(sequence)-1) for el in frequencies])
+    return np.asarray([el/(len(sequence)-1) for el in frequencies], dtype=float32)
 
 def moment_computation(sequence, X_m, r):
     c = ['R', 'K', 'E', 'D'] # charged aminoacids
@@ -132,7 +132,7 @@ def charge_composition(sequence):
     to_return = [f_c, len(sequence)]
     for r in range(2, 26):
         to_return.append(moment_computation(sequence, X_m, r))
-    return np.array(to_return)
+    return np.asarray(to_return, dtype=float32)
 
 def moment_for_hydrophobic_aa(sequence, group, r):
     if (group not in range(5)) or (r not in range(2, 11)):
@@ -176,4 +176,4 @@ def hydrophobic_composition(sequence):
     for group in range(5):
         for j in range(2, 11):
             hydroph_feature.append(moment_for_hydrophobic_aa(sequence, group, j))
-    return np.array(hydroph_feature)
+    return np.asarray(hydroph_feature, dtype=float32)
