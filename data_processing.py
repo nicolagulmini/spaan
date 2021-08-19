@@ -197,10 +197,14 @@ def process(positive_ds, negative_ds):
         ]
         cond = 1
         for el in tmp:
-            for entry in el:
-                if (entry == float("inf") or entry == float("-inf") or entry == -1):
-                    cond = 0
-                    break
+            if el == -1:
+                cond = 0
+        if cond == 1:
+            for el in tmp:
+                for entry in el:
+                    if (entry == float("inf") or entry == float("-inf")):
+                        cond = 0
+                        break
         if cond == 1:
             x.append(tmp)
             y.append(1)
@@ -218,10 +222,14 @@ def process(positive_ds, negative_ds):
         ]
         cond = 1
         for el in tmp:
-            for entry in el:
-                if (entry == float("inf") or entry == float("-inf") or entry == -1):
-                    cond = 0
-                    break
+            if el == -1:
+                cond = 0
+        if cond == 1:
+            for el in tmp:
+                for entry in el:
+                    if (entry == float("inf") or entry == float("-inf")):
+                        cond = 0
+                        break
         if cond == 1:
             x.append(tmp)
             y.append(0)
