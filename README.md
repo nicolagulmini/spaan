@@ -30,6 +30,10 @@ spaan_false negative 4.66 %
 SPAAN accuracy 83.06 %
 ```
 
+## Brief discussion
+
+Despite I used higher dimensional features than the original spaan model (but less epochs), the results are still comparable. This proofs that the choices of the original authors are thoughtful and reasoned. Further changes and additions can be made.
+
 ## Unknown symbols
 
 I decided not to handle the unknown symbols because this program can be used by biologists in reverse vaccinology pipelines in which the probability of a protein to be an adhesine could change significantly the result, and if a protein has an unknown symbol it is already a bad candidate for vaccines production: how can you produce a vaccine with a protein without knowing it?
