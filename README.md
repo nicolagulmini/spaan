@@ -17,14 +17,14 @@ If you want to test a model, you can load an `.h5` file with keras and use it.
 A comparison between the original SPAAN and the `model_trained_on_original_dataset.h5` was performed on the `data/adh.fasta` and `data/not_adh.fasta` datasets. The spaan results are in the `data/results` file. These test proteins were not used to train the models. 
 
 ```
-true positive 33.87 %
-true negative 47.12 %
+true positive 33.87 % / 50%
+true negative 47.12 % / 50%
 false positive 12.64 %
 false negative 6.38 %
 ESPAAN accuracy 80.99 %
 
-spaan_true positive 34.23 %
-spaan_true negative 48.83 %
+spaan_true positive 34.23 % / 50%
+spaan_true negative 48.83 % / 50%
 spaan_false positive 12.27 %
 spaan_false negative 4.66 %
 SPAAN accuracy 83.06 %
