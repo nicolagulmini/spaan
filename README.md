@@ -16,17 +16,17 @@ If you want to test a model, you can load an `.h5` file with keras and use it.
 
 The training performances of the `model.h5` are shown in these two plots:
 
-![loss](https://user-images.githubusercontent.com/62892813/154976464-b6ed6da0-b760-47d3-97a4-6a9fc3211940.png)
-![acc](https://user-images.githubusercontent.com/62892813/154976493-fc234fa7-a6c9-4d68-8f6b-a1f2ec77ceab.png)
+![loss](https://user-images.githubusercontent.com/62892813/154978174-7803c4a9-aaa1-4dd6-94a9-e6aff6767175.png)
+![acc](https://user-images.githubusercontent.com/62892813/154978178-42ce22f5-b4f8-4f5a-baa7-94cc8f004937.png)
 
 A comparison between the original SPAAN and the first trained model was performed on the `data/adh.fasta` and `data/not_adh.fasta` datasets. The spaan results are in the `data/results` file. These test proteins were not used to train the models. 
 
 ```
-true positive 33.87 % / 50 %
-true negative 47.12 % / 50 %
-false positive 12.64 %
-false negative 6.38 %
-ESPAAN accuracy 80.99 %
+true positive 30.55 % / 50 %
+true negative 48.83 % / 50 %
+false positive 15.95 %
+false negative 4.66 %
+adhesin classifier accuracy 79.38 %
 
 spaan_true positive 34.23 % / 50%
 spaan_true negative 48.83 % / 50%
