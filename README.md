@@ -12,9 +12,9 @@ If you want to test a model, you can load an `.h5` file with keras and use it.
 - `data/not_adh.fasta` contains 500 proteins sequences, taken from the first 2 pages of [uniprot](https://www.uniprot.org/) searching for `NOT adhesin AND reviewed:yes`
 - `data/original_adh_dataset.fasta` and `data/original_negative_dataset.fasta` are the original datasets, used in the [paper](https://pubmed.ncbi.nlm.nih.gov/15374866/), courtesy of [S. Ramachandran](https://sites.google.com/view/ramuigib/home) (one of the authors).
 
-## Performance comparison
+## Performance discussion
 
-The training performances of the `model.h5` are shown in these two plots:
+The training performances of the `trained_model.h5` are shown in these two plots:
 
 ![loss](https://user-images.githubusercontent.com/62892813/154978174-7803c4a9-aaa1-4dd6-94a9-e6aff6767175.png)
 ![acc](https://user-images.githubusercontent.com/62892813/154978178-42ce22f5-b4f8-4f5a-baa7-94cc8f004937.png)
