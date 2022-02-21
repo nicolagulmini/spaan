@@ -11,42 +11,51 @@ class Expanded_SPAAN_Model:
         # model 1
         aa_freq = Input(shape=(20))
         dense_1 = Dense(30, activation='sigmoid')(aa_freq)
-        dense_1_2 = Dense(1, activation='sigmoid')(dense_1)
+        inter_dense = Dense(20, activation='sigmoid')(dense_1)
+        dense_1_2 = Dense(1, activation='sigmoid')(inter_dense)
         
         # model 2.1
         multiplet_freq_1 = Input(shape=(20))
         dense_2_1_1 = Dense(28, activation='sigmoid')(multiplet_freq_1)
-        dense_2_1_2 = Dense(1, activation='sigmoid')(dense_2_1_1)
+        inter_dense_2 = Dense(20, activation='sigmoid')(dense_2_1_1)
+        dense_2_1_2 = Dense(1, activation='sigmoid')(inter_dense_2)
         # model 2.2
         multiplet_freq_2 = Input(shape=(20))
         dense_2_2_1 = Dense(28, activation='sigmoid')(multiplet_freq_2)
-        dense_2_2_2 = Dense(1, activation='sigmoid')(dense_2_2_1)
+        inter_dense_3 = Dense(20, activation='sigmoid')(dense_2_1_1)
+        dense_2_2_2 = Dense(1, activation='sigmoid')(inter_dense_3)
         # model 2.3
         multiplet_freq_3 = Input(shape=(20))
         dense_2_3_1 = Dense(28, activation='sigmoid')(multiplet_freq_3)
-        dense_2_3_2 = Dense(1, activation='sigmoid')(dense_2_3_1)
+        inter_dense_4 = Dense(20, activation='sigmoid')(dense_2_3_1)
+        dense_2_3_2 = Dense(1, activation='sigmoid')(inter_dense_4)
         # concatenate outputs
         concat_1 = Concatenate()([dense_2_1_2, dense_2_2_2, dense_2_3_2])
-        dense_2_4 = Dense(1, activation='sigmoid')(concat_1)
+        inter_dense_concat = Dense(20)(concat_1)
+        dense_2_4 = Dense(1, activation='sigmoid')(inter_dense_concat)
         
         # model 3
         dipept_freq = Input(shape=(400))
         dense_3 = Dense(500, activation='sigmoid')(dipept_freq)
-        dense_3_2 = Dense(1, activation='sigmoid')(dense_3)
+        inter_dense_5 = Dense(100, activation='sigmoid')(dense_3)
+        dense_3_2 = Dense(1, activation='sigmoid')(inter_dense_5)
         
         # model 4
         charge_comp = Input(shape=(15))
         dense_4 = Dense(30, activation='sigmoid')(charge_comp)
-        dense_4_2 = Dense(1, activation='sigmoid')(dense_4)
+        inter_dense_6 = Dense(20, activation='sigmoid')(dense_4)
+        dense_4_2 = Dense(1, activation='sigmoid')(inter_dense_6)
         
         # model 5
         hydrophob_comp = Input(shape=(50))
         dense_5 = Dense(40, activation='sigmoid')(hydrophob_comp)
-        dense_5_2 = Dense(1, activation='sigmoid')(dense_5)
+        inter_dense_7 = Dense(20, activation='sigmoid')(dense_5)
+        dense_5_2 = Dense(1, activation='sigmoid')(inter_dense_7)
         
         # final concatenation
         concat_2 = Concatenate()([dense_1_2, dense_2_4, dense_3_2, dense_4_2, dense_5_2])
-        final_dense = Dense(1, activation='sigmoid')(concat_2)
+        final_inter_dense = Dense(20)(concat_2)
+        final_dense = Dense(1, activation='sigmoid')(final_inter_dense)
         
         model = Model(inputs=[aa_freq, multiplet_freq_1, multiplet_freq_2, multiplet_freq_3, dipept_freq, charge_comp, hydrophob_comp], outputs=final_dense)
         model.compile(optimizer=Adam(learning_rate=0.001), loss='binary_crossentropy', metrics='accuracy')
