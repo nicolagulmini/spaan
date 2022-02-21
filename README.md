@@ -3,7 +3,7 @@
 SPAAN (*Software Program for prediction of Adhesins and Adhesin-like proteins using Neural network*) is originally described in 
 [this paper](https://pubmed.ncbi.nlm.nih.gov/15374866/). This directory contains its Python implementation with expanded features (higher dimensional data are considered, but the features are the same as the original work). To distinguish the Python model, it is called ESPAAN.
 
-If you want to train you own model, you can follow the tutorial on the notebook `ESPAAN Training.ipynb`. 
+If you want to train you own model, you can follow the tutorial on the notebook `Adhesin classifier (training).ipynb`. 
 If you want to test a model, you can load an `.h5` file with keras and use it.
 
 ## Dataset description
@@ -14,7 +14,7 @@ If you want to test a model, you can load an `.h5` file with keras and use it.
 
 ## Performance comparison
 
-A comparison between the original SPAAN and the `model_trained_on_original_dataset.h5` was performed on the `data/adh.fasta` and `data/not_adh.fasta` datasets. The spaan results are in the `data/results` file. These test proteins were not used to train the models. 
+A comparison between the original SPAAN and the first trained model was performed on the `data/adh.fasta` and `data/not_adh.fasta` datasets. The spaan results are in the `data/results` file. These test proteins were not used to train the models. 
 
 ```
 true positive 33.87 % / 50 %
@@ -29,10 +29,6 @@ spaan_false positive 12.27 %
 spaan_false negative 4.66 %
 SPAAN accuracy 83.06 %
 ```
-
-## Brief discussion
-
-Despite I used higher dimensional features than the original spaan model (but less epochs), the results are still comparable. This proofs that the choices of the original authors are thoughtful and reasoned. Further changes and additions can be made.
 
 ## Unknown symbols
 
