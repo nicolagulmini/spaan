@@ -37,7 +37,3 @@ Despite I used higher dimensional features than the original spaan model (but le
 ## Unknown symbols
 
 I decided not to handle the unknown symbols because this program can be used by biologists in reverse vaccinology pipelines in which the probability of a protein to be an adhesine could change significantly the result, and if a protein has an unknown symbol it is already a bad candidate for vaccines production: how can you produce a vaccine with a protein without knowing it?
-
-## TODO
-- [ ] add dropout to the model
-- [ ] substitute the feature computation with the iFeature system
