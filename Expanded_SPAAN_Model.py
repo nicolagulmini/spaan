@@ -24,7 +24,7 @@ class Expanded_SPAAN_Model:
         # model 2.2
         multiplet_freq_2 = Input(shape=(20))
         dense_2_2_1 = Dense(28, activation='sigmoid')(multiplet_freq_2)
-        inter_dense_3 = Dense(20, activation='sigmoid')(dense_2_1_1)
+        inter_dense_3 = Dense(20, activation='sigmoid')(dense_2_2_1)
         dense_2_2_2 = Dense(1, activation='sigmoid')(inter_dense_3)
         # model 2.3
         multiplet_freq_3 = Input(shape=(20))
