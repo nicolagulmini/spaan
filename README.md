@@ -16,8 +16,8 @@ If you want to test a model, you can load an `.h5` file with keras and use it.
 
 The training performances of the `trained_model.h5` are shown in these two plots:
 
-![loss](https://user-images.githubusercontent.com/62892813/154978174-7803c4a9-aaa1-4dd6-94a9-e6aff6767175.png)
-![acc](https://user-images.githubusercontent.com/62892813/154978178-42ce22f5-b4f8-4f5a-baa7-94cc8f004937.png)
+![loss](https://user-images.githubusercontent.com/62892813/165765620-95d96b09-e6e4-4417-9256-7634e41af7b2.png)
+![acc](https://user-images.githubusercontent.com/62892813/165765632-be1d09fe-f713-4492-b10c-4720bf186ef2.png)
 
 A comparison between the original SPAAN and the first trained model was performed on the `data/adh.fasta` and `data/not_adh.fasta` datasets. The spaan results are in the `data/results` file. These test proteins were not used to train the models. 
 
