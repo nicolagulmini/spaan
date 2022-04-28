@@ -156,7 +156,7 @@ def moment_for_hydrophobic_aa(sequence, group, r):
         if sequence[i] in aa_group:
             to_ret += (i-mean)**r
     if count == 0:
-        return float("inf")
+        return 0.
     return to_ret/count
 
 def hydrophobic_composition(sequence):

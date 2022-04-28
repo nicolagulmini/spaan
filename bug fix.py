@@ -5,7 +5,29 @@ from Bio import SeqIO
 import numpy as np
 import tensorflow
 
-# load the datasets (it requires about 1 minute)
-x, y = process(list(SeqIO.parse("./data/original_adh_dataset.fasta", "fasta")), list(SeqIO.parse("./data/original_negative_dataset.fasta", "fasta")))
-x_train, y_train, x_val, y_val, x_test, y_test = split_ds(np.array(x), np.array(y), np.random.permutation(len(x)))
-
+x, y = [], []
+for protein in list(SeqIO.parse("./data/nan.fasta", "fasta")):
+    tmp = [
+                aminoacids_frequencies(protein.seq),
+                multiplet_frequencies(protein.seq, 3),
+                multiplet_frequencies(protein.seq, 4),
+                multiplet_frequencies(protein.seq, 5),
+                dipeptide_frequencies(protein.seq),
+                charge_composition(protein.seq),
+                hydrophobic_composition(protein.seq)
+    ]
+    cond = 1
+    for el in tmp:
+        if isinstance(el, int):
+            cond = 0
+    if cond == 1:
+        for el in tmp:
+            for entry in el:
+                if (entry == float("inf") or entry == float("-inf")):
+                    cond = 0
+                    break
+    if cond == 1:
+        x.append(tmp)
+        y.append(1)
+    break
+print(x)
