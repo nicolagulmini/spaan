@@ -1,3 +1,4 @@
+import tensorflow
 from tensorflow.keras.layers import Input
 from tensorflow.keras.layers import Dense
 from tensorflow.keras.layers import Concatenate
