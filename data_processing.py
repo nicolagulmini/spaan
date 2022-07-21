@@ -113,7 +113,7 @@ def moment_computation(sequence, X_m, r):
             count += 1
             moment += (i-X_m)**r
     if count == 0:
-        return float("inf")
+        return 0.
     return moment/count
 
 def charge_composition(sequence):
