@@ -132,7 +132,10 @@ def charge_composition(sequence):
     f_c /= len(sequence)
     to_return = [f_c, len(sequence)]
     for r in range(2, 15):
-        to_return.append(moment_computation(sequence, X_m, r))
+        tmp = moment_computation(sequence, X_m, r)
+        if (tmp == float("inf") or tmp == float("-inf")):
+            tmp = 0.
+        to_return.append(tmp)
     return np.asarray(to_return, dtype=np.float32)
 
 def moment_for_hydrophobic_aa(sequence, group, r):
