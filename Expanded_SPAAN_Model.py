@@ -66,7 +66,7 @@ class Expanded_SPAAN_Model:
         final_dense = Dense(1, activation='sigmoid')(dropout_final)
         
         model = Model(inputs=[aa_freq, multiplet_freq_1, multiplet_freq_2, multiplet_freq_3, dipept_freq, charge_comp, hydrophob_comp], outputs=final_dense)
-        model.compile(optimizer=Adam(learning_rate=0.001), loss='binary_crossentropy', metrics='accuracy')
+        model.compile(optimizer=Adam(learning_rate=0.0005), loss='binary_crossentropy', metrics='accuracy')
         
         self.model = model
         
