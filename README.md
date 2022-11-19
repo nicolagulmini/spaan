@@ -4,7 +4,6 @@ This model is inspired by
 SPAAN (*Software Program for prediction of Adhesins and Adhesin-like proteins using Neural network*), which is originally described in 
 [this paper](https://pubmed.ncbi.nlm.nih.gov/15374866/). 
 
-
 ## Dataset description
 
 Under Construction... :hammer:
@@ -34,6 +33,20 @@ Features are computed with [iFeature](https://github.com/Superzchen/iFeature) so
 ## PCA
 
 Since every sequence has a (20+400+39+39+195=693)-dimensional feature vector, we performed Principal Component Analysis to reduce the dimensionality.
+Here the results: 
+
+![download](https://user-images.githubusercontent.com/62892813/202872380-fce5204a-4c70-4aa5-af6f-bd3394904df5.png)
+
+## Model
+
+Under Construction... :hammer:
+
+## Results
+
+Under Construction... :hammer:
+
+
+
 <!---
 
 
