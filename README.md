@@ -1,7 +1,39 @@
 # Adhesin classifier 
 
-# Page Under Construction... :hammer:
+This model is inspired by 
+SPAAN (*Software Program for prediction of Adhesins and Adhesin-like proteins using Neural network*), which is originally described in 
+[this paper](https://pubmed.ncbi.nlm.nih.gov/15374866/). 
 
+
+## Dataset description
+
+Under Construction... :hammer:
+
+## Feature computation
+
+Features are computed with [iFeature](https://github.com/Superzchen/iFeature) so a parser of the iFeature output files, to obtain the vectors to feed the model, is used. They are:
+- AAC: amino acids composition
+- DPC: dipeptide composition
+- CTDC: composition
+- CTDT: transition
+- CTDD: distribution
+
+([here](https://github.com/Superzchen/iFeature/blob/master/iFeatureManual.pdf) if you want more information about what they are and how to compute them).
+
+... and here a brief tutorial on how to compute them:
+```
+!rm -r iFeature
+!git clone https://github.com/Superzchen/iFeature
+!python iFeature/iFeature.py --file ./input.fasta --type AAC --out aac.out    # amino acids composition
+!python iFeature/iFeature.py --file ./input.fasta --type DPC --out dpc.out    # dipeptide composition
+!python iFeature/iFeature.py --file ./input.fasta --type CTDC --out ctdc.out  # composition
+!python iFeature/iFeature.py --file ./input.fasta --type CTDT --out ctdt.out  # transition
+!python iFeature/iFeature.py --file ./input.fasta --type CTDD --out ctdd.out  # distribution
+```
+
+## PCA
+
+Since every sequence has a (20+400+39+39+195=693)-dimensional feature vector, we performed Principal Component Analysis to reduce the dimensionality.
 <!---
 
 
