@@ -37,7 +37,7 @@ Here the results:
 
 ![Explained variance (1)](https://user-images.githubusercontent.com/62892813/202872432-dd78ccca-f779-4dd1-8bc3-59c328ff0ead.png)
 
-so we can take just the first 350 components.
+so we can take just the first 350 components, reducing the dimensionality of about the 50%.
 
 ## Model
 
