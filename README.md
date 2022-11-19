@@ -35,7 +35,9 @@ Features are computed with [iFeature](https://github.com/Superzchen/iFeature) so
 Since every sequence has a (20+400+39+39+195=693)-dimensional feature vector, we performed Principal Component Analysis to reduce the dimensionality.
 Here the results: 
 
-![Explained variance](https://user-images.githubusercontent.com/62892813/202872414-4f0f5efc-454e-4f1c-8dc2-0a46214ffc33.png)
+![Explained variance (1)](https://user-images.githubusercontent.com/62892813/202872432-dd78ccca-f779-4dd1-8bc3-59c328ff0ead.png)
+
+so we can take just the first 350 components.
 
 ## Model
 
