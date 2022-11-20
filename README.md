@@ -80,6 +80,8 @@ test_accuracy = 0.9396551847457886
 
 Notice that removing regularizers and increasing neurons in the Dense layer it is possible to obtain roughly the same results (a little bit more overfitted) but in about 20 epochs.
 
+You can follow every step in [this notebook](./AC.ipynb). 
+
 <!---
 
 
