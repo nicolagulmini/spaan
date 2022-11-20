@@ -6,7 +6,7 @@ SPAAN (*Software Program for prediction of Adhesins and Adhesin-like proteins us
 
 ## Dataset
 
-Bacterial adhesins were obtained performing (jackhmmer)[https://www.ebi.ac.uk/Tools/hmmer/search/jackhmmer] search among reference proteomes of eubacteria with default patrameters and the domains listed in [./new_data/Adhesive_domains_info.xlsx] as query.
+Bacterial adhesins were obtained performing [jackhmmer](https://www.ebi.ac.uk/Tools/hmmer/search/jackhmmer) search among reference proteomes of eubacteria with default patrameters and the domains listed in [./new_data/Adhesive_domains_info.xlsx] as query.
 Non adhesin proteins were obtained using the following query in uniprot:
 ```
 (taxonomy_id:2) AND (reviewed:true) NOT (keyword:KW-1217) NOT (keyword:KW-1233) NOT (keyword:KW-0130) NOT (cc_function:adhesion) NOT (cc_function:"cell adhesion")
