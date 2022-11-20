@@ -1,11 +1,7 @@
-# LSTM layer
+# SAAC
 
-To enhance the performance of SPAAN we added an LSTM layer with a naive fixed length padding. 
-Still testing it, but for now it reaches the same accuracy in about 30 epochs (which is an order of magnitude less than SPAAN).
-On the other hand, time is spent in processing and training to consider sequential data.
+SAAC (Sequence-Aware Adhesin Classifier) is an attempt to obtain an adhesin classifier which exploits both the extracted features from protein sequences and protein sequences themselves, to reach better results. The model is obtained simply adding an LSTM layer. It is just a test, and here there are the results
 
-This is a test with a fixed number of epochs and learning rate = 0.001, 
+![acc](https://user-images.githubusercontent.com/62892813/202906147-cf212540-53a5-46e3-94dd-2b417e737729.png)
 
-![acc](https://user-images.githubusercontent.com/62892813/200834845-515aa142-4e48-406e-b408-67ba818d6b87.png)
-
-you can find the code in [this notebook](./LSTM_spaan.ipynb).
+you can find the code in [this notebook](./SAAC.ipynb).
