@@ -4,9 +4,16 @@ This model is inspired by
 SPAAN (*Software Program for prediction of Adhesins and Adhesin-like proteins using Neural network*), which is originally described in 
 [this paper](https://pubmed.ncbi.nlm.nih.gov/15374866/). 
 
-## Dataset description
+## Dataset
 
-Under Construction... :hammer:
+Bacterial adhesins were obtained performing (jackhmmer)[https://www.ebi.ac.uk/Tools/hmmer/search/jackhmmer] search among reference proteomes of eubacteria with default patrameters and the domains listed in [./new_data/Adhesive_domains_info.xlsx] as query.
+Non adhesin proteins were obtained using the following query in uniprot:
+```
+(taxonomy_id:2) AND (reviewed:true) NOT (keyword:KW-1217) NOT (keyword:KW-1233) NOT (keyword:KW-0130) NOT (cc_function:adhesion) NOT (cc_function:"cell adhesion")
+```
+a subset of non adhesin proteins was randomly selected to match the size of adhesin dataset.
+Reduntant sequences (60% and 25% identity trasholds) were removed using (CD-HIT)[https://sites.google.com/view/cd-hit].
+
 
 ## Feature computation
 
