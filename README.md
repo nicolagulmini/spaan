@@ -48,12 +48,35 @@ so we can take just the first 350 components, reducing the dimensionality of abo
 
 ## Model
 
-Under Construction... :hammer:
+We decided to use the smallest model possible, and with just a 10-units Dense layer and a K=400 from PCA, we are able to get the best results so far.
+
+```
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ input_11 (InputLayer)       [(None, 400)]             0         
+                                                                 
+ dense_21 (Dense)            (None, 10)                4010      
+                                                                 
+ dense_22 (Dense)            (None, 1)                 11        
+                                                                 
+=================================================================
+Total params: 4,021
+Trainable params: 4,021
+Non-trainable params: 0
+_________________________________________________________________
+```
 
 ## Results
 
-Under Construction... :hammer:
+![loss](https://user-images.githubusercontent.com/62892813/202910944-e2a0a3ee-271b-448f-b3ad-5be80b661abd.png)
 
+![acc](https://user-images.githubusercontent.com/62892813/202910949-4e4e74b4-ed3a-4f3a-b6d4-9c12b12dcbbf.png)
+
+```
+test_loss = 0.214177668094635
+test_accuracy = 0.9396551847457886
+```
 
 
 <!---
