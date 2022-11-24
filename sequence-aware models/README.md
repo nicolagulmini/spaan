@@ -16,4 +16,4 @@ We used a model which exploits both the extracted features from protein sequence
 
 ![acc](https://user-images.githubusercontent.com/62892813/202906147-cf212540-53a5-46e3-94dd-2b417e737729.png)
 
-You can find the code and follow every step in [this notebook](./SAAC.ipynb).
+You can find the code and follow every step in [this notebook](./LSTM.ipynb).
